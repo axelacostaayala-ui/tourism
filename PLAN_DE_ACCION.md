@@ -34,7 +34,18 @@ La aplicación y su campaña publicitaria están completamente soportadas por la
 
 ---
 
-## 📅 3. Fases y Actividades Detalladas
+## 👥 3. Organización y Asignación para 3 Integrantes
+
+Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las responsabilidades se dividen en 3 roles especializados:
+* **Integrante 1 (Data Engineering & ML Lead):** Big Data, pipelines ETL, modelos predictivos de afluencia, base de datos offline-first y Chatbot IA ("El Nahual Guía").
+* **Integrante 2 (Operations Research & Quants):** Minería de datos, simulación Monte Carlo de capacidad de carga, optimización matemática (IO en Python/PuLP) y métricas de impacto ecológico ($CO_2$).
+* **Integrante 3 (Product & Marketing Lead):** Wireframes UX/UI de la app, Cartas Vivas 2D, módulo de comercios locales, Buyer Personas, campaña publicitaria y redacción/maquetación del Informe Técnico.
+
+> Consulta la matriz completa de tareas por semana y entregables individuales en [docs/ASIGNACION_ROLES_Y_ACTIVIDADES.md](docs/ASIGNACION_ROLES_Y_ACTIVIDADES.md).
+
+---
+
+## 📅 4. Fases y Actividades Detalladas
 
 ### 📍 FASE 1: Corredor Piloto, Big Data y Wireframes (Semanas 1 a 5)
 * **Objetivo Académico y de Producto:** Delimitar el clúster regional de prueba, diseñar la arquitectura de datos masivos y definir la experiencia de usuario del MVP.
