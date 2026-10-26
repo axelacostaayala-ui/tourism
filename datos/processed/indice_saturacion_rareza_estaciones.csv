@@ -1,0 +1,8 @@
+id_estacion,nombre_estacion,entidad,municipio_alcaldia,afluencia_diaria,capacidad_diseno,indice_saturacion_ist,rareza_inversa_asignada,color_hex,multiplicador_recompensa
+EST-01,Zinacantepec,Estado de México,Zinacantepec,4250,20000,0.212,Legendario,#ffd700,3.0
+EST-02,Toluca Centro,Estado de México,Toluca de Lerdo,7500,25000,0.3,Legendario,#ffd700,3.0
+EST-03,Metepec,Estado de México,Metepec,6750,22000,0.307,Legendario,#ffd700,3.0
+EST-04,Lerma,Estado de México,Lerma,6250,20000,0.312,Legendario,#ffd700,3.0
+EST-05,Santa Fe,Ciudad de México,Cuajimalpa de Morelos / Álvaro Obregón,22500,30000,0.75,Raro,#0070dd,1.4
+EST-06,Vasco de Quiroga,Ciudad de México,Álvaro Obregón,15000,20000,0.75,Raro,#0070dd,1.4
+EST-07,Observatorio,Ciudad de México,Álvaro Obregón,61500,65000,0.946,Común / Fatigado,#9d9d9d,1.0
