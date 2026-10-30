@@ -9,7 +9,7 @@ Proyecto integrador correspondiente al **Problema Prototípico de 5to Semestre**
 
 ---
 
-## 🎮 1. Visión del Producto y Mecánicas Clave
+##  1. Visión del Producto y Mecánicas Clave
 
 En México, el turismo masivo se concentra en unos pocos polos saturados provocando *overtourism*, alza de costos y daño ambiental, mientras que los municipios periféricos y pueblos con riqueza comunitaria no reciben derrama económica.
 
@@ -27,7 +27,7 @@ En México, el turismo masivo se concentra en unos pocos polos saturados provoca
 
 ---
 
-## 🛠️ 2. Arquitectura Técnica del MVP (Bajo Costo / Alto Impacto)
+##  2. Arquitectura Técnica del MVP (Bajo Costo / Alto Impacto)
 
 * **Enfoque Visual:** Cartas Vivas 2D con microanimaciones ligeras en Lottie / Rive (descartando 3D y AR compleja para la fase inicial).
 * **Modo Offline-First:** Descarga de paquetes de guías locales y validación de logros en almacenamiento local (SQLite/Hive) para operar sin problemas en zonas rurales sin cobertura celular.
@@ -36,7 +36,7 @@ En México, el turismo masivo se concentra en unos pocos polos saturados provoca
 
 ---
 
-## 🧠 3. Articulación con las 6 Asignaturas (UCAs)
+##  3. Articulación con las 6 Asignaturas (UCAs)
 
 | Materia / UCA | Rol y Aplicación en "Guardianes del Territorio" |
 | :--- | :--- |
@@ -49,7 +49,7 @@ En México, el turismo masivo se concentra en unos pocos polos saturados provoca
 
 ---
 
-## 🗂️ 4. Estructura del Repositorio
+##  4. Estructura del Repositorio
 
 ```text
 Tourism/
@@ -78,7 +78,7 @@ Tourism/
 
 ---
 
-## 📦 5. Plan de Entregas Parciales
+##  5. Plan de Entregas Parciales
 
 * **Entrega 1 (Semana 5):** Delimitación del Corredor Piloto, catálogo inicial de Guardianes y comercios, arquitectura Big Data, bases procesadas y wireframes UX.
 * **Entrega 2 (Semana 10):** Algoritmo de Machine Learning de Rareza Inversa, prototipo del Chatbot IA, simulaciones estocásticas Monte Carlo y modelo de optimización de Investigación de Operaciones.
