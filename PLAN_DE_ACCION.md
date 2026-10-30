@@ -7,7 +7,7 @@
 
 ---
 
-## 🎯 1. Visión Estratégica del Pivot
+##  1. Visión Estratégica del Pivot
 
 Descentralizar el turismo en México mediante una **aplicación móvil de exploración gamificada (*monster-collecting* estilo Pokémon Go)** basada en **Cartas Vivas 2D**, donde los destinos emergentes albergan a los **Guardianes más raros y valiosos (Sistema de Rareza Inversa)**, recompensando a los viajeros con **Bendiciones (descuentos y beneficios económicos reales)** canjeables en una red de comercios locales y cooperativas comunitarias.
 
@@ -15,7 +15,7 @@ La aplicación y su campaña publicitaria están completamente soportadas por la
 
 ---
 
-## 📦 2. Alineación con las 3 Entregas Parciales y la Entrega Final
+##  2. Alineación con las 3 Entregas Parciales y la Entrega Final
 
 ```
 ┌────────────────────────────────────────────────────────────────────────┐
@@ -34,7 +34,7 @@ La aplicación y su campaña publicitaria están completamente soportadas por la
 
 ---
 
-## 👥 3. Organización y Asignación para 3 Integrantes
+##  3. Organización y Asignación para 3 Integrantes
 
 Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las responsabilidades se dividen en 3 roles especializados:
 * **Integrante 1 (Data Engineering & ML Lead):** Big Data, pipelines ETL, modelos predictivos de afluencia, base de datos offline-first y Chatbot IA ("El Nahual Guía").
@@ -45,9 +45,9 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
 
 ---
 
-## 📅 4. Fases y Actividades Detalladas
+##  4. Fases y Actividades Detalladas
 
-### 📍 FASE 1: Corredor Piloto, Big Data y Wireframes (Semanas 1 a 5)
+###  FASE 1: Corredor Piloto, Big Data y Wireframes (Semanas 1 a 5)
 * **Objetivo Académico y de Producto:** Delimitar el clúster regional de prueba, diseñar la arquitectura de datos masivos y definir la experiencia de usuario del MVP.
 * **Actividades clave:**
   - [x] Documentar el pivot de producto y especificación del juego (`docs/PIVOT_APP_GAMIFICADA.md`).
@@ -66,12 +66,12 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
     - Flujo 2: Vista de Misión territorial y validación de Puntos de Interés (POI).
     - Flujo 3: Carta Viva 2D con microanimaciones (Lottie/SVG).
     - Flujo 4: Bóveda / Álbum de Colección y Wallet de Bendiciones.
-* **🚀 HITO 1: ENTREGA 1 (Semana 5)**
+* ** HITO 1: ENTREGA 1 (Semana 5)**
   * *Entregables:* Documento de diagnóstico y especificación de producto, arquitectura Big Data, bases de datos procesadas (`datos/processed`), diccionario de datos, notebook de minería y kit de wireframes UX.
 
 ---
 
-### 📍 FASE 2: Modelos Predictivos, Chatbot IA y Optimización (Semanas 6 a 10)
+###  FASE 2: Modelos Predictivos, Chatbot IA y Optimización (Semanas 6 a 10)
 * **Objetivo Académico y de Producto:** Desarrollar los algoritmos matemáticos y de machine learning que gobiernan la rareza inversa, el motor de recomendación, el asistente inteligente y el módulo de comercio local.
 * **Actividades clave:**
   - [ ] **Machine Learning (UCA Aprendizaje de Máquina):**
@@ -91,12 +91,12 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
   - [ ] **Módulo de Comercio Local (Sin Hardware):**
     - Mecanismo de validación por código OTP de 4 dígitos y QR dinámico de un solo uso.
     - Prototipo de la interfaz web ultraligera (PWA) para el comerciante local.
-* **🚀 HITO 2: ENTREGA 2 (Semana 10)**
+* ** HITO 2: ENTREGA 2 (Semana 10)**
   * *Entregables:* Notebooks ejecutables de ML con evaluación de modelos ($R^2$, RMSE), script del Chatbot, simulaciones Monte Carlo de capacidad de carga, formulación y solución matemática de IO, y especificación funcional del módulo de comercios.
 
 ---
 
-### 📍 FASE 3: MVP Funcional, Campaña Publicitaria y Validación (Semanas 11 a 13)
+###  FASE 3: MVP Funcional, Campaña Publicitaria y Validación (Semanas 11 a 13)
 * **Objetivo Académico y de Producto:** Construir el prototipo funcional de la aplicación (modo offline-first), diseñar la campaña publicitaria inteligente y medir indicadores.
 * **Actividades clave:**
   - [ ] **Desarrollo del MVP Móvil (Flutter / React Native):**
@@ -111,12 +111,12 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
     - Materiales creativos y pauta digital: videos cortos para TikTok / Instagram Reels y señalética física con QR en andenes de transporte y comercios.
     - Tablero de control (Dashboard) con KPIs: Tasa de conversión, coste de adquisición (CAC), derrama económica en cooperativas y kilogramos de $CO_2$ evitados por viajar en transporte público masivo.
   - [ ] **Borrador del Informe Técnico:** Consolidación de los primeros 18 apartados de la rúbrica oficial.
-* **🚀 HITO 3: ENTREGA 3 (Semana 13)**
+* ** HITO 3: ENTREGA 3 (Semana 13)**
   * *Entregables:* Código fuente del MVP de la app en GitHub, dossier completo de la campaña publicitaria y piezas creativas, dashboard de KPIs y borrador avanzado del Informe Técnico (80%).
 
 ---
 
-### 📍 FASE 4: Consolidación, Informe Técnico y Coloquio (Semanas 14 a 16)
+###  FASE 4: Consolidación, Informe Técnico y Coloquio (Semanas 14 a 16)
 * **Objetivo Académico y de Producto:** Cierre del informe de 30-40 páginas, auditoría del repositorio y preparación de la defensa oral.
 * **Actividades clave:**
   - [ ] Redacción final del **Informe Técnico** (30 a 40 páginas, estructurado estrictamente según los 23 apartados oficiales de la Universidad Rosario Castellanos).
@@ -126,12 +126,12 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
     - Demostración en vivo de la aplicación móvil (despertar de un Guardián 2D y canje de cupón).
     - Argumentación técnica interdisciplinaria: demostrar cómo los datos, modelos predictivos, simulaciones y optimizaciones sustentan cada decisión de la campaña y del juego.
     - Ensayo de preguntas del sínodo académico.
-* **🏆 ENTREGA FINAL Y COLOQUIO (Semanas 15 - 16)**
+* ** ENTREGA FINAL Y COLOQUIO (Semanas 15 - 16)**
   * *Entregables Definitivos:* Informe Técnico formal (PDF 30-40 pp), Campaña Publicitaria integral, Repositorio de Productos Técnicos y Defensa oral en el Coloquio.
 
 ---
 
-## 🗺️ 4. Roadmap Futuro (Fase 2 - Post-Lanzamiento y Tracción)
+##  4. Roadmap Futuro (Fase 2 - Post-Lanzamiento y Tracción)
 
 Una vez probado y validado el MVP en el corredor piloto:
 1. **Cámara con Realidad Aumentada (AR interactiva):** Proyección del Guardián 3D en el entorno físico mediante ARCore / ARKit para tomarse fotos con él.
