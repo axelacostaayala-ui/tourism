@@ -47,3 +47,6 @@ Thumbs.db
 *.tar.gz
 *.parquet
 *.h5
+
+# Raw heavy datasets
+CETM2024/

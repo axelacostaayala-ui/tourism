@@ -1,0 +1,1897 @@
+anio,mes,fecha,nombre_mes,aeropuerto,entidad_federativa,tipo_destino,pasajeros_llegada
+2010,1,2010-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,38774
+2010,2,2010-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,35992
+2010,3,2010-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,41247
+2010,4,2010-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,26525
+2010,5,2010-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,25480
+2010,6,2010-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,24464
+2010,7,2010-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,35285
+2010,8,2010-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,27037
+2010,9,2010-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,18881
+2010,10,2010-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,19658
+2010,11,2010-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,24208
+2010,12,2010-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,32553
+2011,1,2011-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,28929
+2011,2,2011-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,27030
+2011,3,2011-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,28296
+2011,4,2011-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,24770
+2011,5,2011-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,17831
+2011,6,2011-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,18658
+2011,7,2011-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,27034
+2011,8,2011-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,20203
+2011,9,2011-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,17124
+2011,10,2011-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,20510
+2011,11,2011-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,21831
+2011,12,2011-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,28622
+2012,1,2012-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,23195
+2012,2,2012-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,22186
+2012,3,2012-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,22480
+2012,4,2012-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,22346
+2012,5,2012-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,18420
+2012,6,2012-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,17063
+2012,7,2012-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,25870
+2012,8,2012-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,19766
+2012,9,2012-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,16460
+2012,10,2012-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,18972
+2012,11,2012-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,21120
+2012,12,2012-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,27871
+2013,1,2013-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,24186
+2013,2,2013-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,22325
+2013,3,2013-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,26953
+2013,4,2013-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,21285
+2013,5,2013-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,20081
+2013,6,2013-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,21381
+2013,7,2013-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,30301
+2013,8,2013-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,24017
+2013,9,2013-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,14185
+2013,10,2013-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,22378
+2013,11,2013-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,24038
+2013,12,2013-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,30122
+2014,1,2014-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,26178
+2014,2,2014-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,23660
+2014,3,2014-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,22624
+2014,4,2014-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,23955
+2014,5,2014-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,22252
+2014,6,2014-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,22266
+2014,7,2014-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,29184
+2014,8,2014-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,23814
+2014,9,2014-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,17187
+2014,10,2014-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,22810
+2014,11,2014-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,24756
+2014,12,2014-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,35311
+2015,1,2015-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,29187
+2015,2,2015-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,26317
+2015,3,2015-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,32184
+2015,4,2015-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,29725
+2015,5,2015-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,24284
+2015,6,2015-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,23696
+2015,7,2015-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,34310
+2015,8,2015-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,27606
+2015,9,2015-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,20510
+2015,10,2015-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,26574
+2015,11,2015-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,27748
+2015,12,2015-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,36499
+2016,1,2016-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,29068
+2016,2,2016-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,29067
+2016,3,2016-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,34381
+2016,4,2016-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,24346
+2016,5,2016-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,23903
+2016,6,2016-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,24679
+2016,7,2016-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,34414
+2016,8,2016-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,26541
+2016,9,2016-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,20960
+2016,10,2016-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,23720
+2016,11,2016-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,25791
+2016,12,2016-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,37257
+2017,1,2017-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,29167
+2017,2,2017-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,28519
+2017,3,2017-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,31864
+2017,4,2017-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,28052
+2017,5,2017-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,22197
+2017,6,2017-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,24244
+2017,7,2017-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,32067
+2017,8,2017-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,26576
+2017,9,2017-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,16814
+2017,10,2017-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,22545
+2017,11,2017-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,24214
+2017,12,2017-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,33257
+2018,1,2018-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,29869
+2018,2,2018-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,28560
+2018,3,2018-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,35648
+2018,4,2018-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,28624
+2018,5,2018-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,26021
+2018,6,2018-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,23939
+2018,7,2018-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,32050
+2018,8,2018-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,29314
+2018,9,2018-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,24672
+2018,10,2018-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,23192
+2018,11,2018-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,26795
+2018,12,2018-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,37943
+2019,1,2019-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,32332
+2019,2,2019-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,32901
+2019,3,2019-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,32820
+2019,4,2019-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,39994
+2019,5,2019-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,32794
+2019,6,2019-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,34275
+2019,7,2019-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,42180
+2019,8,2019-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,36400
+2019,9,2019-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,25973
+2019,10,2019-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,33359
+2019,11,2019-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,34722
+2019,12,2019-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,43429
+2020,1,2020-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,38257
+2020,2,2020-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,37468
+2020,3,2020-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,25427
+2020,4,2020-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,2947
+2020,5,2020-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,433
+2020,6,2020-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,2543
+2020,7,2020-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,6629
+2020,8,2020-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,7918
+2020,9,2020-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,9086
+2020,10,2020-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,12143
+2020,11,2020-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,15607
+2020,12,2020-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,23286
+2021,1,2021-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,19210
+2021,2,2021-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,16060
+2021,3,2021-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,23588
+2021,4,2021-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,25602
+2021,5,2021-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,28378
+2021,6,2021-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,28840
+2021,7,2021-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,36580
+2021,8,2021-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,26719
+2021,9,2021-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,20166
+2021,10,2021-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,26633
+2021,11,2021-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,30067
+2021,12,2021-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,40364
+2022,1,2022-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,29523
+2022,2,2022-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,30456
+2022,3,2022-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,32555
+2022,4,2022-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,33109
+2022,5,2022-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,33274
+2022,6,2022-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,30262
+2022,7,2022-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,40984
+2022,8,2022-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,35530
+2022,9,2022-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,27474
+2022,10,2022-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,30926
+2022,11,2022-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,34181
+2022,12,2022-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,46751
+2023,1,2023-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,41525
+2023,2,2023-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,38622
+2023,3,2023-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,41361
+2023,4,2023-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,42139
+2023,5,2023-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,36256
+2023,6,2023-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,39501
+2023,7,2023-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,52184
+2023,8,2023-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,47788
+2023,9,2023-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,36938
+2023,10,2023-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,30586
+2023,11,2023-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,6134
+2023,12,2023-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,17282
+2024,1,2024-01-01,Enero,Acapulco (Playa Tradicional),Guerrero,Playa,19135
+2024,2,2024-02-01,Febrero,Acapulco (Playa Tradicional),Guerrero,Playa,19933
+2024,3,2024-03-01,Marzo,Acapulco (Playa Tradicional),Guerrero,Playa,20715
+2024,4,2024-04-01,Abril,Acapulco (Playa Tradicional),Guerrero,Playa,24527
+2024,5,2024-05-01,Mayo,Acapulco (Playa Tradicional),Guerrero,Playa,27141
+2024,6,2024-06-01,Junio,Acapulco (Playa Tradicional),Guerrero,Playa,25879
+2024,7,2024-07-01,Julio,Acapulco (Playa Tradicional),Guerrero,Playa,31721
+2024,8,2024-08-01,Agosto,Acapulco (Playa Tradicional),Guerrero,Playa,28994
+2024,9,2024-09-01,Septiembre,Acapulco (Playa Tradicional),Guerrero,Playa,17502
+2024,10,2024-10-01,Octubre,Acapulco (Playa Tradicional),Guerrero,Playa,19036
+2024,11,2024-11-01,Noviembre,Acapulco (Playa Tradicional),Guerrero,Playa,27915
+2024,12,2024-12-01,Diciembre,Acapulco (Playa Tradicional),Guerrero,Playa,32443
+2017,1,2017-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1843192
+2017,2,2017-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1570297
+2017,3,2017-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1795534
+2017,4,2017-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1830676
+2017,5,2017-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1882035
+2017,6,2017-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1907006
+2017,7,2017-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2084297
+2017,8,2017-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2014344
+2017,9,2017-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1660048
+2017,10,2017-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1876566
+2017,11,2017-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1913300
+2017,12,2017-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1998750
+2018,1,2018-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1943017
+2018,2,2018-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1677327
+2018,3,2018-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1906916
+2018,4,2018-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1948547
+2018,5,2018-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1979215
+2018,6,2018-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1973645
+2018,7,2018-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2198362
+2018,8,2018-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2117122
+2018,9,2018-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1871326
+2018,10,2018-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2042623
+2018,11,2018-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2053031
+2018,12,2018-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2130020
+2019,1,2019-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1997201
+2019,2,2019-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1760395
+2019,3,2019-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2050001
+2019,4,2019-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2035738
+2019,5,2019-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2156740
+2019,6,2019-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2139188
+2019,7,2019-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2289557
+2019,8,2019-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2224635
+2019,9,2019-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1952017
+2019,10,2019-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2147373
+2019,11,2019-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2127759
+2019,12,2019-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2248542
+2020,1,2020-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2124011
+2020,2,2020-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1921547
+2020,3,2020-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1328645
+2020,4,2020-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,157421
+2020,5,2020-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,139190
+2020,6,2020-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,271742
+2020,7,2020-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,505025
+2020,8,2020-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,674396
+2020,9,2020-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,751880
+2020,10,2020-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,930779
+2020,11,2020-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1022563
+2020,12,2020-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1196615
+2021,1,2021-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1021337
+2021,2,2021-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,801468
+2021,3,2021-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1146461
+2021,4,2021-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1317417
+2021,5,2021-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1518082
+2021,6,2021-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1570165
+2021,7,2021-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1787676
+2021,8,2021-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1674252
+2021,9,2021-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1485235
+2021,10,2021-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1764607
+2021,11,2021-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1858213
+2021,12,2021-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2069204
+2022,1,2022-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1619164
+2022,2,2022-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1491783
+2022,3,2022-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1907279
+2022,4,2022-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1971668
+2022,5,2022-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2037885
+2022,6,2022-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2018409
+2022,7,2022-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2155351
+2022,8,2022-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2146258
+2022,9,2022-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1923567
+2022,10,2022-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2121199
+2022,11,2022-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2053669
+2022,12,2022-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2141637
+2023,1,2023-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1998604
+2023,2,2023-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1771415
+2023,3,2023-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2032408
+2023,4,2023-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1984515
+2023,5,2023-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1946028
+2023,6,2023-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1961098
+2023,7,2023-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2142088
+2023,8,2023-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2156494
+2023,9,2023-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,1907754
+2023,10,2023-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2045787
+2023,11,2023-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2047051
+2023,12,2023-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,2135341
+2024,1,2024-01-01,Enero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,2,2024-02-01,Febrero,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,3,2024-03-01,Marzo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,4,2024-04-01,Abril,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,5,2024-05-01,Mayo,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,6,2024-06-01,Junio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,7,2024-07-01,Julio,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,8,2024-08-01,Agosto,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,9,2024-09-01,Septiembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,10,2024-10-01,Octubre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,11,2024-11-01,Noviembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2024,12,2024-12-01,Diciembre,CDMX AICM (Urbano/Negocios),Ciudad de México,Urbano,0
+2010,1,2010-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,553923
+2010,2,2010-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,548908
+2010,3,2010-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,664318
+2010,4,2010-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,538774
+2010,5,2010-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,495542
+2010,6,2010-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,518327
+2010,7,2010-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,613720
+2010,8,2010-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,500415
+2010,9,2010-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,325655
+2010,10,2010-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,376213
+2010,11,2010-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,452852
+2010,12,2010-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,565070
+2011,1,2011-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,553589
+2011,2,2011-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,551816
+2011,3,2011-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,637407
+2011,4,2011-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,589181
+2011,5,2011-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,504792
+2011,6,2011-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,525310
+2011,7,2011-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,655285
+2011,8,2011-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,521066
+2011,9,2011-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,370998
+2011,10,2011-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,397143
+2011,11,2011-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,486767
+2011,12,2011-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,650058
+2012,1,2012-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,606984
+2012,2,2012-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,610342
+2012,3,2012-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,698222
+2012,4,2012-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,619990
+2012,5,2012-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,541532
+2012,6,2012-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,594254
+2012,7,2012-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,727343
+2012,8,2012-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,595320
+2012,9,2012-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,418648
+2012,10,2012-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,471133
+2012,11,2012-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,560146
+2012,12,2012-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,727480
+2013,1,2013-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,668948
+2013,2,2013-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,641708
+2013,3,2013-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,800618
+2013,4,2013-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,647177
+2013,5,2013-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,626437
+2013,6,2013-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,677051
+2013,7,2013-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,807163
+2013,8,2013-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,680890
+2013,9,2013-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,465795
+2013,10,2013-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,515119
+2013,11,2013-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,623714
+2013,12,2013-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,763287
+2014,1,2014-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,727545
+2014,2,2014-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,686288
+2014,3,2014-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,794078
+2014,4,2014-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,744723
+2014,5,2014-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,711628
+2014,6,2014-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,719858
+2014,7,2014-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,858257
+2014,8,2014-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,740731
+2014,9,2014-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,516296
+2014,10,2014-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,603393
+2014,11,2014-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,714207
+2014,12,2014-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,850491
+2015,1,2015-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,820533
+2015,2,2015-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,763529
+2015,3,2015-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,899295
+2015,4,2015-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,826060
+2015,5,2015-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,797174
+2015,6,2015-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,828008
+2015,7,2015-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,972004
+2015,8,2015-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,847068
+2015,9,2015-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,599392
+2015,10,2015-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,678129
+2015,11,2015-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,776588
+2015,12,2015-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,921424
+2016,1,2016-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,885169
+2016,2,2016-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,824302
+2016,3,2016-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1002685
+2016,4,2016-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,853435
+2016,5,2016-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,854497
+2016,6,2016-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,910619
+2016,7,2016-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1071102
+2016,8,2016-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,897070
+2016,9,2016-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,681103
+2016,10,2016-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,760330
+2016,11,2016-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,855838
+2016,12,2016-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1050566
+2017,1,2017-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,993763
+2017,2,2017-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,907029
+2017,3,2017-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1037193
+2017,4,2017-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,1048135
+2017,5,2017-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,967788
+2017,6,2017-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1028969
+2017,7,2017-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1166482
+2017,8,2017-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,998086
+2017,9,2017-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,726719
+2017,10,2017-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,798694
+2017,11,2017-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,932305
+2017,12,2017-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1127057
+2018,1,2018-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,1041404
+2018,2,2018-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,991922
+2018,3,2018-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1208207
+2018,4,2018-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,1063579
+2018,5,2018-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,1003041
+2018,6,2018-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1090597
+2018,7,2018-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1233415
+2018,8,2018-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,1055781
+2018,9,2018-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,771827
+2018,10,2018-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,883907
+2018,11,2018-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,1004540
+2018,12,2018-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1179259
+2019,1,2019-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,1052147
+2019,2,2019-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,1015457
+2019,3,2019-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1210262
+2019,4,2019-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,1103624
+2019,5,2019-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,1049587
+2019,6,2019-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1102107
+2019,7,2019-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1197102
+2019,8,2019-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,1044492
+2019,9,2019-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,773099
+2019,10,2019-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,899200
+2019,11,2019-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,1034723
+2019,12,2019-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1184148
+2020,1,2020-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,1102591
+2020,2,2020-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,1083736
+2020,3,2020-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,639360
+2020,4,2020-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,21456
+2020,5,2020-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,21943
+2020,6,2020-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,97139
+2020,7,2020-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,326726
+2020,8,2020-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,405741
+2020,9,2020-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,427738
+2020,10,2020-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,518201
+2020,11,2020-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,631646
+2020,12,2020-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,777172
+2021,1,2021-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,594063
+2021,2,2021-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,518273
+2021,3,2021-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,817777
+2021,4,2021-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,796119
+2021,5,2021-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,957374
+2021,6,2021-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1053398
+2021,7,2021-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1187167
+2021,8,2021-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,981295
+2021,9,2021-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,829214
+2021,10,2021-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,1009234
+2021,11,2021-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,1120885
+2021,12,2021-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1298674
+2022,1,2022-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,1040447
+2022,2,2022-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,1074376
+2022,3,2022-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1359967
+2022,4,2022-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,1284020
+2022,5,2022-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,1222532
+2022,6,2022-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1252483
+2022,7,2022-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1440994
+2022,8,2022-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,1315224
+2022,9,2022-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,1078198
+2022,10,2022-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,1214802
+2022,11,2022-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,1297744
+2022,12,2022-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1512555
+2023,1,2023-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,1406426
+2023,2,2023-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,1306157
+2023,3,2023-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1471739
+2023,4,2023-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,1378405
+2023,5,2023-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,1296669
+2023,6,2023-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1366579
+2023,7,2023-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1505370
+2023,8,2023-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,1351344
+2023,9,2023-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,1067381
+2023,10,2023-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,1239058
+2023,11,2023-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,1333780
+2023,12,2023-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1559972
+2024,1,2024-01-01,Enero,Cancún (Sol y Playa),Quintana Roo,Playa,1410349
+2024,2,2024-02-01,Febrero,Cancún (Sol y Playa),Quintana Roo,Playa,1369240
+2024,3,2024-03-01,Marzo,Cancún (Sol y Playa),Quintana Roo,Playa,1523641
+2024,4,2024-04-01,Abril,Cancún (Sol y Playa),Quintana Roo,Playa,1242401
+2024,5,2024-05-01,Mayo,Cancún (Sol y Playa),Quintana Roo,Playa,1207562
+2024,6,2024-06-01,Junio,Cancún (Sol y Playa),Quintana Roo,Playa,1237693
+2024,7,2024-07-01,Julio,Cancún (Sol y Playa),Quintana Roo,Playa,1282320
+2024,8,2024-08-01,Agosto,Cancún (Sol y Playa),Quintana Roo,Playa,1160608
+2024,9,2024-09-01,Septiembre,Cancún (Sol y Playa),Quintana Roo,Playa,930675
+2024,10,2024-10-01,Octubre,Cancún (Sol y Playa),Quintana Roo,Playa,1064900
+2024,11,2024-11-01,Noviembre,Cancún (Sol y Playa),Quintana Roo,Playa,1218068
+2024,12,2024-12-01,Diciembre,Cancún (Sol y Playa),Quintana Roo,Playa,1444129
+2010,1,2010-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,270751
+2010,2,2010-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,238661
+2010,3,2010-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,283506
+2010,4,2010-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,272406
+2010,5,2010-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,301050
+2010,6,2010-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,309666
+2010,7,2010-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,357520
+2010,8,2010-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,311643
+2010,9,2010-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,243090
+2010,10,2010-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,267273
+2010,11,2010-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,265461
+2010,12,2010-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,304190
+2011,1,2011-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,261241
+2011,2,2011-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,235174
+2011,3,2011-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,272424
+2011,4,2011-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,277622
+2011,5,2011-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,304889
+2011,6,2011-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,311418
+2011,7,2011-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,341142
+2011,8,2011-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,311485
+2011,9,2011-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,276546
+2011,10,2011-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,308297
+2011,11,2011-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,307361
+2011,12,2011-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,352293
+2012,1,2012-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,289583
+2012,2,2012-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,256875
+2012,3,2012-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,283400
+2012,4,2012-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,281258
+2012,5,2012-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,298443
+2012,6,2012-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,324388
+2012,7,2012-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,353535
+2012,8,2012-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,321461
+2012,9,2012-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,285791
+2012,10,2012-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,301323
+2012,11,2012-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,309605
+2012,12,2012-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,357821
+2013,1,2013-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,304170
+2013,2,2013-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,264239
+2013,3,2013-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,312362
+2013,4,2013-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,298807
+2013,5,2013-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,321035
+2013,6,2013-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,337394
+2013,7,2013-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,392888
+2013,8,2013-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,367004
+2013,9,2013-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,305417
+2013,10,2013-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,340692
+2013,11,2013-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,354939
+2013,12,2013-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,417688
+2014,1,2014-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,353971
+2014,2,2014-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,295589
+2014,3,2014-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,333292
+2014,4,2014-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,329082
+2014,5,2014-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,350759
+2014,6,2014-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,373561
+2014,7,2014-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,411373
+2014,8,2014-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,379324
+2014,9,2014-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,318238
+2014,10,2014-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,345818
+2014,11,2014-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,371769
+2014,12,2014-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,437110
+2015,1,2015-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,368678
+2015,2,2015-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,310079
+2015,3,2015-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,370837
+2015,4,2015-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,381484
+2015,5,2015-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,394138
+2015,6,2015-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,431572
+2015,7,2015-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,472898
+2015,8,2015-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,429749
+2015,9,2015-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,375569
+2015,10,2015-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,404272
+2015,11,2015-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,429834
+2015,12,2015-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,497749
+2016,1,2016-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,419689
+2016,2,2016-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,358563
+2016,3,2016-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,441359
+2016,4,2016-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,410823
+2016,5,2016-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,458862
+2016,6,2016-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,495704
+2016,7,2016-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,547368
+2016,8,2016-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,500279
+2016,9,2016-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,452242
+2016,10,2016-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,480367
+2016,11,2016-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,499920
+2016,12,2016-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,598841
+2017,1,2017-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,490310
+2017,2,2017-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,409913
+2017,3,2017-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,476144
+2017,4,2017-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,499517
+2017,5,2017-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,519941
+2017,6,2017-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,554979
+2017,7,2017-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,611135
+2017,8,2017-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,546663
+2017,9,2017-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,492835
+2017,10,2017-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,542105
+2017,11,2017-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,565595
+2017,12,2017-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,648920
+2018,1,2018-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,549806
+2018,2,2018-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,477868
+2018,3,2018-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,581083
+2018,4,2018-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,573834
+2018,5,2018-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,596880
+2018,6,2018-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,624861
+2018,7,2018-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,677412
+2018,8,2018-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,596548
+2018,9,2018-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,548097
+2018,10,2018-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,602902
+2018,11,2018-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,615557
+2018,12,2018-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,691373
+2019,1,2019-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,560034
+2019,2,2019-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,493466
+2019,3,2019-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,590636
+2019,4,2019-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,587752
+2019,5,2019-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,641226
+2019,6,2019-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,648098
+2019,7,2019-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,686087
+2019,8,2019-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,615367
+2019,9,2019-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,572774
+2019,10,2019-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,632496
+2019,11,2019-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,636438
+2019,12,2019-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,705800
+2020,1,2020-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,622786
+2020,2,2020-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,561157
+2020,3,2020-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,404077
+2020,4,2020-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,57194
+2020,5,2020-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,62515
+2020,6,2020-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,166320
+2020,7,2020-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,258941
+2020,8,2020-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,282093
+2020,9,2020-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,332642
+2020,10,2020-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,380829
+2020,11,2020-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,415708
+2020,12,2020-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,505606
+2021,1,2021-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,347127
+2021,2,2021-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,270457
+2021,3,2021-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,393611
+2021,4,2021-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,462597
+2021,5,2021-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,547291
+2021,6,2021-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,552178
+2021,7,2021-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,587902
+2021,8,2021-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,517120
+2021,9,2021-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,518261
+2021,10,2021-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,577810
+2021,11,2021-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,595902
+2021,12,2021-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,689295
+2022,1,2022-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,510227
+2022,2,2022-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,488556
+2022,3,2022-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,594983
+2022,4,2022-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,606520
+2022,5,2022-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,648857
+2022,6,2022-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,633041
+2022,7,2022-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,715822
+2022,8,2022-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,642215
+2022,9,2022-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,645292
+2022,10,2022-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,714428
+2022,11,2022-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,732263
+2022,12,2022-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,821903
+2023,1,2023-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,688721
+2023,2,2023-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,614733
+2023,3,2023-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,710846
+2023,4,2023-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,714522
+2023,5,2023-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,752315
+2023,6,2023-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,763350
+2023,7,2023-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,804891
+2023,8,2023-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,769782
+2023,9,2023-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,673732
+2023,10,2023-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,737838
+2023,11,2023-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,725233
+2023,12,2023-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,827027
+2024,1,2024-01-01,Enero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,695234
+2024,2,2024-02-01,Febrero,Guadalajara (Urbano/Cultural),Jalisco,Urbano,614867
+2024,3,2024-03-01,Marzo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,686292
+2024,4,2024-04-01,Abril,Guadalajara (Urbano/Cultural),Jalisco,Urbano,686058
+2024,5,2024-05-01,Mayo,Guadalajara (Urbano/Cultural),Jalisco,Urbano,732823
+2024,6,2024-06-01,Junio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,762994
+2024,7,2024-07-01,Julio,Guadalajara (Urbano/Cultural),Jalisco,Urbano,807217
+2024,8,2024-08-01,Agosto,Guadalajara (Urbano/Cultural),Jalisco,Urbano,747603
+2024,9,2024-09-01,Septiembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,701786
+2024,10,2024-10-01,Octubre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,765904
+2024,11,2024-11-01,Noviembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,766280
+2024,12,2024-12-01,Diciembre,Guadalajara (Urbano/Cultural),Jalisco,Urbano,894644
+2010,1,2010-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,114410
+2010,2,2010-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,117098
+2010,3,2010-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,147422
+2010,4,2010-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,119440
+2010,5,2010-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,109202
+2010,6,2010-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,109255
+2010,7,2010-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,132298
+2010,8,2010-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,107229
+2010,9,2010-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,71501
+2010,10,2010-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,98626
+2010,11,2010-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,105135
+2010,12,2010-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,118664
+2011,1,2011-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,112009
+2011,2,2011-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,114561
+2011,3,2011-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,137713
+2011,4,2011-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,128330
+2011,5,2011-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,106971
+2011,6,2011-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,114067
+2011,7,2011-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,132987
+2011,8,2011-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,106947
+2011,9,2011-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,78162
+2011,10,2011-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,107088
+2011,11,2011-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,112625
+2011,12,2011-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,133321
+2012,1,2012-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,116298
+2012,2,2012-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,126441
+2012,3,2012-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,153887
+2012,4,2012-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,130250
+2012,5,2012-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,115306
+2012,6,2012-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,117025
+2012,7,2012-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,139081
+2012,8,2012-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,115837
+2012,9,2012-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,83258
+2012,10,2012-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,113618
+2012,11,2012-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,127512
+2012,12,2012-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,147330
+2013,1,2013-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,125751
+2013,2,2013-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,133203
+2013,3,2013-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,180663
+2013,4,2013-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,134971
+2013,5,2013-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,133194
+2013,6,2013-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,146686
+2013,7,2013-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,167032
+2013,8,2013-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,140269
+2013,9,2013-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,92734
+2013,10,2013-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,123718
+2013,11,2013-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,139911
+2013,12,2013-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,154620
+2014,1,2014-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,140784
+2014,2,2014-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,147873
+2014,3,2014-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,184856
+2014,4,2014-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,165455
+2014,5,2014-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,151277
+2014,6,2014-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,162303
+2014,7,2014-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,180303
+2014,8,2014-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,149189
+2014,9,2014-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,43734
+2014,10,2014-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,48348
+2014,11,2014-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,105256
+2014,12,2014-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,141944
+2015,1,2015-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,136597
+2015,2,2015-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,135134
+2015,3,2015-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,174979
+2015,4,2015-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,157026
+2015,5,2015-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,148575
+2015,6,2015-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,155618
+2015,7,2015-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,177359
+2015,8,2015-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,148089
+2015,9,2015-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,101145
+2015,10,2015-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,141599
+2015,11,2015-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,157315
+2015,12,2015-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,179448
+2016,1,2016-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,164407
+2016,2,2016-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,163272
+2016,3,2016-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,211198
+2016,4,2016-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,172445
+2016,5,2016-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,166213
+2016,6,2016-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,182402
+2016,7,2016-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,207580
+2016,8,2016-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,165406
+2016,9,2016-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,120046
+2016,10,2016-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,161854
+2016,11,2016-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,174863
+2016,12,2016-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,218611
+2017,1,2017-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,198844
+2017,2,2017-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,198587
+2017,3,2017-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,239628
+2017,4,2017-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,220238
+2017,5,2017-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,194513
+2017,6,2017-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,221674
+2017,7,2017-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,242362
+2017,8,2017-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,186898
+2017,9,2017-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,118286
+2017,10,2017-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,174492
+2017,11,2017-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,203736
+2017,12,2017-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,235377
+2018,1,2018-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,210833
+2018,2,2018-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,212707
+2018,3,2018-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,271015
+2018,4,2018-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,221504
+2018,5,2018-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,209922
+2018,6,2018-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,224789
+2018,7,2018-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,251429
+2018,8,2018-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,205366
+2018,9,2018-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,142894
+2018,10,2018-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,189738
+2018,11,2018-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,218125
+2018,12,2018-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,245719
+2019,1,2019-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,220173
+2019,2,2019-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,220583
+2019,3,2019-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,274032
+2019,4,2019-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,243435
+2019,5,2019-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,228934
+2019,6,2019-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,242501
+2019,7,2019-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,263864
+2019,8,2019-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,223723
+2019,9,2019-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,153671
+2019,10,2019-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,206508
+2019,11,2019-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,238215
+2019,12,2019-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,266554
+2020,1,2020-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,243778
+2020,2,2020-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,246544
+2020,3,2020-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,150240
+2020,4,2020-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,6185
+2020,5,2020-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,8556
+2020,6,2020-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,31461
+2020,7,2020-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,85840
+2020,8,2020-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,98424
+2020,9,2020-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,109098
+2020,10,2020-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,164844
+2020,11,2020-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,172899
+2020,12,2020-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,178899
+2021,1,2021-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,131042
+2021,2,2021-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,115849
+2021,3,2021-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,193256
+2021,4,2021-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,214119
+2021,5,2021-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,249813
+2021,6,2021-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,277379
+2021,7,2021-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,290808
+2021,8,2021-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,237590
+2021,9,2021-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,208610
+2021,10,2021-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,257632
+2021,11,2021-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,271400
+2021,12,2021-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,298473
+2022,1,2022-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,231712
+2022,2,2022-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,252966
+2022,3,2022-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,322954
+2022,4,2022-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,306293
+2022,5,2022-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,289551
+2022,6,2022-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,302077
+2022,7,2022-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,330868
+2022,8,2022-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,289479
+2022,9,2022-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,235530
+2022,10,2022-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,279602
+2022,11,2022-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,300041
+2022,12,2022-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,350033
+2023,1,2023-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,332744
+2023,2,2023-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,312715
+2023,3,2023-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,374293
+2023,4,2023-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,337124
+2023,5,2023-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,304198
+2023,6,2023-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,325106
+2023,7,2023-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,357809
+2023,8,2023-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,305667
+2023,9,2023-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,237828
+2023,10,2023-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,274298
+2023,11,2023-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,312443
+2023,12,2023-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,355311
+2024,1,2024-01-01,Enero,Los Cabos (Sol y Playa),Baja California Sur,Playa,313529
+2024,2,2024-02-01,Febrero,Los Cabos (Sol y Playa),Baja California Sur,Playa,318238
+2024,3,2024-03-01,Marzo,Los Cabos (Sol y Playa),Baja California Sur,Playa,378083
+2024,4,2024-04-01,Abril,Los Cabos (Sol y Playa),Baja California Sur,Playa,303616
+2024,5,2024-05-01,Mayo,Los Cabos (Sol y Playa),Baja California Sur,Playa,301275
+2024,6,2024-06-01,Junio,Los Cabos (Sol y Playa),Baja California Sur,Playa,322850
+2024,7,2024-07-01,Julio,Los Cabos (Sol y Playa),Baja California Sur,Playa,337375
+2024,8,2024-08-01,Agosto,Los Cabos (Sol y Playa),Baja California Sur,Playa,271949
+2024,9,2024-09-01,Septiembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,212802
+2024,10,2024-10-01,Octubre,Los Cabos (Sol y Playa),Baja California Sur,Playa,285037
+2024,11,2024-11-01,Noviembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,317333
+2024,12,2024-12-01,Diciembre,Los Cabos (Sol y Playa),Baja California Sur,Playa,351646
+2010,1,2010-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,193376
+2010,2,2010-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,178063
+2010,3,2010-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,213478
+2010,4,2010-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,221182
+2010,5,2010-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,226905
+2010,6,2010-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,223705
+2010,7,2010-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,277580
+2010,8,2010-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,273043
+2010,9,2010-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,213458
+2010,10,2010-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,228193
+2010,11,2010-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,220246
+2010,12,2010-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,214857
+2011,1,2011-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,209045
+2011,2,2011-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,184747
+2011,3,2011-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,218385
+2011,4,2011-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,216688
+2011,5,2011-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,245304
+2011,6,2011-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,233339
+2011,7,2011-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,283248
+2011,8,2011-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,275759
+2011,9,2011-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,226178
+2011,10,2011-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,233111
+2011,11,2011-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,226406
+2011,12,2011-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,230678
+2012,1,2012-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,216860
+2012,2,2012-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,200185
+2012,3,2012-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,232390
+2012,4,2012-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,237787
+2012,5,2012-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,251891
+2012,6,2012-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,256747
+2012,7,2012-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,324449
+2012,8,2012-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,313115
+2012,9,2012-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,253597
+2012,10,2012-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,260350
+2012,11,2012-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,251851
+2012,12,2012-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,249899
+2013,1,2013-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,236027
+2013,2,2013-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,213018
+2013,3,2013-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,254523
+2013,4,2013-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,268764
+2013,5,2013-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,264273
+2013,6,2013-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,268048
+2013,7,2013-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,339336
+2013,8,2013-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,318118
+2013,9,2013-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,255456
+2013,10,2013-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,268064
+2013,11,2013-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,261204
+2013,12,2013-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,261317
+2014,1,2014-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,244153
+2014,2,2014-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,216343
+2014,3,2014-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,256869
+2014,4,2014-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,275938
+2014,5,2014-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,294214
+2014,6,2014-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,292939
+2014,7,2014-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,366509
+2014,8,2014-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,360189
+2014,9,2014-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,296718
+2014,10,2014-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,320203
+2014,11,2014-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,323029
+2014,12,2014-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,316482
+2015,1,2015-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,294523
+2015,2,2015-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,276315
+2015,3,2015-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,327349
+2015,4,2015-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,354308
+2015,5,2015-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,366161
+2015,6,2015-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,355887
+2015,7,2015-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,433511
+2015,8,2015-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,422284
+2015,9,2015-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,341056
+2015,10,2015-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,365680
+2015,11,2015-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,360456
+2015,12,2015-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,344855
+2016,1,2016-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,315248
+2016,2,2016-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,295601
+2016,3,2016-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,358325
+2016,4,2016-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,359603
+2016,5,2016-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,379419
+2016,6,2016-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,386865
+2016,7,2016-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,468101
+2016,8,2016-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,458092
+2016,9,2016-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,390998
+2016,10,2016-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,402973
+2016,11,2016-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,395249
+2016,12,2016-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,387758
+2017,1,2017-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,356906
+2017,2,2017-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,317882
+2017,3,2017-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,392036
+2017,4,2017-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,386182
+2017,5,2017-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,412488
+2017,6,2017-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,416195
+2017,7,2017-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,495809
+2017,8,2017-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,480212
+2017,9,2017-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,386756
+2017,10,2017-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,431267
+2017,11,2017-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,415130
+2017,12,2017-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,403868
+2018,1,2018-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,386344
+2018,2,2018-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,342729
+2018,3,2018-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,416395
+2018,4,2018-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,446430
+2018,5,2018-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,449736
+2018,6,2018-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,454330
+2018,7,2018-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,550261
+2018,8,2018-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,524523
+2018,9,2018-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,434957
+2018,10,2018-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,476371
+2018,11,2018-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,459224
+2018,12,2018-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,441063
+2019,1,2019-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,404020
+2019,2,2019-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,360132
+2019,3,2019-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,445606
+2019,4,2019-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,450286
+2019,5,2019-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,496396
+2019,6,2019-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,495264
+2019,7,2019-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,557357
+2019,8,2019-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,537926
+2019,9,2019-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,449432
+2019,10,2019-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,490234
+2019,11,2019-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,475595
+2019,12,2019-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,453422
+2020,1,2020-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,427910
+2020,2,2020-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,404183
+2020,3,2020-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,282440
+2020,4,2020-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,30563
+2020,5,2020-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,31681
+2020,6,2020-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,69985
+2020,7,2020-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,134236
+2020,8,2020-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,188431
+2020,9,2020-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,200502
+2020,10,2020-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,237745
+2020,11,2020-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,245956
+2020,12,2020-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,250083
+2021,1,2021-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,209479
+2021,2,2021-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,167046
+2021,3,2021-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,264303
+2021,4,2021-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,318155
+2021,5,2021-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,359652
+2021,6,2021-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,365610
+2021,7,2021-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,458538
+2021,8,2021-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,395504
+2021,9,2021-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,345710
+2021,10,2021-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,400274
+2021,11,2021-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,423669
+2021,12,2021-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,425169
+2022,1,2022-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,327165
+2022,2,2022-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,293310
+2022,3,2022-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,415412
+2022,4,2022-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,445365
+2022,5,2022-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,469760
+2022,6,2022-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,457339
+2022,7,2022-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,528202
+2022,8,2022-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,530193
+2022,9,2022-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,470989
+2022,10,2022-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,524190
+2022,11,2022-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,531529
+2022,12,2022-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,527554
+2023,1,2023-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,477459
+2023,2,2023-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,427744
+2023,3,2023-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,528415
+2023,4,2023-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,535661
+2023,5,2023-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,559517
+2023,6,2023-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,554392
+2023,7,2023-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,656737
+2023,8,2023-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,669292
+2023,9,2023-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,559173
+2023,10,2023-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,610647
+2023,11,2023-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,562568
+2023,12,2023-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,549066
+2024,1,2024-01-01,Enero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,510384
+2024,2,2024-02-01,Febrero,Monterrey (Urbano/Industrial),Nuevo León,Urbano,446130
+2024,3,2024-03-01,Marzo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,506407
+2024,4,2024-04-01,Abril,Monterrey (Urbano/Industrial),Nuevo León,Urbano,521692
+2024,5,2024-05-01,Mayo,Monterrey (Urbano/Industrial),Nuevo León,Urbano,558030
+2024,6,2024-06-01,Junio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,541866
+2024,7,2024-07-01,Julio,Monterrey (Urbano/Industrial),Nuevo León,Urbano,655467
+2024,8,2024-08-01,Agosto,Monterrey (Urbano/Industrial),Nuevo León,Urbano,652531
+2024,9,2024-09-01,Septiembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,556585
+2024,10,2024-10-01,Octubre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,589944
+2024,11,2024-11-01,Noviembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,646564
+2024,12,2024-12-01,Diciembre,Monterrey (Urbano/Industrial),Nuevo León,Urbano,642040
+2010,1,2010-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,43219
+2010,2,2010-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,40526
+2010,3,2010-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,52744
+2010,4,2010-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,44376
+2010,5,2010-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,48370
+2010,6,2010-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,46541
+2010,7,2010-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,56180
+2010,8,2010-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,49219
+2010,9,2010-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,37303
+2010,10,2010-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,44820
+2010,11,2010-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,48392
+2010,12,2010-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,55261
+2011,1,2011-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,41641
+2011,2,2011-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,40869
+2011,3,2011-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,47715
+2011,4,2011-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,52607
+2011,5,2011-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,55210
+2011,6,2011-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,47472
+2011,7,2011-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,57765
+2011,8,2011-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,51002
+2011,9,2011-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,44572
+2011,10,2011-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,53526
+2011,11,2011-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,55497
+2011,12,2011-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,62588
+2012,1,2012-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,47417
+2012,2,2012-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,47724
+2012,3,2012-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,55065
+2012,4,2012-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,49187
+2012,5,2012-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,49633
+2012,6,2012-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,50690
+2012,7,2012-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,57621
+2012,8,2012-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,51944
+2012,9,2012-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,45291
+2012,10,2012-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,50341
+2012,11,2012-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,54426
+2012,12,2012-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,58871
+2013,1,2013-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,47430
+2013,2,2013-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,47163
+2013,3,2013-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,55271
+2013,4,2013-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,50149
+2013,5,2013-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,51549
+2013,6,2013-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,54998
+2013,7,2013-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,61202
+2013,8,2013-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,54358
+2013,9,2013-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,51590
+2013,10,2013-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,59484
+2013,11,2013-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,61355
+2013,12,2013-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,65625
+2014,1,2014-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,56420
+2014,2,2014-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,49520
+2014,3,2014-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,57572
+2014,4,2014-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,59312
+2014,5,2014-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,58242
+2014,6,2014-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,55806
+2014,7,2014-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,65799
+2014,8,2014-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,61099
+2014,9,2014-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,56321
+2014,10,2014-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,63148
+2014,11,2014-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,65258
+2014,12,2014-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,72123
+2015,1,2015-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,59285
+2015,2,2015-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,56734
+2015,3,2015-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,67240
+2015,4,2015-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,65307
+2015,5,2015-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,68305
+2015,6,2015-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,68198
+2015,7,2015-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,81679
+2015,8,2015-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,72547
+2015,9,2015-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,63331
+2015,10,2015-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,74033
+2015,11,2015-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,75401
+2015,12,2015-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,82672
+2016,1,2016-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,71319
+2016,2,2016-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,64798
+2016,3,2016-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,81154
+2016,4,2016-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,75261
+2016,5,2016-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,75266
+2016,6,2016-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,75088
+2016,7,2016-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,96720
+2016,8,2016-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,84956
+2016,9,2016-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,77118
+2016,10,2016-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,85883
+2016,11,2016-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,92469
+2016,12,2016-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,98269
+2017,1,2017-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,85123
+2017,2,2017-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,77314
+2017,3,2017-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,89140
+2017,4,2017-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,89502
+2017,5,2017-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,84312
+2017,6,2017-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,89321
+2017,7,2017-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,97465
+2017,8,2017-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,91125
+2017,9,2017-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,79882
+2017,10,2017-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,90701
+2017,11,2017-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,101757
+2017,12,2017-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,106764
+2018,1,2018-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,93740
+2018,2,2018-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,89637
+2018,3,2018-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,103287
+2018,4,2018-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,99998
+2018,5,2018-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,100989
+2018,6,2018-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,98956
+2018,7,2018-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,113340
+2018,8,2018-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,104624
+2018,9,2018-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,92983
+2018,10,2018-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,106243
+2018,11,2018-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,112609
+2018,12,2018-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,118349
+2019,1,2019-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,103598
+2019,2,2019-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,96644
+2019,3,2019-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,112223
+2019,4,2019-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,118903
+2019,5,2019-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,120300
+2019,6,2019-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,116572
+2019,7,2019-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,128868
+2019,8,2019-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,116251
+2019,9,2019-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,106514
+2019,10,2019-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,119287
+2019,11,2019-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,127612
+2019,12,2019-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,137294
+2020,1,2020-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,122881
+2020,2,2020-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,117943
+2020,3,2020-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,80377
+2020,4,2020-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,6964
+2020,5,2020-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,6653
+2020,6,2020-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,16508
+2020,7,2020-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,29334
+2020,8,2020-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,34242
+2020,9,2020-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,43352
+2020,10,2020-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,51727
+2020,11,2020-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,61974
+2020,12,2020-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,76572
+2021,1,2021-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,59706
+2021,2,2021-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,48600
+2021,3,2021-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,72947
+2021,4,2021-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,75484
+2021,5,2021-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,85270
+2021,6,2021-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,89927
+2021,7,2021-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,97947
+2021,8,2021-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,87977
+2021,9,2021-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,83295
+2021,10,2021-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,99765
+2021,11,2021-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,111440
+2021,12,2021-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,127138
+2022,1,2022-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,93672
+2022,2,2022-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,90903
+2022,3,2022-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,115461
+2022,4,2022-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,120377
+2022,5,2022-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,126299
+2022,6,2022-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,121116
+2022,7,2022-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,132511
+2022,8,2022-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,136094
+2022,9,2022-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,127768
+2022,10,2022-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,153403
+2022,11,2022-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,155952
+2022,12,2022-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,166958
+2023,1,2023-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,150147
+2023,2,2023-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,141290
+2023,3,2023-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,157265
+2023,4,2023-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,152313
+2023,5,2023-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,144200
+2023,6,2023-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,142974
+2023,7,2023-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,159399
+2023,8,2023-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,158797
+2023,9,2023-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,132505
+2023,10,2023-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,159602
+2023,11,2023-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,162393
+2023,12,2023-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,176528
+2024,1,2024-01-01,Enero,Mérida (Cultural/Península),Yucatán,Cultural,151706
+2024,2,2024-02-01,Febrero,Mérida (Cultural/Península),Yucatán,Cultural,140579
+2024,3,2024-03-01,Marzo,Mérida (Cultural/Península),Yucatán,Cultural,155464
+2024,4,2024-04-01,Abril,Mérida (Cultural/Península),Yucatán,Cultural,145338
+2024,5,2024-05-01,Mayo,Mérida (Cultural/Península),Yucatán,Cultural,145023
+2024,6,2024-06-01,Junio,Mérida (Cultural/Península),Yucatán,Cultural,151514
+2024,7,2024-07-01,Julio,Mérida (Cultural/Península),Yucatán,Cultural,160469
+2024,8,2024-08-01,Agosto,Mérida (Cultural/Península),Yucatán,Cultural,165572
+2024,9,2024-09-01,Septiembre,Mérida (Cultural/Península),Yucatán,Cultural,145775
+2024,10,2024-10-01,Octubre,Mérida (Cultural/Península),Yucatán,Cultural,152122
+2024,11,2024-11-01,Noviembre,Mérida (Cultural/Península),Yucatán,Cultural,162466
+2024,12,2024-12-01,Diciembre,Mérida (Cultural/Península),Yucatán,Cultural,171903
+2010,1,2010-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16799
+2010,2,2010-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16840
+2010,3,2010-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19904
+2010,4,2010-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16372
+2010,5,2010-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17311
+2010,6,2010-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,18927
+2010,7,2010-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,22255
+2010,8,2010-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17861
+2010,9,2010-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,10745
+2010,10,2010-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17426
+2010,11,2010-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16325
+2010,12,2010-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17889
+2011,1,2011-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,12958
+2011,2,2011-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,10884
+2011,3,2011-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,12642
+2011,4,2011-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,14133
+2011,5,2011-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,14051
+2011,6,2011-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16148
+2011,7,2011-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19325
+2011,8,2011-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16731
+2011,9,2011-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16334
+2011,10,2011-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19090
+2011,11,2011-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16872
+2011,12,2011-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,20659
+2012,1,2012-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,15387
+2012,2,2012-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,15326
+2012,3,2012-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,18840
+2012,4,2012-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17378
+2012,5,2012-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17695
+2012,6,2012-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19706
+2012,7,2012-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,23312
+2012,8,2012-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,20176
+2012,9,2012-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17059
+2012,10,2012-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,20056
+2012,11,2012-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19203
+2012,12,2012-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,21603
+2013,1,2013-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17675
+2013,2,2013-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,16606
+2013,3,2013-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19318
+2013,4,2013-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,18043
+2013,5,2013-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,18694
+2013,6,2013-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,21259
+2013,7,2013-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,24784
+2013,8,2013-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,21212
+2013,9,2013-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,18484
+2013,10,2013-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,22162
+2013,11,2013-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,21465
+2013,12,2013-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,26041
+2014,1,2014-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,18855
+2014,2,2014-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17686
+2014,3,2014-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19182
+2014,4,2014-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19300
+2014,5,2014-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19829
+2014,6,2014-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,21719
+2014,7,2014-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,26841
+2014,8,2014-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,22847
+2014,9,2014-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,19144
+2014,10,2014-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,25339
+2014,11,2014-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,23671
+2014,12,2014-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28284
+2015,1,2015-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,22339
+2015,2,2015-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,21161
+2015,3,2015-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,25647
+2015,4,2015-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,24080
+2015,5,2015-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,24392
+2015,6,2015-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,27067
+2015,7,2015-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,34331
+2015,8,2015-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,27221
+2015,9,2015-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,23711
+2015,10,2015-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,27845
+2015,11,2015-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28389
+2015,12,2015-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,34645
+2016,1,2016-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,27807
+2016,2,2016-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,25866
+2016,3,2016-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,31498
+2016,4,2016-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,27605
+2016,5,2016-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28991
+2016,6,2016-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,31774
+2016,7,2016-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,36555
+2016,8,2016-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,29415
+2016,9,2016-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,25845
+2016,10,2016-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,31684
+2016,11,2016-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,32310
+2016,12,2016-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,38930
+2017,1,2017-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,31020
+2017,2,2017-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28053
+2017,3,2017-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,30313
+2017,4,2017-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,32162
+2017,5,2017-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,31319
+2017,6,2017-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,35674
+2017,7,2017-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,45872
+2017,8,2017-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,38411
+2017,9,2017-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,32393
+2017,10,2017-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,38124
+2017,11,2017-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,39419
+2017,12,2017-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,46096
+2018,1,2018-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,38535
+2018,2,2018-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,35219
+2018,3,2018-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,39748
+2018,4,2018-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,34636
+2018,5,2018-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,33791
+2018,6,2018-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,36939
+2018,7,2018-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,44237
+2018,8,2018-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,39703
+2018,9,2018-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,34846
+2018,10,2018-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,44648
+2018,11,2018-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,41188
+2018,12,2018-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,48572
+2019,1,2019-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,39214
+2019,2,2019-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,36790
+2019,3,2019-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,45896
+2019,4,2019-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,46316
+2019,5,2019-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,45666
+2019,6,2019-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,49672
+2019,7,2019-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,59324
+2019,8,2019-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,50702
+2019,9,2019-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,43296
+2019,10,2019-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,57646
+2019,11,2019-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,58235
+2019,12,2019-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,63873
+2020,1,2020-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,54822
+2020,2,2020-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,52423
+2020,3,2020-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,36446
+2020,4,2020-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,3377
+2020,5,2020-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,2668
+2020,6,2020-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,6727
+2020,7,2020-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,11340
+2020,8,2020-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,15247
+2020,9,2020-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,17205
+2020,10,2020-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,26631
+2020,11,2020-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28734
+2020,12,2020-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,36266
+2021,1,2021-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,24813
+2021,2,2021-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,20328
+2021,3,2021-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28916
+2021,4,2021-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,28576
+2021,5,2021-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,38545
+2021,6,2021-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,41681
+2021,7,2021-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,47330
+2021,8,2021-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,37638
+2021,9,2021-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,34867
+2021,10,2021-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,46246
+2021,11,2021-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,47546
+2021,12,2021-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,55170
+2022,1,2022-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,42906
+2022,2,2022-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,41937
+2022,3,2022-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,48759
+2022,4,2022-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,49410
+2022,5,2022-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,47908
+2022,6,2022-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,51078
+2022,7,2022-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,62672
+2022,8,2022-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,51311
+2022,9,2022-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,49002
+2022,10,2022-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,62845
+2022,11,2022-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,63195
+2022,12,2022-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,74558
+2023,1,2023-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,62594
+2023,2,2023-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,57869
+2023,3,2023-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,64309
+2023,4,2023-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,63399
+2023,5,2023-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,55443
+2023,6,2023-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,66593
+2023,7,2023-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,87410
+2023,8,2023-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,75573
+2023,9,2023-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,64700
+2023,10,2023-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,79325
+2023,11,2023-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,70747
+2023,12,2023-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,82145
+2024,1,2024-01-01,Enero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,68822
+2024,2,2024-02-01,Febrero,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,63664
+2024,3,2024-03-01,Marzo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,72410
+2024,4,2024-04-01,Abril,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,67809
+2024,5,2024-05-01,Mayo,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,68906
+2024,6,2024-06-01,Junio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,74054
+2024,7,2024-07-01,Julio,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,82871
+2024,8,2024-08-01,Agosto,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,73622
+2024,9,2024-09-01,Septiembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,65771
+2024,10,2024-10-01,Octubre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,79016
+2024,11,2024-11-01,Noviembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,81329
+2024,12,2024-12-01,Diciembre,Oaxaca (Cultural/Pueblos),Oaxaca,Cultural,88478
+2010,1,2010-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,149868
+2010,2,2010-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,145929
+2010,3,2010-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,161459
+2010,4,2010-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,113850
+2010,5,2010-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,92106
+2010,6,2010-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,95127
+2010,7,2010-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,110131
+2010,8,2010-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,81644
+2010,9,2010-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,57281
+2010,10,2010-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,82933
+2010,11,2010-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,109333
+2010,12,2010-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,143650
+2011,1,2011-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,149608
+2011,2,2011-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,142249
+2011,3,2011-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,149497
+2011,4,2011-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,110991
+2011,5,2011-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,77654
+2011,6,2011-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,74936
+2011,7,2011-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,88542
+2011,8,2011-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,68584
+2011,9,2011-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,53190
+2011,10,2011-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,74509
+2011,11,2011-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,107369
+2011,12,2011-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,146977
+2012,1,2012-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,137758
+2012,2,2012-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,137278
+2012,3,2012-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,154332
+2012,4,2012-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,107798
+2012,5,2012-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,79510
+2012,6,2012-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,83952
+2012,7,2012-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,98187
+2012,8,2012-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,77916
+2012,9,2012-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,54630
+2012,10,2012-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,79386
+2012,11,2012-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,115065
+2012,12,2012-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,149680
+2013,1,2013-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,135503
+2013,2,2013-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,136650
+2013,3,2013-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,164701
+2013,4,2013-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,101401
+2013,5,2013-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,84161
+2013,6,2013-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,90797
+2013,7,2013-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,101983
+2013,8,2013-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,85132
+2013,9,2013-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,57277
+2013,10,2013-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,79661
+2013,11,2013-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,119609
+2013,12,2013-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,153220
+2014,1,2014-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,156046
+2014,2,2014-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,154815
+2014,3,2014-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,174229
+2014,4,2014-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,124473
+2014,5,2014-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,102469
+2014,6,2014-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,108645
+2014,7,2014-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,123991
+2014,8,2014-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,99415
+2014,9,2014-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,64706
+2014,10,2014-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,103484
+2014,11,2014-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,148662
+2014,12,2014-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,179245
+2015,1,2015-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,187945
+2015,2,2015-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,175674
+2015,3,2015-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,197773
+2015,4,2015-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,153957
+2015,5,2015-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,116669
+2015,6,2015-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,120949
+2015,7,2015-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,145247
+2015,8,2015-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,119296
+2015,9,2015-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,75241
+2015,10,2015-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,108157
+2015,11,2015-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,162457
+2015,12,2015-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,210147
+2016,1,2016-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,210595
+2016,2,2016-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,198582
+2016,3,2016-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,223542
+2016,4,2016-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,166076
+2016,5,2016-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,134425
+2016,6,2016-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,141697
+2016,7,2016-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,168986
+2016,8,2016-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,130615
+2016,9,2016-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,93411
+2016,10,2016-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,127469
+2016,11,2016-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,173396
+2016,12,2016-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,238327
+2017,1,2017-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,228793
+2017,2,2017-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,215673
+2017,3,2017-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,250621
+2017,4,2017-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,197971
+2017,5,2017-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,149354
+2017,6,2017-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,166433
+2017,7,2017-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,185962
+2017,8,2017-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,142802
+2017,9,2017-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,103757
+2017,10,2017-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,138708
+2017,11,2017-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,198488
+2017,12,2017-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,256536
+2018,1,2018-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,246451
+2018,2,2018-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,232939
+2018,3,2018-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,276820
+2018,4,2018-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,197680
+2018,5,2018-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,160078
+2018,6,2018-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,170580
+2018,7,2018-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,193098
+2018,8,2018-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,151123
+2018,9,2018-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,110388
+2018,10,2018-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,146858
+2018,11,2018-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,206938
+2018,12,2018-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,263540
+2019,1,2019-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,257819
+2019,2,2019-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,241387
+2019,3,2019-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,279882
+2019,4,2019-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,211017
+2019,5,2019-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,177212
+2019,6,2019-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,185409
+2019,7,2019-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,196804
+2019,8,2019-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,163844
+2019,9,2019-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,116840
+2019,10,2019-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,162473
+2019,11,2019-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,226219
+2019,12,2019-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,279459
+2020,1,2020-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,270625
+2020,2,2020-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,260344
+2020,3,2020-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,142484
+2020,4,2020-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,3027
+2020,5,2020-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,4918
+2020,6,2020-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,17807
+2020,7,2020-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,48865
+2020,8,2020-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,54845
+2020,9,2020-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,64542
+2020,10,2020-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,99946
+2020,11,2020-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,117260
+2020,12,2020-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,137595
+2021,1,2021-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,91978
+2021,2,2021-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,77499
+2021,3,2021-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,140885
+2021,4,2021-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,145589
+2021,5,2021-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,168528
+2021,6,2021-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,189114
+2021,7,2021-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,226445
+2021,8,2021-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,160495
+2021,9,2021-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,129910
+2021,10,2021-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,189136
+2021,11,2021-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,238310
+2021,12,2021-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,288931
+2022,1,2022-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,218160
+2022,2,2022-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,233862
+2022,3,2022-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,304107
+2022,4,2022-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,267982
+2022,5,2022-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,238595
+2022,6,2022-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,252100
+2022,7,2022-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,275541
+2022,8,2022-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,223272
+2022,9,2022-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,184536
+2022,10,2022-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,223209
+2022,11,2022-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,292773
+2022,12,2022-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,355893
+2023,1,2023-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,335721
+2023,2,2023-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,302508
+2023,3,2023-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,344544
+2023,4,2023-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,298820
+2023,5,2023-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,238992
+2023,6,2023-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,254775
+2023,7,2023-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,279530
+2023,8,2023-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,226738
+2023,9,2023-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,174808
+2023,10,2023-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,226661
+2023,11,2023-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,304307
+2023,12,2023-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,373760
+2024,1,2024-01-01,Enero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,337159
+2024,2,2024-02-01,Febrero,Puerto Vallarta (Sol y Playa),Jalisco,Playa,326343
+2024,3,2024-03-01,Marzo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,364675
+2024,4,2024-04-01,Abril,Puerto Vallarta (Sol y Playa),Jalisco,Playa,283550
+2024,5,2024-05-01,Mayo,Puerto Vallarta (Sol y Playa),Jalisco,Playa,249049
+2024,6,2024-06-01,Junio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,254725
+2024,7,2024-07-01,Julio,Puerto Vallarta (Sol y Playa),Jalisco,Playa,269059
+2024,8,2024-08-01,Agosto,Puerto Vallarta (Sol y Playa),Jalisco,Playa,213925
+2024,9,2024-09-01,Septiembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,164456
+2024,10,2024-10-01,Octubre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,227184
+2024,11,2024-11-01,Noviembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,305097
+2024,12,2024-12-01,Diciembre,Puerto Vallarta (Sol y Playa),Jalisco,Playa,363496
+2010,1,2010-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,169363
+2010,2,2010-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,122782
+2010,3,2010-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,152685
+2010,4,2010-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,149489
+2010,5,2010-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,156885
+2010,6,2010-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,140541
+2010,7,2010-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,196245
+2010,8,2010-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,193862
+2010,9,2010-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,144639
+2010,10,2010-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,144480
+2010,11,2010-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,141626
+2010,12,2010-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,155102
+2011,1,2011-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,166902
+2011,2,2011-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,131122
+2011,3,2011-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,147575
+2011,4,2011-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,146498
+2011,5,2011-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,145740
+2011,6,2011-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,130322
+2011,7,2011-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,185165
+2011,8,2011-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,170388
+2011,9,2011-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,127108
+2011,10,2011-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,136270
+2011,11,2011-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,147446
+2011,12,2011-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,154440
+2012,1,2012-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,174221
+2012,2,2012-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,134168
+2012,3,2012-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,150090
+2012,4,2012-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,157187
+2012,5,2012-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,154375
+2012,6,2012-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,156558
+2012,7,2012-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,205641
+2012,8,2012-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,187887
+2012,9,2012-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,140438
+2012,10,2012-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,140235
+2012,11,2012-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,149374
+2012,12,2012-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,175700
+2013,1,2013-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,196612
+2013,2,2013-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,137530
+2013,3,2013-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,168780
+2013,4,2013-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,169503
+2013,5,2013-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,175801
+2013,6,2013-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,165415
+2013,7,2013-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,241310
+2013,8,2013-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,223764
+2013,9,2013-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,159256
+2013,10,2013-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,165174
+2013,11,2013-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,180781
+2013,12,2013-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,210372
+2014,1,2014-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,237902
+2014,2,2014-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,162904
+2014,3,2014-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,189613
+2014,4,2014-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,196584
+2014,5,2014-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,191684
+2014,6,2014-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,168642
+2014,7,2014-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,241433
+2014,8,2014-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,208515
+2014,9,2014-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,144000
+2014,10,2014-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,162646
+2014,11,2014-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,171202
+2014,12,2014-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,194730
+2015,1,2015-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,207421
+2015,2,2015-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,154009
+2015,3,2015-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,183786
+2015,4,2015-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,193446
+2015,5,2015-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,198156
+2015,6,2015-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,191858
+2015,7,2015-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,254287
+2015,8,2015-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,242571
+2015,9,2015-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,181066
+2015,10,2015-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,197535
+2015,11,2015-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,217112
+2015,12,2015-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,250353
+2016,1,2016-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,274647
+2016,2,2016-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,215998
+2016,3,2016-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,255208
+2016,4,2016-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,244024
+2016,5,2016-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,262093
+2016,6,2016-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,249587
+2016,7,2016-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,311846
+2016,8,2016-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,309630
+2016,9,2016-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,241721
+2016,10,2016-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,264851
+2016,11,2016-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,277748
+2016,12,2016-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,298730
+2017,1,2017-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,344658
+2017,2,2017-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,248305
+2017,3,2017-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,274959
+2017,4,2017-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,299338
+2017,5,2017-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,289579
+2017,6,2017-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,282549
+2017,7,2017-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,366650
+2017,8,2017-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,348110
+2017,9,2017-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,271331
+2017,10,2017-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,279783
+2017,11,2017-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,294302
+2017,12,2017-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,304661
+2018,1,2018-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,363868
+2018,2,2018-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,288795
+2018,3,2018-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,325514
+2018,4,2018-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,332653
+2018,5,2018-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,328910
+2018,6,2018-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,309827
+2018,7,2018-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,386435
+2018,8,2018-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,357664
+2018,9,2018-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,302416
+2018,10,2018-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,317767
+2018,11,2018-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,333293
+2018,12,2018-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,344278
+2019,1,2019-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,393245
+2019,2,2019-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,305789
+2019,3,2019-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,365038
+2019,4,2019-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,387322
+2019,5,2019-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,393484
+2019,6,2019-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,367145
+2019,7,2019-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,428479
+2019,8,2019-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,409520
+2019,9,2019-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,353974
+2019,10,2019-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,365502
+2019,11,2019-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,371779
+2019,12,2019-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,398395
+2020,1,2020-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,439813
+2020,2,2020-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,377391
+2020,3,2020-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,296056
+2020,4,2020-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,62508
+2020,5,2020-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,73615
+2020,6,2020-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,154432
+2020,7,2020-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,245270
+2020,8,2020-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,294156
+2020,9,2020-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,278373
+2020,10,2020-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,315788
+2020,11,2020-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,332917
+2020,12,2020-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,292608
+2021,1,2021-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,363519
+2021,2,2021-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,272216
+2021,3,2021-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,349115
+2021,4,2021-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,419692
+2021,5,2021-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,441251
+2021,6,2021-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,412818
+2021,7,2021-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,465795
+2021,8,2021-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,480557
+2021,9,2021-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,389900
+2021,10,2021-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,417073
+2021,11,2021-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,451318
+2021,12,2021-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,462269
+2022,1,2022-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,529463
+2022,2,2022-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,442975
+2022,3,2022-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,513726
+2022,4,2022-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,535913
+2022,5,2022-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,532629
+2022,6,2022-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,492860
+2022,7,2022-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,619278
+2022,8,2022-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,599409
+2022,9,2022-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,488339
+2022,10,2022-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,515872
+2022,11,2022-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,567217
+2022,12,2022-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,524714
+2023,1,2023-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,627396
+2023,2,2023-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,500630
+2023,3,2023-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,547106
+2023,4,2023-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,608674
+2023,5,2023-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,572610
+2023,6,2023-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,545911
+2023,7,2023-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,679435
+2023,8,2023-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,668115
+2023,9,2023-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,527546
+2023,10,2023-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,544156
+2023,11,2023-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,528235
+2023,12,2023-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,527311
+2024,1,2024-01-01,Enero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,581079
+2024,2,2024-02-01,Febrero,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,487197
+2024,3,2024-03-01,Marzo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,531458
+2024,4,2024-04-01,Abril,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,547081
+2024,5,2024-05-01,Mayo,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,550276
+2024,6,2024-06-01,Junio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,530373
+2024,7,2024-07-01,Julio,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,623990
+2024,8,2024-08-01,Agosto,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,604794
+2024,9,2024-09-01,Septiembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,495022
+2024,10,2024-10-01,Octubre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,530670
+2024,11,2024-11-01,Noviembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,540462
+2024,12,2024-12-01,Diciembre,Tijuana (Fronterizo/Urbano),Baja California,Fronterizo,540397
+2010,1,2010-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,106470
+2010,2,2010-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,81703
+2010,3,2010-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,94875
+2010,4,2010-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,98035
+2010,5,2010-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,100713
+2010,6,2010-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,89825
+2010,7,2010-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,103405
+2010,8,2010-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,109564
+2010,9,2010-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,78259
+2010,10,2010-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,55491
+2010,11,2010-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,72037
+2010,12,2010-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,82011
+2011,1,2011-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,86827
+2011,2,2011-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,73344
+2011,3,2011-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,73522
+2011,4,2011-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,72375
+2011,5,2011-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,63030
+2011,6,2011-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,56283
+2011,7,2011-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,71620
+2011,8,2011-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,57686
+2011,9,2011-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,44247
+2011,10,2011-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,37002
+2011,11,2011-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,42927
+2011,12,2011-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,52153
+2012,1,2012-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,52488
+2012,2,2012-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,36543
+2012,3,2012-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,33371
+2012,4,2012-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,36866
+2012,5,2012-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,32836
+2012,6,2012-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,31155
+2012,7,2012-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,47820
+2012,8,2012-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,44153
+2012,9,2012-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,29661
+2012,10,2012-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,29578
+2012,11,2012-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,34150
+2012,12,2012-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,36079
+2013,1,2013-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,39856
+2013,2,2013-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,27586
+2013,3,2013-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,40220
+2013,4,2013-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,44619
+2013,5,2013-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,43827
+2013,6,2013-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,50657
+2013,7,2013-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,64365
+2013,8,2013-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,61412
+2013,9,2013-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,41490
+2013,10,2013-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,39594
+2013,11,2013-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,43085
+2013,12,2013-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,47377
+2014,1,2014-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,42548
+2014,2,2014-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,27435
+2014,3,2014-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,30386
+2014,4,2014-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,32713
+2014,5,2014-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,29656
+2014,6,2014-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,27091
+2014,7,2014-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,30956
+2014,8,2014-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,33753
+2014,9,2014-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,23362
+2014,10,2014-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,26208
+2014,11,2014-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,27836
+2014,12,2014-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,27561
+2015,1,2015-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,28168
+2015,2,2015-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,21585
+2015,3,2015-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,26243
+2015,4,2015-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,31778
+2015,5,2015-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,31568
+2015,6,2015-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,30255
+2015,7,2015-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,40594
+2015,8,2015-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,38596
+2015,9,2015-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,26461
+2015,10,2015-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,26128
+2015,11,2015-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,29513
+2015,12,2015-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,30654
+2016,1,2016-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,29655
+2016,2,2016-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,20443
+2016,3,2016-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,27260
+2016,4,2016-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,27356
+2016,5,2016-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,28138
+2016,6,2016-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,26913
+2016,7,2016-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,31722
+2016,8,2016-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,29960
+2016,9,2016-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,23686
+2016,10,2016-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,23966
+2016,11,2016-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,22651
+2016,12,2016-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,25140
+2017,1,2017-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,23960
+2017,2,2017-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,20326
+2017,3,2017-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,22861
+2017,4,2017-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,26970
+2017,5,2017-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,25162
+2017,6,2017-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,25646
+2017,7,2017-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,35227
+2017,8,2017-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,33913
+2017,9,2017-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,27695
+2017,10,2017-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,29614
+2017,11,2017-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,30459
+2017,12,2017-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,30677
+2018,1,2018-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,27032
+2018,2,2018-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,24483
+2018,3,2018-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,28493
+2018,4,2018-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,30468
+2018,5,2018-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,24173
+2018,6,2018-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,19009
+2018,7,2018-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,22180
+2018,8,2018-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,20328
+2018,9,2018-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,15958
+2018,10,2018-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,19449
+2018,11,2018-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,26409
+2018,12,2018-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,24550
+2019,1,2019-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,21962
+2019,2,2019-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,17348
+2019,3,2019-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,22116
+2019,4,2019-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,22611
+2019,5,2019-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,26013
+2019,6,2019-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,26082
+2019,7,2019-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,35362
+2019,8,2019-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,33710
+2019,9,2019-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,19467
+2019,10,2019-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,20129
+2019,11,2019-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,21046
+2019,12,2019-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,21111
+2020,1,2020-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,23625
+2020,2,2020-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,20175
+2020,3,2020-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,11888
+2020,4,2020-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,272
+2020,5,2020-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,420
+2020,6,2020-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,13
+2020,7,2020-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,149
+2020,8,2020-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,153
+2020,9,2020-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,1114
+2020,10,2020-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,405
+2020,11,2020-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,253
+2020,12,2020-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,3213
+2021,1,2021-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,1946
+2021,2,2021-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,601
+2021,3,2021-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,1057
+2021,4,2021-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,2503
+2021,5,2021-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,1700
+2021,6,2021-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,300
+2021,7,2021-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,1187
+2021,8,2021-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,529
+2021,9,2021-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,514
+2021,10,2021-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,556
+2021,11,2021-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,467
+2021,12,2021-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,1517
+2022,1,2022-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,1128
+2022,2,2022-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,198
+2022,3,2022-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,401
+2022,4,2022-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,569
+2022,5,2022-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,796
+2022,6,2022-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,365
+2022,7,2022-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,27070
+2022,8,2022-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,27738
+2022,9,2022-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,27695
+2022,10,2022-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,40516
+2022,11,2022-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,51371
+2022,12,2022-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,60194
+2023,1,2023-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,49873
+2023,2,2023-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,45805
+2023,3,2023-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,54160
+2023,4,2023-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,60059
+2023,5,2023-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,71063
+2023,6,2023-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,59616
+2023,7,2023-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,63969
+2023,8,2023-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,68608
+2023,9,2023-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,52820
+2023,10,2023-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,62168
+2023,11,2023-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,55892
+2023,12,2023-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,55458
+2024,1,2024-01-01,Enero,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,2,2024-02-01,Febrero,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,3,2024-03-01,Marzo,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,4,2024-04-01,Abril,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,5,2024-05-01,Mayo,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,6,2024-06-01,Junio,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,7,2024-07-01,Julio,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,8,2024-08-01,Agosto,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,9,2024-09-01,Septiembre,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,10,2024-10-01,Octubre,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,11,2024-11-01,Noviembre,Toluca (Corredor Insurgente),Estado de México,Corredor,0
+2024,12,2024-12-01,Diciembre,Toluca (Corredor Insurgente),Estado de México,Corredor,0
