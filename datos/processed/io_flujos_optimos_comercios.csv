@@ -1,0 +1,46 @@
+id_comercio,nombre_comercio,categoria,id_estacion,municipio,id_temporada,nombre_temporada,visitantes_cupon_optimo,capacidad_maxima_mensual,utilizacion_capacidad_pct,gasto_bruto_turistas_mxn,ahorro_descuentos_turistas_mxn,derrama_neta_comercio_mxn,co2_evitado_kg
+COM-01,Fonda y Barbacoa El Rinconcito Serrano,Gastronomía Tradicional,EST-01,Zinacantepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),480.0,480,100.0,153600.0,21600.0,132000.0,4032.0
+COM-01,Fonda y Barbacoa El Rinconcito Serrano,Gastronomía Tradicional,EST-01,Zinacantepec,TEMP-MEDIA,Temporada Media (May-Jun),480.0,480,100.0,153600.0,21600.0,132000.0,4032.0
+COM-01,Fonda y Barbacoa El Rinconcito Serrano,Gastronomía Tradicional,EST-01,Zinacantepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),480.0,480,100.0,153600.0,21600.0,132000.0,4032.0
+COM-02,Panadería Tradicional San Miguel,Alimentos y Bebidas,EST-01,Zinacantepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),520.0,520,100.0,93600.0,13000.0,80600.0,4368.0
+COM-02,Panadería Tradicional San Miguel,Alimentos y Bebidas,EST-01,Zinacantepec,TEMP-MEDIA,Temporada Media (May-Jun),520.0,520,100.0,93600.0,13000.0,80600.0,4368.0
+COM-02,Panadería Tradicional San Miguel,Alimentos y Bebidas,EST-01,Zinacantepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),233.3,520,44.9,41992.9,5832.35,36160.56,1959.67
+COM-03,Cooperativa Ecoturística Raíces del Xinantécatl,Ecoturismo y Guías,EST-01,Zinacantepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),260.0,260,100.0,117000.0,22100.0,94900.0,2184.0
+COM-03,Cooperativa Ecoturística Raíces del Xinantécatl,Ecoturismo y Guías,EST-01,Zinacantepec,TEMP-MEDIA,Temporada Media (May-Jun),260.0,260,100.0,117000.0,22100.0,94900.0,2184.0
+COM-03,Cooperativa Ecoturística Raíces del Xinantécatl,Ecoturismo y Guías,EST-01,Zinacantepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),260.0,260,100.0,117000.0,22100.0,94900.0,2184.0
+COM-04,Taller Artesanal Familia Soteno,Artesanías y Alfarería,EST-03,Metepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),310.0,310,100.0,127100.0,18600.0,108500.0,2201.0
+COM-04,Taller Artesanal Familia Soteno,Artesanías y Alfarería,EST-03,Metepec,TEMP-MEDIA,Temporada Media (May-Jun),310.0,310,100.0,127100.0,18600.0,108500.0,2201.0
+COM-04,Taller Artesanal Familia Soteno,Artesanías y Alfarería,EST-03,Metepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),310.0,310,100.0,127100.0,18600.0,108500.0,2201.0
+COM-05,Bar Tradicional 2 de Abril (La Garañona),Gastronomía y Bebidas,EST-03,Metepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),420.0,420,100.0,121800.0,15960.0,105840.0,2982.0
+COM-05,Bar Tradicional 2 de Abril (La Garañona),Gastronomía y Bebidas,EST-03,Metepec,TEMP-MEDIA,Temporada Media (May-Jun),420.0,420,100.0,121800.0,15960.0,105840.0,2982.0
+COM-05,Bar Tradicional 2 de Abril (La Garañona),Gastronomía y Bebidas,EST-03,Metepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),420.0,420,100.0,121800.0,15960.0,105840.0,2982.0
+COM-06,Café Cultural El Cerrojo,Cafetería y Cultura,EST-03,Metepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),450.0,450,100.0,94500.0,13500.0,81000.0,3195.0
+COM-06,Café Cultural El Cerrojo,Cafetería y Cultura,EST-03,Metepec,TEMP-MEDIA,Temporada Media (May-Jun),141.0,450,31.3,29616.11,4230.87,25385.23,1001.31
+COM-06,Café Cultural El Cerrojo,Cafetería y Cultura,EST-03,Metepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),85.0,450,18.9,17850.0,2550.0,15300.0,603.5
+COM-07,Fonda Doña Lupe (Gorditas y Tlacoyos),Gastronomía Tradicional,EST-03,Metepec,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),480.0,480,100.0,153600.0,21600.0,132000.0,3408.0
+COM-07,Fonda Doña Lupe (Gorditas y Tlacoyos),Gastronomía Tradicional,EST-03,Metepec,TEMP-MEDIA,Temporada Media (May-Jun),480.0,480,100.0,153600.0,21600.0,132000.0,3408.0
+COM-07,Fonda Doña Lupe (Gorditas y Tlacoyos),Gastronomía Tradicional,EST-03,Metepec,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),480.0,480,100.0,153600.0,21600.0,132000.0,3408.0
+COM-08,Mueblería y Cestería de Tule La Laguna,Artesanías y Muebles,EST-04,Lerma,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),220.0,220,100.0,114400.0,20900.0,93500.0,1364.0
+COM-08,Mueblería y Cestería de Tule La Laguna,Artesanías y Muebles,EST-04,Lerma,TEMP-MEDIA,Temporada Media (May-Jun),220.0,220,100.0,114400.0,20900.0,93500.0,1364.0
+COM-08,Mueblería y Cestería de Tule La Laguna,Artesanías y Muebles,EST-04,Lerma,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),220.0,220,100.0,114400.0,20900.0,93500.0,1364.0
+COM-09,Restaurante Rincón Mexiquense,Gastronomía Tradicional,EST-04,Lerma,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),480.0,480,100.0,153600.0,21600.0,132000.0,2976.0
+COM-09,Restaurante Rincón Mexiquense,Gastronomía Tradicional,EST-04,Lerma,TEMP-MEDIA,Temporada Media (May-Jun),480.0,480,100.0,153600.0,21600.0,132000.0,2976.0
+COM-09,Restaurante Rincón Mexiquense,Gastronomía Tradicional,EST-04,Lerma,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),480.0,480,100.0,153600.0,21600.0,132000.0,2976.0
+COM-10,Antojitos Doña Mary (Mercado Municipal Lerma),Gastronomía Tradicional,EST-04,Lerma,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),480.0,480,100.0,153600.0,21600.0,132000.0,2976.0
+COM-10,Antojitos Doña Mary (Mercado Municipal Lerma),Gastronomía Tradicional,EST-04,Lerma,TEMP-MEDIA,Temporada Media (May-Jun),480.0,480,100.0,153600.0,21600.0,132000.0,2976.0
+COM-10,Antojitos Doña Mary (Mercado Municipal Lerma),Gastronomía Tradicional,EST-04,Lerma,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),480.0,480,100.0,153600.0,21600.0,132000.0,2976.0
+COM-11,Bicicletas y Senderismo Humedales Lerma,Ecoturismo y Movilidad,EST-04,Lerma,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),340.0,340,100.0,88400.0,17000.0,71400.0,2108.0
+COM-11,Bicicletas y Senderismo Humedales Lerma,Ecoturismo y Movilidad,EST-04,Lerma,TEMP-MEDIA,Temporada Media (May-Jun),320.0,340,94.1,83200.0,16000.0,67200.0,1984.0
+COM-11,Bicicletas y Senderismo Humedales Lerma,Ecoturismo y Movilidad,EST-04,Lerma,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),95.0,340,27.9,24700.0,4750.0,19950.0,589.0
+COM-12,Chorizos Tradicionales Los Portales,Gastronomía y Embutidos,EST-02,Toluca de Lerdo,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),550.0,550,100.0,170500.0,17600.0,152900.0,4180.0
+COM-12,Chorizos Tradicionales Los Portales,Gastronomía y Embutidos,EST-02,Toluca de Lerdo,TEMP-MEDIA,Temporada Media (May-Jun),550.0,550,100.0,170500.0,17600.0,152900.0,4180.0
+COM-12,Chorizos Tradicionales Los Portales,Gastronomía y Embutidos,EST-02,Toluca de Lerdo,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),550.0,550,100.0,170500.0,17600.0,152900.0,4180.0
+COM-13,Dulcería Tradicional y Alfeñiques San José,Dulces Tradicionales,EST-02,Toluca de Lerdo,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),110.0,580,19.0,21450.0,2750.0,18700.0,836.0
+COM-13,Dulcería Tradicional y Alfeñiques San José,Dulces Tradicionales,EST-02,Toluca de Lerdo,TEMP-MEDIA,Temporada Media (May-Jun),110.0,580,19.0,21450.0,2750.0,18700.0,836.0
+COM-13,Dulcería Tradicional y Alfeñiques San José,Dulces Tradicionales,EST-02,Toluca de Lerdo,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),110.0,580,19.0,21450.0,2750.0,18700.0,836.0
+COM-14,Café y Librería El Labrador,Cafetería y Cultura,EST-02,Toluca de Lerdo,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),450.0,450,100.0,94500.0,13500.0,81000.0,3420.0
+COM-14,Café y Librería El Labrador,Cafetería y Cultura,EST-02,Toluca de Lerdo,TEMP-MEDIA,Temporada Media (May-Jun),239.6,450,53.3,50324.73,7189.25,43135.48,1821.28
+COM-14,Café y Librería El Labrador,Cafetería y Cultura,EST-02,Toluca de Lerdo,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),85.0,450,18.9,17850.0,2550.0,15300.0,646.0
+COM-15,Cervecería Artesanal Matlatzinca,Gastronomía y Bebidas,EST-02,Toluca de Lerdo,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),420.0,420,100.0,121800.0,15960.0,105840.0,3192.0
+COM-15,Cervecería Artesanal Matlatzinca,Gastronomía y Bebidas,EST-02,Toluca de Lerdo,TEMP-MEDIA,Temporada Media (May-Jun),420.0,420,100.0,121800.0,15960.0,105840.0,3192.0
+COM-15,Cervecería Artesanal Matlatzinca,Gastronomía y Bebidas,EST-02,Toluca de Lerdo,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),420.0,420,100.0,121800.0,15960.0,105840.0,3192.0

@@ -1,0 +1,5 @@
+id_estacion,municipio,presupuesto_tradicional_mxn,presupuesto_optimizado_mxn,visitas_tradicional,visitas_optimizadas,derrama_tradicional_mxn,derrama_optimizada_mxn,saturacion_tradicional_pct,saturacion_optimizada_pct,co2_optimizado_kg
+EST-01,Zinacantepec,25000.0,60221.18,1096.0,3493.0,261513.16,878060.56,22.2,93.9,29343.7
+EST-02,Toluca de Lerdo,137500.0,49999.99,6031.0,4015.0,955263.16,971755.48,83.8,69.1,30511.3
+EST-03,Metepec,57500.0,79999.99,2522.0,4306.0,599777.96,1160705.23,43.1,87.5,30572.8
+EST-04,Lerma,30000.0,59778.82,1316.0,4295.0,350822.37,1231050.0,29.2,93.5,26629.0

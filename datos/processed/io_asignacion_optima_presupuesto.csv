@@ -1,0 +1,49 @@
+id_estacion,destino,id_canal,nombre_canal,id_temporada,nombre_temporada,presupuesto_asignado_mxn
+EST-01,Zinacantepec,CAN-01,TikTok & Instagram Reels,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),9760.3
+EST-01,Zinacantepec,CAN-01,TikTok & Instagram Reels,TEMP-MEDIA,Temporada Media (May-Jun),20979.0
+EST-01,Zinacantepec,CAN-01,TikTok & Instagram Reels,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),14260.7
+EST-01,Zinacantepec,CAN-02,Google Maps & Search Geolocalizado,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-01,Zinacantepec,CAN-02,Google Maps & Search Geolocalizado,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-01,Zinacantepec,CAN-02,Google Maps & Search Geolocalizado,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-01,Zinacantepec,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-01,Zinacantepec,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-01,Zinacantepec,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-01,Zinacantepec,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),15221.18
+EST-01,Zinacantepec,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-01,Zinacantepec,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-02,Toluca Centro,CAN-01,TikTok & Instagram Reels,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-02,Toluca Centro,CAN-01,TikTok & Instagram Reels,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-02,Toluca Centro,CAN-01,TikTok & Instagram Reels,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-02,Toluca Centro,CAN-02,Google Maps & Search Geolocalizado,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-02,Toluca Centro,CAN-02,Google Maps & Search Geolocalizado,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-02,Toluca Centro,CAN-02,Google Maps & Search Geolocalizado,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-02,Toluca Centro,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),21111.55
+EST-02,Toluca Centro,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-MEDIA,Temporada Media (May-Jun),16257.98
+EST-02,Toluca Centro,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),12630.46
+EST-02,Toluca Centro,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-02,Toluca Centro,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-02,Toluca Centro,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-03,Metepec,CAN-01,TikTok & Instagram Reels,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),109.49
+EST-03,Metepec,CAN-01,TikTok & Instagram Reels,TEMP-MEDIA,Temporada Media (May-Jun),22994.51
+EST-03,Metepec,CAN-01,TikTok & Instagram Reels,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),19395.99
+EST-03,Metepec,CAN-02,Google Maps & Search Geolocalizado,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),37500.0
+EST-03,Metepec,CAN-02,Google Maps & Search Geolocalizado,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-03,Metepec,CAN-02,Google Maps & Search Geolocalizado,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-03,Metepec,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-03,Metepec,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-03,Metepec,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-03,Metepec,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-03,Metepec,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-03,Metepec,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-04,Lerma,CAN-01,TikTok & Instagram Reels,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-04,Lerma,CAN-01,TikTok & Instagram Reels,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-04,Lerma,CAN-01,TikTok & Instagram Reels,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-04,Lerma,CAN-02,Google Maps & Search Geolocalizado,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),0.0
+EST-04,Lerma,CAN-02,Google Maps & Search Geolocalizado,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-04,Lerma,CAN-02,Google Maps & Search Geolocalizado,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
+EST-04,Lerma,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),11595.72
+EST-04,Lerma,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-MEDIA,Temporada Media (May-Jun),19110.0
+EST-04,Lerma,CAN-03,Señalética QR en Andenes 'El Insurgente',TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),14294.28
+EST-04,Lerma,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-VALLE,Temporada Baja / Valle (Sep-Oct),14778.82
+EST-04,Lerma,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-MEDIA,Temporada Media (May-Jun),0.0
+EST-04,Lerma,CAN-04,Micro-Influencers de Cultura y Gastronomía,TEMP-ALTA,Temporada Alta Controlada (Nov-Dic),0.0
