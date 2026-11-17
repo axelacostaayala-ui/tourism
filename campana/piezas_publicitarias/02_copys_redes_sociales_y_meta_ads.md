@@ -6,7 +6,7 @@
 
 ---
 
-## 📱 1. Copys para Meta Ads (Facebook e Instagram)
+## 1. Copys para Meta Ads (Facebook e Instagram)
 
 ---
 
@@ -20,18 +20,18 @@
   * **Comportamiento:** Usuarios con smartphones Android gama media/alta y dispositivos iOS conectados a red 4G/5G.
 
 #### Variante A1 (Fórmula AIDA — Enfoque Gamificación):
-> **[Atención]** 🎮 ¿Y si explorar México fuera como jugar un RPG en el mundo real?  
+> **[Atención]**  ¿Y si explorar México fuera como jugar un RPG en el mundo real?  
 > **[Interés]** En las estaciones del Tren Insurgente duermen espíritus protectores inspirados en nahuales y alebrijes. Entre menos gente visite el lugar, ¡más raro y poderoso es el Guardián que despiertas!  
 > **[Deseo]** Desbloquea Cartas Vivas 2D coleccionables, gana puntos de explorador y canjea "Bendiciones" reales: chelas artesanales, cafés de cortesía y descuentos en fondas locales.  
-> **[Acción]** 📲 Descarga gratis *Guardianes del Territorio* y atrapa al Legendario de Zinacantepec este fin de semana.  
-> 👉 **[BOTÓN CTA: Instalar Ahora]**
+> **[Acción]**  Descarga gratis *Guardianes del Territorio* y atrapa al Legendario de Zinacantepec este fin de semana.  
+>  **[BOTÓN CTA: Instalar Ahora]**
 
 #### Variante A2 (Fórmula PAS — Enfoque Presupuesto y Rutina):
 > **[Problema]** ¿Harto de los mismos cafés abarrotados de la Roma y pagar fortunas en transporte?  
 > **[Agitación]** Quedarte encerrado en fin de semana da flojera, pero viajar en auto particular a Valle de Bravo sale en más de $1,500 pesos entre gasolina, casetas y tráfico infernal.  
 > **[Solución]** Súbete al Tren Insurgente por $15 pesos, abre el radar de *Guardianes del Territorio* y descubre destinos secretos guiado por pistas de un Nahual con Inteligencia Artificial. ¡Tu viaje te paga el almuerzo con descuentos exclusivos!  
-> 🚆 Arma tu squad y sal de la rutina hoy.  
-> 👉 **[BOTÓN CTA: Más Información / Descargar]**
+>  Arma tu squad y sal de la rutina hoy.  
+>  **[BOTÓN CTA: Más Información / Descargar]**
 
 ---
 
@@ -45,20 +45,20 @@
   * **Intereses clave:** *Paseos familiares, Barbacoa, Museos comunitarios, Descuentos familiares, DIF, Fin de semana económico*.
 
 #### Variante B1 (Fórmula AIDA — Ahorro Familiar y Convivencia):
-> **[Atención]** 👨‍👩‍👧‍👦 El plan de domingo que tus hijos amarán y tu bolsillo agradecerá.  
+> **[Atención]**  El plan de domingo que tus hijos amarán y tu bolsillo agradecerá.  
 > **[Interés]** Olvídate de los centros comerciales caros y las filas aburridas. Con *Guardianes del Territorio*, viajar en el Tren Insurgente se convierte en una búsqueda del tesoro familiar.  
 > **[Deseo]** Tus hijos aprenden historia y artesanías mientras escanean códigos en plazas y museos. ¿La recompensa? Descuentos de hasta 20% en barbacoa de hoyo, fondas tradicionales y dulces típicos.  
-> **[Acción]** 🎟️ ¡Un día completo de paseo familiar por menos de $350 pesos en total!  
-> 👉 **[BOTÓN CTA: Descargar Guía Gratuita]**
+> **[Acción]**  ¡Un día completo de paseo familiar por menos de $350 pesos en total!  
+>  **[BOTÓN CTA: Descargar Guía Gratuita]**
 
 #### Variante B2 (Fórmula 4U — Ultra-específico y Útil):
-> 🌟 **Domingo cultural sin gastar de más:**  
+>  **Domingo cultural sin gastar de más:**  
 > 1. Sube al Tren Insurgente en tu estación más cercana.  
 > 2. Abre *Guardianes del Territorio* y sigue las pistas del Nahual.  
 > 3. Visita la Parroquia de Zinacantepec o los talleres de Metepec.  
 > 4. Canjea tu cupón de $65-$90 pesos de descuento directo al pagar tu comida.  
-> 👨‍🍳 Cero comisiones para las fondas de barrio y 100% diversión para los niños.  
-> 👉 **[BOTÓN CTA: Usar la App Gratis]**
+>  Cero comisiones para las fondas de barrio y 100% diversión para los niños.  
+>  **[BOTÓN CTA: Usar la App Gratis]**
 
 ---
 
@@ -73,14 +73,14 @@
 > **El patrimonio vivo del Estado de México como nunca lo habías experimentado.**  
 > Más allá de las guías turísticas comerciales, existe un territorio forjado por manos alfareras, cantera virreinal y humedales ancestrales.  
 > *Guardianes del Territorio* integra la tecnología móvil con el respeto a nuestras raíces:  
-> 📜 **La Ventana del Tiempo:** Compara los monumentos actuales con postales de archivo de 1910 mediante nuestro filtro histórico interactivo.  
-> 🏺 **Apoyo Directo:** Cada ruta te lleva a los talleres tradicionales de la Familia Soteno y cesteros de tule, con incentivos para comprar directamente sin intermediarios.  
-> 🚆 Viaja cómodo y sustentable a través del Tren Interurbano.  
-> 👉 **[BOTÓN CTA: Explorar la Ruta Patrimonial]**
+>  **La Ventana del Tiempo:** Compara los monumentos actuales con postales de archivo de 1910 mediante nuestro filtro histórico interactivo.  
+>  **Apoyo Directo:** Cada ruta te lleva a los talleres tradicionales de la Familia Soteno y cesteros de tule, con incentivos para comprar directamente sin intermediarios.  
+>  Viaja cómodo y sustentable a través del Tren Interurbano.  
+>  **[BOTÓN CTA: Explorar la Ruta Patrimonial]**
 
 ---
 
-## 🔍 2. Anuncios de Búsqueda en Google (Google Search Ads)
+##  2. Anuncios de Búsqueda en Google (Google Search Ads)
 
 ### Grupo de Anuncios: Turismo Cultural y Escapadas Tren Insurgente
 * **Palabras Clave (Keywords):** `[tren insurgente turismo]`, `[que hacer en metepec fin de semana]`, `[turismo toluca tren]`, `"visitar cosmovitral horario"`, `"talleres alfareria metepec"`, `[pueblos magicos cerca de cdmx en tren]`.
@@ -111,13 +111,13 @@ URL Final: https://guardianesdelterritorio.mx/familias
 
 Para distribución orgánica en grupos vecinales de WhatsApp, asociaciones de comerciantes y boletines de los Ayuntamientos de Toluca, Metepec, Lerma y Zinacantepec:
 
-> *¡Vecinas y vecinos del Valle de Toluca!* 🚆🌿  
+> *¡Vecinas y vecinos del Valle de Toluca!* 
 > Ya está disponible la aplicación oficial **Guardianes del Territorio**, una iniciativa impulsada con estudiantes universitarios para apoyar a nuestros comercios locales y promover paseos seguros en el Tren Insurgente.  
 > 
-> 📱 **¿Cómo funciona?**  
+>  **¿Cómo funciona?**  
 > 1. Descargas la app gratis en tu celular.  
 > 2. Visitas lugares bonitos de nuestro municipio (la plaza, el museo o la iglesia).  
 > 3. Desbloqueas cupones de descuento válidos en fondas, panaderías tradicionales y talleres de artesanos de nuestra comunidad.  
 > 
-> 🏪 **Si tienes un negocio o taller familiar:** ¡La afiliación es 100% gratuita y no requieres terminal bancaria!  
-> Descarga la aplicación y apoya a nuestra economía local aquí: 👉 *[enlace.mx/guardianes]*
+>  **Si tienes un negocio o taller familiar:** ¡La afiliación es 100% gratuita y no requieres terminal bancaria!  
+> Descarga la aplicación y apoya a nuestra economía local aquí:  *[enlace.mx/guardianes]*

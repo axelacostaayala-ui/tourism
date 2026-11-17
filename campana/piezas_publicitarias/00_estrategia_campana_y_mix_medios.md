@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 1. Concepto Creativo Central
+##  1. Concepto Creativo Central
 
 > **"Despierta a los Guardianes: Tu Tren a las Leyendas Vivas"**
 
@@ -16,7 +16,7 @@ A diferencia de las campañas turísticas convencionales que promocionan fotos g
 
 ---
 
-## 💰 2. Presupuesto Óptimo y Mix de Canales (Articulación con I.O.)
+## 2. Presupuesto Óptimo y Mix de Canales (Articulación con I.O.)
 
 La asignación del presupuesto trimestral de **$250,000.00 MXN** está matemáticamente optimizada por el modelo de Programación Lineal de Investigación de Operaciones (`notebooks/05_optimizacion_io/01_optimizacion_presupuesto_y_flujos.py`) para maximizar la derrama en destinos emergentes respetando la capacidad de carga de las fondas y talleres:
 
@@ -42,7 +42,7 @@ La asignación del presupuesto trimestral de **$250,000.00 MXN** está matemáti
 
 ---
 
-## 🔄 3. Embudo de Conversión (Funnel de Mercadotecnia)
+##  3. Embudo de Conversión (Funnel de Mercadotecnia)
 
 ```
 ┌─────────────────────────────────────────────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@ La asignación del presupuesto trimestral de **$250,000.00 MXN** está matemáti
 
 ---
 
-## 📅 4. Calendario de Despliegue por Temporadas
+## 4. Calendario de Despliegue por Temporadas
 
 1. **Fase 1: Temporada Valle (Septiembre – Octubre):**  
    * Enfoque: Activación con bono de desestacionalización ($\theta = 1.30$). Pauta agresiva en universitarios (CAN-01) y adultos mayores (CAN-03) entre semana y fines de semana para reactivar la ocupación ociosa en comercios tradicionales.

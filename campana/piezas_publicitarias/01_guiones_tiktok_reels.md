@@ -6,7 +6,7 @@
 
 ---
 
-## 🎬 GUIÓN 01: "El Secreto de los $15 Pesos en Tren"
+##  GUIÓN 01: "El Secreto de los $15 Pesos en Tren"
 * **Público Objetivo:** Buyer Persona 02 (Joven Mochilero / Gen Z / Universitarios).
 * **Objetivo de Marketing:** Viralidad en TOFU (Atracción), despertar curiosidad por la mecánica lúdica y descargas masivas de la app.
 * **Formato:** Vertical (9:16), 38 segundos de duración, ritmo dinámico con cortes rápidos (estilo vlog de viaje TikTok).
@@ -16,7 +16,7 @@
 | :---: | :--- | :--- | :--- | :--- |
 | **0:00 - 0:03** | **Hook:** Primer plano del creador subiendo al Tren Insurgente en Santa Fe con audífonos puestos. Cámara rápida hacia el andén. | *"POV: Viajas en tren por $15 pesos y terminas cazando alebrijes mágicos"* | **Voz en off:** "¿Sabías que por menos de lo que cuesta un café puedes desbloquear monstruos legendarios en el mundo real?" | Sonido de "Whoosh" + silbato del tren. |
 | **0:04 - 0:09** | Pantalla del teléfono mostrando el **Radar de la app** con el barrido polar y el pulso violeta de *Xinán*. | *Radar en tiempo real (Modo Offline)* | **Voz en off:** "Nos subimos al Tren Insurgente y abrimos Guardianes del Territorio. El radar detectó una criatura legendaria en Zinacantepec." | Beep pulsante del radar polar. |
-| **0:10 - 0:17** | Toma estética caminando por el atrio del Ex-Convento de Zinacantepec. El creador sostiene el celular y escanea el código QR en la Pila Bautismal. | *Geofencing: 50m confirmados ✅* | **Voz en off:** "La app te da pistas en verso con un Nahual con Inteligencia Artificial. Caminamos 300 metros, hallamos el monumento y... pum." | Sonido de escaneo láser: *BEEP-CHIME*. |
+| **0:10 - 0:17** | Toma estética caminando por el atrio del Ex-Convento de Zinacantepec. El creador sostiene el celular y escanea el código QR en la Pila Bautismal. | *Geofencing: 50m confirmados * | **Voz en off:** "La app te da pistas en verso con un Nahual con Inteligencia Artificial. Caminamos 300 metros, hallamos el monumento y... pum." | Sonido de escaneo láser: *BEEP-CHIME*. |
 | **0:18 - 0:26** | **Clímax:** La pantalla del móvil muestra la Carta Viva 2D de *Xinán* brillando con microanimación holográfica a 60 fps. | *¡CARTA LEGENDARIA DESPERTADA! ★★★★* | **Voz en off:** "¡Despertamos a Xinán! La carta es una locura de arte 2D y además te da una Bendición real..." | Efecto de destello mágico (*Sparkle*). |
 | **0:27 - 0:34** | Toma en la fonda tradicional comiendo barbacoa y consomé caliente. El locatario muestra el código OTP de 4 dígitos validado con una sonrisa. | *15% de descuento en barbacoa local* | **Voz en off:** "...un cupón de descuento en comida deliciosa del pueblo sin pagar comisiones raras." | Sonido de caja registradora clásica (*Ka-ching*). |
 | **0:35 - 0:38** | **CTA:** Creador en el andén de regreso sonriendo a cámara con el teléfono en mano mostrando la colección. | *Descarga gratis en el link del perfil* | **Voz en off:** "El link está en mi bio. ¿Aceptas el reto de encontrar al Legendario este fin de semana?" | Transición a logo de *Guardianes del Territorio*. |
@@ -25,7 +25,7 @@
 
 ---
 
-## 🎬 GUIÓN 02: "El Domingo Familiar Perfecto (y Barato) en Edomex"
+##  GUIÓN 02: "El Domingo Familiar Perfecto (y Barato) en Edomex"
 * **Público Objetivo:** Buyer Persona 01 (Familia Trabajadora).
 * **Objetivo de Marketing:** Mostrar seguridad, ahorro tangible y diversión para niños sin caer en la rutina de centros comerciales.
 * **Formato:** Vertical (9:16), 42 segundos de duración, estilo testimonial familiar cálido y accesible.
@@ -44,7 +44,7 @@
 
 ---
 
-## 🎬 GUIÓN 03: "Viajar en el Tiempo por el Valle de Toluca"
+## GUIÓN 03: "Viajar en el Tiempo por el Valle de Toluca"
 * **Público Objetivo:** Buyer Persona 03 (Turista Cultural / Profesionistas).
 * **Objetivo de Marketing:** Posicionar el valor patrimonial, la precisión histórica y la función "Ventana del Tiempo".
 * **Formato:** Vertical (9:16), 35 segundos, cinematográfico, planos cuidados con luz natural dorada.
@@ -62,7 +62,7 @@
 
 ---
 
-## 🎬 GUIÓN 04: "Caminar sin Prisa: Las Tradiciones que no Mueren"
+## GUIÓN 04: "Caminar sin Prisa: Las Tradiciones que no Mueren"
 * **Público Objetivo:** Buyer Persona 04 (Adulto Mayor / Jubilados y sus familias).
 * **Objetivo de Marketing:** Generar confianza, mostrar accesibilidad y demostrar la sencillez del código OTP sin fricción digital.
 * **Formato:** Vertical (9:16), 36 segundos, ritmo pausado, colores cálidos y ambiente acogedor.

@@ -6,7 +6,7 @@
 
 ---
 
-## 🚉 1. Estrategia Territorial por Estación
+## 1. Estrategia Territorial por Estación
 
 A diferencia de la publicidad estática que muestra el mismo mensaje en toda la línea, nuestra estrategia aplica **marketing contextual geolocalizado**: el mensaje cambia según la estación donde se encuentra el pasajero y su dirección de viaje.
 
@@ -30,7 +30,7 @@ A diferencia de la publicidad estática que muestra el mismo mensaje en toda la 
 
 ---
 
-## 📐 2. Formato 01: Mupi Digital en Andenes de Embarque (1080 x 1920 px)
+## 2. Formato 01: Mupi Digital en Andenes de Embarque (1080 x 1920 px)
 
 Ubicado en las mamparas de cristal de los andenes centrales de las estaciones **Santa Fe** y **Observatorio**, impactando a más de 45,000 usuarios diarios en espera del tren.
 
@@ -55,7 +55,7 @@ Ubicado en las mamparas de cristal de los andenes centrales de las estaciones **
 │    BAJA EN LA SIGUIENTE ESTACIÓN, EXPLORA A PIE       │
 │         Y DESBLOQUEA TU COMIDA CON DESCUENTO          │
 │                                                       │
-│        ┌─────────────┐   📱 ESCANEA Y JUEGA EN VIVO    │
+│        ┌─────────────┐     ESCANEA Y JUEGA EN VIVO    │
 │        │ [CÓDIGO QR] │   • Conexión WiFi libre en andén│
 │        │  GIGANTE    │   • Modo Offline rural incluido │
 │        │  ANTIFRAUDE │   • Cero comisiones para fondas │
@@ -73,7 +73,7 @@ Ubicado en las mamparas de cristal de los andenes centrales de las estaciones **
 
 ---
 
-## 🗿 3. Formato 02: Tótem Físico Interactivo de Salida (Vestíbulo de Estaciones)
+##  3. Formato 02: Tótem Físico Interactivo de Salida (Vestíbulo de Estaciones)
 
 Instalado en los torniquetes de salida de las estaciones intermedias (**Zinacantepec, Toluca Centro, Metepec y Lerma**), orientado al viajero que acaba de descender del vagón y busca opciones de comida, cultura y transporte local.
 
@@ -103,14 +103,14 @@ Instalado en los torniquetes de salida de las estaciones intermedias (**Zinacant
 
 ---
 
-## 🚇 4. Formato 03: Dovelas y Paneles Interiores de Vagones (45 x 28 cm)
+##  4. Formato 03: Dovelas y Paneles Interiores de Vagones (45 x 28 cm)
 
 Ubicados a la altura de la vista de los pasajeros sentados en los vagones eléctricos de *El Insurgente*:
 
 ### Texto del Panel Interior (Lectura Rápida en Trayecto):
 ```text
 ┌───────────────────────────────────────────────────────────────────┐
-│ 🚆 MIENTRAS LLEGAS A TU DESTINO...                                │
+│    MIENTRAS LLEGAS A TU DESTINO...                                │
 │                                                                   │
 │ ¿Sabías que viajar en este tren evita 7.6 kg de CO₂ frente a un   │
 │ coche particular y que en la próxima parada puedes desbloquear un │
@@ -127,7 +127,7 @@ Ubicados a la altura de la vista de los pasajeros sentados en los vagones eléct
 
 ---
 
-## ♿ 5. Criterios de Accesibilidad Universal y Señalética Inclusiva
+##  5. Criterios de Accesibilidad Universal y Señalética Inclusiva
 
 1. **Inclusión para Adultos Mayores (Buyer Persona 04):**  
    * Los tótems físicos incluyen tipografía de gran cuerpo (mínimo 24 pt en instrucciones) y alto contraste cromático para pasajeros con baja agudeza visual.
