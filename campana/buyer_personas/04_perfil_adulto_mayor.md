@@ -14,7 +14,7 @@
 
 ---
 
-## 1. 📋 Perfil Demográfico y Socioeconómico
+## 1. Perfil Demográfico y Socioeconómico
 
 * **Edad:** 60 a 74 años (Tercera edad activa e independientes).
 * **Estado civil:** Casados, viudos o en grupos de amistades de jubilados.
@@ -26,7 +26,7 @@
 
 ---
 
-## 2. 📊 Huella Cuantitativa en el Proyecto (Métricas de Telemetría)
+## 2. Huella Cuantitativa en el Proyecto (Métricas de Telemetría)
 
 Datos del pipeline analítico (`datos/processed/eventos_jugadores_telemetria.csv`):
 * **Participación total:** 738 eventos de telemetría (9.2% del total de la muestra).
@@ -39,7 +39,7 @@ Datos del pipeline analítico (`datos/processed/eventos_jugadores_telemetria.csv
 
 ---
 
-## 3. 🧠 Psicografía, Metas y Frustraciones
+## 3. Psicografía, Metas y Frustraciones
 
 ### Metas y Deseos:
 * **Envejecimiento activo y movilidad saludable:** Caminar 4,000 a 7,000 pasos diarios en entornos seguros, limpios y llanos para mantener su salud cardiovascular.
@@ -56,7 +56,7 @@ Datos del pipeline analítico (`datos/processed/eventos_jugadores_telemetria.csv
 
 ---
 
-## 4. 🗺️ Customer Journey Map (Recorrido de Don Fernando y Doña Rosa)
+## 4. Customer Journey Map (Recorrido de Don Fernando y Doña Rosa)
 
 ```
 [1. DESCUBRIMIENTO] ──► Módulo de orientación al pasajero en la terminal del Tren Insurgente; reciben folleto con letra grande.
@@ -79,7 +79,7 @@ Datos del pipeline analítico (`datos/processed/eventos_jugadores_telemetria.csv
 
 ---
 
-## 5. 📣 Estrategia de Mercadotecnia Digital y Accesibilidad
+## 5. Estrategia de Mercadotecnia Digital y Accesibilidad
 
 | Parámetro | Definición Estratégica |
 | :--- | :--- |

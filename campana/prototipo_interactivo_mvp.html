@@ -1,0 +1,1539 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guardianes del Territorio | Prototipo Interactivo MVP</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #3b82f6;
+      --secondary: #059669;
+      --accent: #f59e0b;
+      --legendary: #8b5cf6;
+      --epic: #ec4899;
+      --rare: #0284c7;
+      --common: #64748b;
+      --bg-dark: #0f172a;
+      --card-bg: #1e293b;
+      --surface: #334155;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --success: #10b981;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      background: #090d16;
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px 10px;
+      overflow-x: hidden;
+    }
+
+    /* CONTENEDOR PRINCIPAL / ENTORNO DE PRESENTACIÓN */
+    .showcase-container {
+      width: 100%;
+      max-width: 1100px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .presentation-panel {
+      flex: 1 1 380px;
+      padding: 20px;
+      background: rgba(30, 41, 59, 0.7);
+      border-radius: 20px;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+    }
+
+    .presentation-panel h1 {
+      font-size: 1.8rem;
+      font-weight: 800;
+      background: linear-gradient(135deg, #60a5fa, #34d399, #fbbf24);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+    }
+
+    .badge-uca {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      background: rgba(59, 130, 246, 0.2);
+      color: #93c5fd;
+      border: 1px solid rgba(59, 130, 246, 0.4);
+      margin-bottom: 15px;
+    }
+
+    .presentation-panel p {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      line-height: 1.5;
+      margin-bottom: 15px;
+    }
+
+    .flow-guide {
+      margin-top: 15px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .flow-step {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      padding: 10px 14px;
+      background: rgba(15, 23, 42, 0.6);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.05);
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+
+    .flow-step:hover, .flow-step.active-step {
+      border-color: var(--primary-light);
+      background: rgba(59, 130, 246, 0.15);
+      transform: translateX(4px);
+    }
+
+    .flow-step-num {
+      width: 26px;
+      height: 26px;
+      border-radius: 50%;
+      background: var(--primary-light);
+      color: white;
+      font-size: 0.8rem;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .guardian-selector-panel {
+      margin-top: 20px;
+      padding-top: 15px;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .guardian-pill-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .guardian-btn {
+      padding: 8px 10px;
+      border-radius: 8px;
+      background: var(--surface);
+      color: var(--text);
+      border: 1px solid transparent;
+      font-size: 0.8rem;
+      font-weight: 600;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s ease;
+    }
+
+    .guardian-btn:hover, .guardian-btn.selected {
+      border-color: var(--accent);
+      background: rgba(245, 158, 11, 0.15);
+      color: #fde68a;
+    }
+
+    /* CHASIS DEL TELÉFONO MÓVIL (MOCKUP REALISTA) */
+    .phone-mockup {
+      width: 375px;
+      height: 740px;
+      background: #000;
+      border-radius: 46px;
+      border: 10px solid #27272a;
+      box-shadow: 0 25px 60px -15px rgba(0, 0, 0, 0.9), 0 0 40px rgba(59, 130, 246, 0.25);
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      overflow: hidden;
+      flex-shrink: 0;
+    }
+
+    /* Isla dinámica / Speaker */
+    .notch {
+      width: 120px;
+      height: 24px;
+      background: #18181b;
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      border-bottom-left-radius: 16px;
+      border-bottom-right-radius: 16px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+    }
+
+    .notch-camera {
+      width: 8px;
+      height: 8px;
+      background: #09090b;
+      border-radius: 50%;
+      border: 1px solid #3f3f46;
+    }
+
+    /* Barra de estado */
+    .status-bar {
+      height: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 24px 0 24px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #e4e4e7;
+      z-index: 90;
+      background: transparent;
+    }
+
+    .status-icons {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+    }
+
+    /* Contenido de la Pantalla del Teléfono */
+    .phone-screen {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      background: var(--bg-dark);
+      position: relative;
+      overflow-y: auto;
+      overflow-x: hidden;
+    }
+
+    /* Vistas / Tabs del Móvil */
+    .screen-view {
+      display: none;
+      flex: 1;
+      flex-direction: column;
+      padding: 16px;
+      animation: fadeIn 0.3s ease forwards;
+    }
+
+    .screen-view.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* BARRA DE NAVEGACIÓN INFERIOR (BOTTOM TAB BAR) */
+    .tab-bar {
+      height: 64px;
+      background: rgba(15, 23, 42, 0.95);
+      backdrop-filter: blur(10px);
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      padding-bottom: 8px;
+      z-index: 95;
+    }
+
+    .tab-item {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 3px;
+      color: var(--text-muted);
+      font-size: 0.65rem;
+      font-weight: 600;
+      cursor: pointer;
+      background: none;
+      border: none;
+      transition: color 0.2s ease;
+    }
+
+    .tab-item.active {
+      color: var(--primary-light);
+    }
+
+    .tab-item svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* --------------------------------------------------------------------- */
+    /* PANTALLA 1: RADAR DE EXPLORACIÓN */
+    /* --------------------------------------------------------------------- */
+    .radar-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .location-badge {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      background: rgba(255, 255, 255, 0.06);
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: #38bdf8;
+    }
+
+    .offline-tag {
+      font-size: 0.65rem;
+      padding: 3px 8px;
+      border-radius: 10px;
+      background: rgba(16, 185, 129, 0.15);
+      color: #34d399;
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      font-weight: 700;
+    }
+
+    .radar-viewport {
+      height: 250px;
+      background: radial-gradient(circle at center, #1e293b 0%, #0f172a 100%);
+      border-radius: 24px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      box-shadow: inset 0 0 30px rgba(0, 0, 0, 0.6);
+    }
+
+    .radar-circle {
+      position: absolute;
+      border-radius: 50%;
+      border: 1px dashed rgba(56, 189, 248, 0.25);
+    }
+
+    .rc-1 { width: 70px; height: 70px; }
+    .rc-2 { width: 140px; height: 140px; }
+    .rc-3 { width: 210px; height: 210px; }
+
+    .radar-sweep {
+      position: absolute;
+      width: 250px;
+      height: 250px;
+      border-radius: 50%;
+      background: conic-gradient(from 0deg, rgba(56, 189, 248, 0.35) 0deg, rgba(56, 189, 248, 0) 60deg);
+      animation: rotateSweep 4s linear infinite;
+    }
+
+    @keyframes rotateSweep {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .radar-user-pin {
+      width: 16px;
+      height: 16px;
+      background: #38bdf8;
+      border: 3px solid white;
+      border-radius: 50%;
+      z-index: 10;
+      box-shadow: 0 0 15px #38bdf8;
+    }
+
+    .radar-guardian-blip {
+      position: absolute;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      z-index: 20;
+      animation: pulseBlip 2s infinite ease-in-out;
+      transform: translate(45px, -50px);
+    }
+
+    .radar-guardian-blip.legendary-blip {
+      background: rgba(139, 92, 246, 0.35);
+      border: 2px solid #a855f7;
+      box-shadow: 0 0 20px #8b5cf6;
+    }
+
+    .radar-guardian-blip.epic-blip {
+      background: rgba(236, 72, 153, 0.35);
+      border: 2px solid #ec4899;
+      box-shadow: 0 0 20px #ec4899;
+    }
+
+    @keyframes pulseBlip {
+      0%, 100% { transform: translate(45px, -50px) scale(1); }
+      50% { transform: translate(45px, -50px) scale(1.15); }
+    }
+
+    .blip-icon {
+      font-size: 1rem;
+    }
+
+    /* Pista del Nahual */
+    .nahual-card {
+      margin-top: 14px;
+      background: linear-gradient(135deg, rgba(49, 46, 129, 0.6), rgba(30, 41, 59, 0.8));
+      border: 1px solid rgba(129, 140, 248, 0.3);
+      border-radius: 18px;
+      padding: 12px 14px;
+      position: relative;
+    }
+
+    .nahual-header {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+
+    .nahual-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background: #4f46e5;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.9rem;
+      border: 1px solid #818cf8;
+    }
+
+    .nahual-title {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: #c7d2fe;
+    }
+
+    .nahual-quote {
+      font-size: 0.82rem;
+      line-height: 1.4;
+      color: #e0e7ff;
+      font-style: italic;
+    }
+
+    .action-btn-main {
+      margin-top: 12px;
+      width: 100%;
+      padding: 12px;
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      border: none;
+      border-radius: 14px;
+      font-size: 0.88rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      box-shadow: 0 4px 15px rgba(37, 99, 235, 0.4);
+      transition: all 0.2s ease;
+    }
+
+    .action-btn-main:hover {
+      background: linear-gradient(135deg, #3b82f6, #2563eb);
+      transform: translateY(-1px);
+    }
+
+    /* --------------------------------------------------------------------- */
+    /* PANTALLA 2: MISIÓN Y VALIDACIÓN POI (SCANNER QR) */
+    /* --------------------------------------------------------------------- */
+    .mission-stepper {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-bottom: 14px;
+    }
+
+    .mission-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px 12px;
+      background: rgba(255, 255, 255, 0.04);
+      border-radius: 12px;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+
+    .mission-item.completed {
+      border-color: rgba(16, 185, 129, 0.4);
+      background: rgba(16, 185, 129, 0.08);
+    }
+
+    .poi-info-left {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .poi-badge-num {
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      background: var(--surface);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 0.75rem;
+      font-weight: 700;
+    }
+
+    .completed .poi-badge-num {
+      background: var(--success);
+      color: white;
+    }
+
+    .poi-text h4 {
+      font-size: 0.8rem;
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .poi-text p {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+    }
+
+    .poi-status-tag {
+      font-size: 0.65rem;
+      font-weight: 700;
+      color: #38bdf8;
+    }
+
+    /* Visor de Cámara QR Simulado */
+    .qr-scanner-frame {
+      height: 220px;
+      background: #09090b;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      border: 2px dashed rgba(59, 130, 246, 0.5);
+    }
+
+    .scanner-reticle {
+      width: 140px;
+      height: 140px;
+      border: 2px solid rgba(255, 255, 255, 0.8);
+      border-radius: 16px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .scanner-laser {
+      position: absolute;
+      width: 100%;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, #ef4444, #f87171, transparent);
+      box-shadow: 0 0 10px #ef4444;
+      animation: scanLaser 2s infinite ease-in-out;
+    }
+
+    @keyframes scanLaser {
+      0% { top: 10px; opacity: 0.4; }
+      50% { top: 120px; opacity: 1; }
+      100% { top: 10px; opacity: 0.4; }
+    }
+
+    .geofence-alert {
+      margin-top: 10px;
+      padding: 8px 12px;
+      background: rgba(16, 185, 129, 0.15);
+      border: 1px solid rgba(16, 185, 129, 0.3);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.72rem;
+      color: #a7f3d0;
+    }
+
+    /* --------------------------------------------------------------------- */
+    /* PANTALLA 3: CARTA VIVA 2D COLECCIONABLE */
+    /* --------------------------------------------------------------------- */
+    .card-reveal-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 5px 0;
+    }
+
+    .living-card {
+      width: 250px;
+      height: 360px;
+      border-radius: 22px;
+      padding: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      position: relative;
+      overflow: hidden;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+
+    .living-card:hover {
+      transform: translateY(-4px) scale(1.02);
+    }
+
+    /* Estilos por Rareza Inversa */
+    .card-legendary {
+      background: linear-gradient(145deg, #311042, #180d28);
+      border: 2px solid #c084fc;
+      box-shadow: 0 0 30px rgba(192, 132, 252, 0.4), inset 0 0 20px rgba(192, 132, 252, 0.2);
+    }
+
+    .card-epic {
+      background: linear-gradient(145deg, #3d0c24, #1f0b18);
+      border: 2px solid #f472b6;
+      box-shadow: 0 0 30px rgba(244, 114, 182, 0.4), inset 0 0 20px rgba(244, 114, 182, 0.2);
+    }
+
+    .card-rare {
+      background: linear-gradient(145deg, #0c273d, #081624);
+      border: 2px solid #38bdf8;
+      box-shadow: 0 0 25px rgba(56, 189, 248, 0.35);
+    }
+
+    .card-shimmer {
+      position: absolute;
+      top: -50%;
+      left: -50%;
+      width: 200%;
+      height: 200%;
+      background: linear-gradient(45deg, transparent 45%, rgba(255, 255, 255, 0.15) 50%, transparent 55%);
+      animation: shimmerMove 3.5s infinite;
+      pointer-events: none;
+    }
+
+    @keyframes shimmerMove {
+      0% { transform: translateX(-60%) translateY(-60%); }
+      100% { transform: translateX(60%) translateY(60%); }
+    }
+
+    .card-top-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 5;
+    }
+
+    .card-rarity-badge {
+      font-size: 0.65rem;
+      font-weight: 800;
+      letter-spacing: 1px;
+      padding: 3px 8px;
+      border-radius: 12px;
+      text-transform: uppercase;
+    }
+
+    .badge-legendary { background: #8b5cf6; color: white; }
+    .badge-epic { background: #ec4899; color: white; }
+    .badge-rare { background: #0284c7; color: white; }
+
+    .card-origin-tag {
+      font-size: 0.65rem;
+      color: rgba(255, 255, 255, 0.7);
+      font-weight: 600;
+    }
+
+    .card-art-box {
+      width: 100%;
+      height: 155px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      z-index: 5;
+    }
+
+    .card-art-box svg {
+      width: 130px;
+      height: 130px;
+      filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.7));
+      animation: floatArt 4s ease-in-out infinite;
+    }
+
+    @keyframes floatArt {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-8px); }
+    }
+
+    .card-footer {
+      z-index: 5;
+    }
+
+    .card-name {
+      font-size: 1.15rem;
+      font-weight: 800;
+      color: white;
+      margin-bottom: 2px;
+    }
+
+    .card-subtitle {
+      font-size: 0.7rem;
+      color: var(--accent);
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .card-stats-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 4px;
+      background: rgba(0, 0, 0, 0.35);
+      border-radius: 8px;
+      padding: 5px;
+      text-align: center;
+    }
+
+    .c-stat-title {
+      font-size: 0.55rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+    }
+
+    .c-stat-val {
+      font-size: 0.75rem;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+
+    /* --------------------------------------------------------------------- */
+    /* PANTALLA 4: WALLET DE BENDICIONES Y CANJE SIN HARDWARE */
+    /* --------------------------------------------------------------------- */
+    .wallet-hero {
+      background: linear-gradient(135deg, #064e3b, #022c22);
+      border: 1px solid #059669;
+      border-radius: 20px;
+      padding: 16px;
+      position: relative;
+      margin-bottom: 14px;
+    }
+
+    .wallet-hero h3 {
+      font-size: 0.95rem;
+      font-weight: 800;
+      color: #a7f3d0;
+      margin-bottom: 4px;
+    }
+
+    .discount-highlight {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: #34d399;
+      margin: 6px 0;
+    }
+
+    .shop-target {
+      font-size: 0.75rem;
+      color: #e2e8f0;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    .otp-validation-box {
+      background: rgba(15, 23, 42, 0.75);
+      border-radius: 16px;
+      padding: 14px;
+      border: 1px solid rgba(255, 255, 255, 0.08);
+      text-align: center;
+    }
+
+    .otp-code {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 1.8rem;
+      font-weight: 900;
+      letter-spacing: 5px;
+      color: #fde047;
+      margin: 8px 0;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 8px 14px;
+      border-radius: 10px;
+      border: 1px dashed #f59e0b;
+      display: inline-block;
+    }
+
+    .otp-timer {
+      font-size: 0.7rem;
+      color: var(--text-muted);
+      margin-bottom: 10px;
+    }
+
+    .simulate-merchant-btn {
+      width: 100%;
+      padding: 10px;
+      background: #059669;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      font-size: 0.78rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    .simulate-merchant-btn:hover {
+      background: #10b981;
+    }
+
+    .merchant-receipt-modal {
+      display: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      backdrop-filter: blur(8px);
+      z-index: 200;
+      padding: 24px;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .receipt-card {
+      background: white;
+      color: #0f172a;
+      border-radius: 20px;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+      animation: popModal 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    }
+
+    @keyframes popModal {
+      from { transform: scale(0.85); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+
+    /* --------------------------------------------------------------------- */
+    /* PANTALLA 5: VENTANA DEL TIEMPO (COMPARATIVA HISTÓRICA) */
+    /* --------------------------------------------------------------------- */
+    .time-window-box {
+      height: 240px;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      margin-bottom: 14px;
+    }
+
+    .time-img-present {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      background: linear-gradient(135deg, #1e3a8a, #0284c7);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .time-img-past {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(135deg, #78350f, #451a03);
+      filter: sepia(0.8) contrast(1.1);
+      border-right: 3px solid #f59e0b;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      color: #fef3c7;
+      overflow: hidden;
+      transition: width 0.1s linear;
+    }
+
+    .time-slider {
+      width: 100%;
+      margin-top: 10px;
+      accent-color: #f59e0b;
+    }
+
+    /* Responsivo para pantallas pequeñas */
+    @media (max-width: 800px) {
+      .showcase-container {
+        flex-direction: column-reverse;
+      }
+      .phone-mockup {
+        width: 340px;
+        height: 690px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<div class="showcase-container">
+
+  <!-- PANEL DE PRESENTACIÓN EJECUTIVA PARA EL PROFESOR / EVALUADOR -->
+  <div class="presentation-panel">
+    <span class="badge-uca">UCA: Mercadotecnia Digital &amp; UX · 5to Semestre URC</span>
+    <h1>Guardianes del Territorio</h1>
+    <p><strong>Prototipo Interactivo del MVP Móvil</strong> para la redistribución sustentable de los flujos turísticos en el Corredor del Tren Insurgente.</p>
+    
+    <div class="flow-guide">
+      <div class="flow-step active-step" onclick="switchPhoneTab('tab-radar', 0)">
+        <div class="flow-step-num">1</div>
+        <div>
+          <div style="font-size:0.82rem; font-weight:700;">Radar de Exploración &amp; El Nahual</div>
+          <div style="font-size:0.72rem; color:var(--text-muted);">Detección de Guardianes dormidos y pistas en verso.</div>
+        </div>
+      </div>
+
+      <div class="flow-step" onclick="switchPhoneTab('tab-mission', 1)">
+        <div class="flow-step-num">2</div>
+        <div>
+          <div style="font-size:0.82rem; font-weight:700;">Misión Territorial &amp; Validación QR</div>
+          <div style="font-size:0.72rem; color:var(--text-muted);">Geofencing físico (radio 50m) y escáner antifraude.</div>
+        </div>
+      </div>
+
+      <div class="flow-step" onclick="switchPhoneTab('tab-card', 2)">
+        <div class="flow-step-num">3</div>
+        <div>
+          <div style="font-size:0.82rem; font-weight:700;">Carta Viva 2D Despertada</div>
+          <div style="font-size:0.72rem; color:var(--text-muted);">Rareza Inversa, microanimación 60fps y atributos culturales.</div>
+        </div>
+      </div>
+
+      <div class="flow-step" onclick="switchPhoneTab('tab-wallet', 3)">
+        <div class="flow-step-num">4</div>
+        <div>
+          <div style="font-size:0.82rem; font-weight:700;">Wallet &amp; Canje Sin Hardware (OTP)</div>
+          <div style="font-size:0.72rem; color:var(--text-muted);">Validación en fondas comunitarias sin comisiones ni TPV.</div>
+        </div>
+      </div>
+
+      <div class="flow-step" onclick="switchPhoneTab('tab-timewindow', 4)">
+        <div class="flow-step-num">5</div>
+        <div>
+          <div style="font-size:0.82rem; font-weight:700;">Visor "Ventana del Tiempo"</div>
+          <div style="font-size:0.72rem; color:var(--text-muted);">Memoria histórica: siglo XX vs. presente interactivo.</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SELECTOR DE GUARDIÁN PILOTO -->
+    <div class="guardian-selector-panel">
+      <div style="font-size:0.78rem; font-weight:700; color:#cbd5e1;">Seleccionar Guardián Piloto a Probar:</div>
+      <div class="guardian-pill-grid">
+        <button class="guardian-btn selected" onclick="selectGuardian('xinan')">
+          ❄️ <strong>Xinán</strong><br><small style="color:#c084fc;">Legendario · Zinacantepec</small>
+        </button>
+        <button class="guardian-btn" onclick="selectGuardian('barrotepetl')">
+          🏺 <strong>Barrotépetl</strong><br><small style="color:#f472b6;">Épico · Metepec</small>
+        </button>
+        <button class="guardian-btn" onclick="selectGuardian('acatl')">
+          🪷 <strong>Acatl-Tule</strong><br><small style="color:#f472b6;">Épico · Lerma</small>
+        </button>
+        <button class="guardian-btn" onclick="selectGuardian('mosco')">
+          ✨ <strong>Mosco</strong><br><small style="color:#38bdf8;">Raro · Toluca Centro</small>
+        </button>
+      </div>
+    </div>
+
+    <div style="margin-top:16px; font-size:0.7rem; color:#64748b; line-height:1.4;">
+      💡 <em>Tip de Evaluación:</em> Puedes interactuar directamente con la pantalla del celular: simular el escaneo QR, despertar la carta y redimir el cupón.
+    </div>
+  </div>
+
+  <!-- CHASIS DEL CELULAR -->
+  <div class="phone-mockup">
+    <!-- Isla Dinámica -->
+    <div class="notch">
+      <div class="notch-camera"></div>
+    </div>
+
+    <!-- Barra de Estado Móvil -->
+    <div class="status-bar">
+      <span>11:42</span>
+      <div class="status-icons">
+        <span>📶 5G</span>
+        <span>🔋 94%</span>
+      </div>
+    </div>
+
+    <!-- PANTALLA DINÁMICA DEL TELÉFONO -->
+    <div class="phone-screen">
+
+      <!-- =================================================================== -->
+      <!-- PANTALLA 1: RADAR DE EXPLORACIÓN -->
+      <!-- =================================================================== -->
+      <div id="view-radar" class="screen-view active">
+        <div class="radar-header">
+          <div class="location-badge">
+            <span>📍</span>
+            <span id="txt-radar-station">EST-01 Zinacantepec</span>
+          </div>
+          <span class="offline-tag">Modo Offline Activo 💾</span>
+        </div>
+
+        <div class="radar-viewport">
+          <div class="radar-circle rc-1"></div>
+          <div class="radar-circle rc-2"></div>
+          <div class="radar-circle rc-3"></div>
+          <div class="radar-sweep"></div>
+          <div class="radar-user-pin"></div>
+          
+          <div id="radar-blip" class="radar-guardian-blip legendary-blip" onclick="switchPhoneTab('tab-mission', 1)">
+            <span class="blip-icon" id="txt-blip-icon">❄️</span>
+          </div>
+        </div>
+
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-top:8px;">
+          <span style="font-size:0.72rem; color:var(--text-muted);">Proximidad: <strong style="color:#38bdf8;" id="txt-distancia">340 metros</strong></span>
+          <span style="font-size:0.72rem; color:#a855f7; font-weight:700;" id="txt-rareza-radar">Rareza: Legendario ★★★★</span>
+        </div>
+
+        <!-- Pista del Nahual Guía -->
+        <div class="nahual-card">
+          <div class="nahual-header">
+            <div class="nahual-avatar">🐺</div>
+            <div>
+              <div class="nahual-title">El Nahual Guía (Asistente IA)</div>
+              <div style="font-size:0.65rem; color:#93c5fd;">Pista en verso geolocalizada</div>
+            </div>
+          </div>
+          <div class="nahual-quote" id="txt-nahual-verse">
+            "Donde el agua bendita durmió en piedra de un solo tajo, busca el coyote de escarcha que vigila el volcán desde abajo."
+          </div>
+        </div>
+
+        <button class="action-btn-main" onclick="switchPhoneTab('tab-mission', 1)">
+          <span>Iniciar Misión Territorial</span>
+          <span>➜</span>
+        </button>
+      </div>
+
+      <!-- =================================================================== -->
+      <!-- PANTALLA 2: MISIÓN Y ESCÁNER QR -->
+      <!-- =================================================================== -->
+      <div id="view-mission" class="screen-view">
+        <div style="margin-bottom:10px;">
+          <h2 style="font-size:1rem; font-weight:800;" id="txt-mission-title">Misión: El Despertar de Xinán</h2>
+          <p style="font-size:0.7rem; color:var(--text-muted);">Completa la visita física a los Puntos de Interés comunitarios.</p>
+        </div>
+
+        <div class="mission-stepper">
+          <div class="mission-item completed">
+            <div class="poi-info-left">
+              <div class="poi-badge-num">✓</div>
+              <div class="poi-text">
+                <h4 id="txt-poi-1-title">Museo Virreinal San Miguel</h4>
+                <p>Presencia validada por GPS</p>
+              </div>
+            </div>
+            <span class="poi-status-tag" style="color:#34d399;">Completado</span>
+          </div>
+
+          <div class="mission-item" style="border-color:#38bdf8; background:rgba(56,189,248,0.08);">
+            <div class="poi-info-left">
+              <div class="poi-badge-num" style="background:#0284c7; color:white;">2</div>
+              <div class="poi-text">
+                <h4 id="txt-poi-2-title">Pila Bautismal Monolítica (S. XVI)</h4>
+                <p id="txt-poi-2-sub">Escanear código QR en sitio</p>
+              </div>
+            </div>
+            <span class="poi-status-tag">Actual 📍</span>
+          </div>
+        </div>
+
+        <!-- Visor Scanner QR -->
+        <div class="qr-scanner-frame" id="scanner-box">
+          <div class="scanner-reticle">
+            <div class="scanner-laser"></div>
+            <!-- Mockup de QR -->
+            <svg width="80" height="80" viewBox="0 0 24 24" fill="#cbd5e1" opacity="0.4">
+              <path d="M2 2h8v8H2V2zm2 2v4h4V4H4zm10-2h8v8h-8V2zm2 2v4h4V4h-4zM2 14h8v8H2v-8zm2 2v4h4v-4H4zm14 3h2v3h-2v-3zm0-5h4v2h-4v-2zm-4 0h2v4h-2v-4zm2 2h2v2h-2v-2zm0 4h2v2h-2v-2zm-2-2h2v2h-2v-2z"/>
+            </svg>
+          </div>
+          <div style="font-size:0.68rem; color:#94a3b8; margin-top:8px;">Alinea el código QR del monumento</div>
+        </div>
+
+        <div class="geofence-alert">
+          <span>🛡️</span>
+          <span><strong>Geofencing Validado:</strong> Estás a 14 metros del POI. Señal GPS verificada.</span>
+        </div>
+
+        <button class="action-btn-main" style="background:linear-gradient(135deg, #059669, #047857);" onclick="simulateQRValidation()">
+          <span>📷 Validar Código QR en Sitio</span>
+        </button>
+      </div>
+
+      <!-- =================================================================== -->
+      <!-- PANTALLA 3: CARTA VIVA 2D COLECCIONABLE -->
+      <!-- =================================================================== -->
+      <div id="view-card" class="screen-view">
+        <div style="text-align:center; margin-bottom:8px;">
+          <span style="font-size:0.68rem; color:#34d399; font-weight:800; letter-spacing:1px;">¡MISIÓN COMPLETADA!</span>
+          <h2 style="font-size:1.05rem; font-weight:800; color:white;">El Guardián ha Despertado</h2>
+        </div>
+
+        <div class="card-reveal-container">
+          <!-- LA CARTA VIVA 2D -->
+          <div id="living-card-elem" class="living-card card-legendary">
+            <div class="card-shimmer"></div>
+
+            <div class="card-top-bar">
+              <span id="card-badge" class="card-rarity-badge badge-legendary">Legendario ★★★★</span>
+              <span id="card-origin" class="card-origin-tag">Zinacantepec, Edomex</span>
+            </div>
+
+            <!-- Arte Vectorial del Guardián -->
+            <div class="card-art-box" id="card-art-container">
+              <!-- Arte SVG Dinámico -->
+              <svg id="svg-guardian-art" viewBox="0 0 100 100">
+                <!-- Coyote de Escarcha Xinán -->
+                <polygon points="50,15 65,38 82,30 75,55 88,75 60,78 50,92 40,78 12,75 25,55 18,30 35,38" fill="#818cf8" stroke="#e0e7ff" stroke-width="2"/>
+                <circle cx="42" cy="48" r="4" fill="#38bdf8"/>
+                <circle cx="58" cy="48" r="4" fill="#38bdf8"/>
+                <polygon points="50,60 45,68 55,68" fill="#1e1b4b"/>
+                <!-- Cristales de Escarcha -->
+                <path d="M50,22 L50,32 M45,27 L55,27" stroke="#38bdf8" stroke-width="2"/>
+              </svg>
+            </div>
+
+            <div class="card-footer">
+              <div class="card-name" id="card-txt-name">Xinán</div>
+              <div class="card-subtitle" id="card-txt-sub">El Guardián de la Escarcha y el Volcán</div>
+              
+              <div class="card-stats-grid">
+                <div>
+                  <div class="c-stat-title">IST Rareza</div>
+                  <div class="c-stat-val" id="c-stat-ist">0.89 (Alta)</div>
+                </div>
+                <div>
+                  <div class="c-stat-title">Comunidad</div>
+                  <div class="c-stat-val">100% Local</div>
+                </div>
+                <div>
+                  <div class="c-stat-title">CO₂ Evitado</div>
+                  <div class="c-stat-val">3.4 kg</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <button class="action-btn-main" style="margin-top:10px; background:linear-gradient(135deg, #7c3aed, #6d28d9);" onclick="switchPhoneTab('tab-wallet', 3)">
+          <span>Reclamar Bendición Económica 🎁</span>
+        </button>
+      </div>
+
+      <!-- =================================================================== -->
+      <!-- PANTALLA 4: WALLET DE BENDICIONES & CANJE SIN HARDWARE -->
+      <!-- =================================================================== -->
+      <div id="view-wallet" class="screen-view">
+        <div style="margin-bottom:10px;">
+          <h2 style="font-size:1rem; font-weight:800;">Wallet de Bendiciones</h2>
+          <p style="font-size:0.7rem; color:var(--text-muted);">Cupones de comercio local canjeables sin hardware.</p>
+        </div>
+
+        <div class="wallet-hero">
+          <div style="font-size:0.65rem; color:#6ee7b7; font-weight:700; text-transform:uppercase;">Cupón Activo Desbloqueado</div>
+          <h3 id="wallet-txt-title">Bendición de Xinán</h3>
+          <div class="discount-highlight" id="wallet-txt-discount">15% de Descuento</div>
+          <div class="shop-target">
+            <span>🏪</span>
+            <span id="wallet-txt-shop">Barbacoa El Rinconcito Serrano (Zinacantepec)</span>
+          </div>
+        </div>
+
+        <!-- Módulo de Validación OTP de 4 Dígitos -->
+        <div class="otp-validation-box">
+          <div style="font-size:0.75rem; font-weight:700; color:#e2e8f0;">Código OTP para el Locatario</div>
+          <div style="font-size:0.68rem; color:var(--text-muted);">Muestra este código al pagar en la fonda o taller</div>
+          
+          <div class="otp-code" id="txt-otp-code">BND-4821</div>
+          
+          <div class="otp-timer">⏱️ Válido por: <span style="color:#f59e0b; font-weight:700;">23:45 min</span></div>
+
+          <button class="simulate-merchant-btn" onclick="openMerchantModal()">
+            <span>Simular Canje por Don Ramón (Locatario) 👨‍🍳</span>
+          </button>
+        </div>
+
+        <div style="margin-top:12px; font-size:0.68rem; color:var(--text-muted); text-align:center;">
+          🔒 <em>Cero comisiones bancarias para el artesano. Validación criptográfica offline.</em>
+        </div>
+      </div>
+
+      <!-- =================================================================== -->
+      <!-- PANTALLA 5: VENTANA DEL TIEMPO -->
+      <!-- =================================================================== -->
+      <div id="view-timewindow" class="screen-view">
+        <div style="margin-bottom:10px;">
+          <h2 style="font-size:1rem; font-weight:800;">La Ventana del Tiempo</h2>
+          <p style="font-size:0.7rem; color:var(--text-muted);">Desliza la barra para viajar un siglo en el pasado.</p>
+        </div>
+
+        <div class="time-window-box">
+          <div class="time-img-present">
+            <div style="font-size:2rem; margin-bottom:6px;">📸</div>
+            <div style="font-weight:800; font-size:0.9rem;">Presente (Año 2026)</div>
+            <div style="font-size:0.7rem; opacity:0.8;">Plaza y Atrio Restaurado</div>
+          </div>
+
+          <div id="past-layer" class="time-img-past" style="width: 50%;">
+            <div style="font-size:2rem; margin-bottom:6px;">📜</div>
+            <div style="font-weight:800; font-size:0.85rem; color:#fef3c7;">Año 1910</div>
+            <div style="font-size:0.65rem; color:#fde68a;">Archivo Fototeca Nacional</div>
+          </div>
+        </div>
+
+        <div style="padding:0 6px;">
+          <div style="display:flex; justify-content:space-between; font-size:0.7rem; color:var(--text-muted);">
+            <span>Pasado (1910)</span>
+            <span>Presente (2026)</span>
+          </div>
+          <input type="range" min="0" max="100" value="50" class="time-slider" oninput="updateTimeSlider(this.value)">
+        </div>
+
+        <div class="nahual-card" style="margin-top:14px;">
+          <div class="nahual-header">
+            <div class="nahual-avatar">⏳</div>
+            <div class="nahual-title">Memoria Histórica Comunitaria</div>
+          </div>
+          <p style="font-size:0.75rem; color:#e2e8f0; line-height:1.4;">
+            "Hace cien años, los arrieros y peregrinos descansaban en este mismo atrio antes de cruzar los pasos fríos del Xinantécatl."
+          </p>
+        </div>
+      </div>
+
+    </div>
+
+    <!-- MODAL DE RECIBO DEL COMERCIANTE (SIMULACIÓN LOCATARIO) -->
+    <div id="merchant-modal" class="merchant-receipt-modal" onclick="closeMerchantModal()">
+      <div class="receipt-card" onclick="event.stopPropagation()">
+        <div style="font-size:2.2rem; margin-bottom:6px;">🎉</div>
+        <h3 style="font-size:1.1rem; font-weight:800; color:#064e3b;">¡Bendición Canjeada con Éxito!</h3>
+        <p style="font-size:0.75rem; color:#64748b; margin-top:4px;">Registro en el Portal Locatario Sin Hardware</p>
+        
+        <div style="background:#f1f5f9; border-radius:12px; padding:12px; margin:14px 0; text-align:left; font-size:0.8rem;">
+          <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+            <span>Locatario:</span>
+            <strong id="receipt-shop-name">Fonda El Rinconcito</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+            <span>Código OTP:</span>
+            <strong style="color:#059669;" id="receipt-otp-code">BND-4821</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; margin-bottom:4px;">
+            <span>Descuento aplicado:</span>
+            <strong style="color:#2563eb;">15% ($68.00 MXN)</strong>
+          </div>
+          <div style="display:flex; justify-content:space-between; border-top:1px dashed #cbd5e1; padding-top:4px; margin-top:4px;">
+            <span>Comisión cobrada:</span>
+            <strong style="color:#059669;">$0.00 (Gratis)</strong>
+          </div>
+        </div>
+
+        <button class="action-btn-main" style="background:#0f172a;" onclick="closeMerchantModal()">
+          Aceptar y Cerrar
+        </button>
+      </div>
+    </div>
+
+    <!-- BARRA DE NAVEGACIÓN INFERIOR (BOTTOM TABS) -->
+    <div class="tab-bar">
+      <button class="tab-item active" id="tab-radar" onclick="switchPhoneTab('tab-radar', 0)">
+        <svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm0-14c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 10c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4z"/></svg>
+        <span>Radar</span>
+      </button>
+
+      <button class="tab-item" id="tab-mission" onclick="switchPhoneTab('tab-mission', 1)">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span>Misión POI</span>
+      </button>
+
+      <button class="tab-item" id="tab-card" onclick="switchPhoneTab('tab-card', 2)">
+        <svg viewBox="0 0 24 24"><path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V5h14v14zm-5-7l-3 3.72L9 13l-3 4h12l-4-5z"/></svg>
+        <span>Carta Viva</span>
+      </button>
+
+      <button class="tab-item" id="tab-wallet" onclick="switchPhoneTab('tab-wallet', 3)">
+        <svg viewBox="0 0 24 24"><path d="M21 18v1c0 1.1-.9 2-2 2H5c-1.11 0-2-.9-2-2V5c0-1.1.89-2 2-2h14c1.1 0 2 .9 2 2v1h-9c-1.11 0-2 .9-2 2v8c0 1.1.89 2 2 2h9zm-9-2h10V8H12v8zm4-2.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5z"/></svg>
+        <span>Wallet</span>
+      </button>
+
+      <button class="tab-item" id="tab-timewindow" onclick="switchPhoneTab('tab-timewindow', 4)">
+        <svg viewBox="0 0 24 24"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/></svg>
+        <span>Tiempo</span>
+      </button>
+    </div>
+  </div>
+
+</div>
+
+<!-- SCRIPT DE INTERACTIVIDAD DEL PROTOTIPO -->
+<script>
+  // BASE DE DATOS LOCAL DE LOS 4 GUARDIANES PILOTO
+  const GUARDIANES_DATA = {
+    xinan: {
+      name: "Xinán",
+      title: "El Guardián de la Escarcha y el Volcán",
+      station: "EST-01 Zinacantepec",
+      rarity: "Legendario ★★★★",
+      rarityClass: "card-legendary",
+      badgeClass: "badge-legendary",
+      blipClass: "legendary-blip",
+      icon: "❄️",
+      distancia: "340 metros",
+      ist: "0.89 (Máxima)",
+      co2: "3.4 kg",
+      origin: "Zinacantepec, Edomex",
+      verse: '"Donde el agua bendita durmió en piedra de un solo tajo, busca el coyote de escarcha que vigila el volcán desde abajo."',
+      poi1: "Museo Virreinal San Miguel",
+      poi2: "Pila Bautismal Monolítica (S. XVI)",
+      poi2Sub: "Escanear código QR en sitio",
+      discount: "15% de Descuento",
+      shop: "Barbacoa El Rinconcito Serrano",
+      otp: "BND-4821",
+      artSvg: `
+        <polygon points="50,15 65,38 82,30 75,55 88,75 60,78 50,92 40,78 12,75 25,55 18,30 35,38" fill="#818cf8" stroke="#e0e7ff" stroke-width="2"/>
+        <circle cx="42" cy="48" r="4" fill="#38bdf8"/>
+        <circle cx="58" cy="48" r="4" fill="#38bdf8"/>
+        <polygon points="50,60 45,68 55,68" fill="#1e1b4b"/>
+        <path d="M50,22 L50,32 M45,27 L55,27" stroke="#38bdf8" stroke-width="2"/>
+      `
+    },
+    barrotepetl: {
+      name: "Barrotépetl",
+      title: "El Espíritu Alfarero",
+      station: "EST-03 Metepec",
+      rarity: "Épico ★★★",
+      rarityClass: "card-epic",
+      badgeClass: "badge-epic",
+      blipClass: "epic-blip",
+      icon: "🏺",
+      distancia: "210 metros",
+      ist: "0.72 (Alta)",
+      co2: "2.8 kg",
+      origin: "Pueblo Mágico de Metepec",
+      verse: '"En el barro policromado donde florece el Árbol de la Vida, la sirena canta al viajero que camina sin prisa."',
+      poi1: "Capilla del Calvario (Cerro de los Magueyes)",
+      poi2: "Taller Artesanal Familia Soteno",
+      poi2Sub: "Escanear QR en entrada del taller",
+      discount: "20% en Pieza Artesanal",
+      shop: "Taller de Alfarería Familia Soteno",
+      otp: "MET-3914",
+      artSvg: `
+        <circle cx="50" cy="50" r="32" fill="#ec4899" stroke="#fbcfe8" stroke-width="2"/>
+        <path d="M30,50 Q50,20 70,50 Q50,80 30,50" fill="#f43f5e" opacity="0.8"/>
+        <circle cx="50" cy="50" r="10" fill="#fbbf24"/>
+        <path d="M50,15 L50,5 M50,85 L50,95 M15,50 L5,50 M85,50 L95,50" stroke="#fbcfe8" stroke-width="3"/>
+      `
+    },
+    acatl: {
+      name: "Acatl-Tule",
+      title: "La Ninfa de los Humedales",
+      station: "EST-04 Lerma",
+      rarity: "Épico ★★★",
+      rarityClass: "card-epic",
+      badgeClass: "badge-epic",
+      blipClass: "epic-blip",
+      icon: "🪷",
+      distancia: "420 metros",
+      ist: "0.78 (Alta)",
+      co2: "3.1 kg",
+      origin: "Ciénegas de Lerma",
+      verse: '"Entre juncos y tule donde descansan las aves viajeras, hallarás el espíritu verde que cuida las aguas primeras."',
+      poi1: "Mirador Ecológico Ciénegas de Lerma",
+      poi2: "Taller de Cestería de Tule Tultepec",
+      poi2Sub: "Validar QR junto al embarcadero",
+      discount: "2x1 en Renta de Bicicletas",
+      shop: "Senderismo y Bicis Humedales Lerma",
+      otp: "LER-8812",
+      artSvg: `
+        <ellipse cx="50" cy="60" rx="35" ry="20" fill="#059669" opacity="0.6"/>
+        <path d="M40,70 Q45,30 50,15 Q55,30 60,70" fill="#34d399"/>
+        <circle cx="50" cy="22" r="6" fill="#fef08a"/>
+        <path d="M25,65 Q35,40 45,55" stroke="#10b981" stroke-width="3" fill="none"/>
+        <path d="M75,65 Q65,40 55,55" stroke="#10b981" stroke-width="3" fill="none"/>
+      `
+    },
+    mosco: {
+      name: "Mosco Matlatzinca",
+      title: "El Murmullo de los Portales",
+      station: "EST-02 Toluca Centro",
+      rarity: "Raro ★★",
+      rarityClass: "card-rare",
+      badgeClass: "badge-rare",
+      blipClass: "card-rare",
+      icon: "✨",
+      distancia: "180 metros",
+      ist: "0.45 (Moderada)",
+      co2: "1.9 kg",
+      origin: "Toluca Centro Histórico",
+      verse: '"Bajo el vitral de fuego y entre arcos de cantera, el sabor del chorizo verde premia a quien se esmera."',
+      poi1: "Cosmovitral Jardín Botánico",
+      poi2: "Los Portales de Toluca",
+      poi2Sub: "Escanear QR en dulcería típica",
+      discount: "10% en Embutidos Tradicionales",
+      shop: "Chorizos Tradicionales Los Portales",
+      otp: "TOL-1205",
+      artSvg: `
+        <circle cx="50" cy="50" r="28" fill="#0284c7" stroke="#38bdf8" stroke-width="2"/>
+        <polygon points="50,25 60,40 50,55 40,40" fill="#38bdf8"/>
+        <path d="M25,50 Q10,35 25,20 Q40,35 25,50" fill="#7dd3fc" opacity="0.7"/>
+        <path d="M75,50 Q90,35 75,20 Q60,35 75,50" fill="#7dd3fc" opacity="0.7"/>
+      `
+    }
+  };
+
+  let currentGuardianKey = "xinan";
+
+  // Cambio de pestaña en el celular
+  function switchPhoneTab(tabId, stepIndex) {
+    // Actualizar tabs móviles
+    document.querySelectorAll('.tab-item').forEach(t => t.classList.remove('active'));
+    document.getElementById(tabId).classList.add('active');
+
+    // Mapear tab con vista
+    const viewMap = {
+      'tab-radar': 'view-radar',
+      'tab-mission': 'view-mission',
+      'tab-card': 'view-card',
+      'tab-wallet': 'view-wallet',
+      'tab-timewindow': 'view-timewindow'
+    };
+
+    document.querySelectorAll('.screen-view').forEach(v => v.classList.remove('active'));
+    document.getElementById(viewMap[tabId]).classList.add('active');
+
+    // Actualizar guía de la izquierda
+    const flowSteps = document.querySelectorAll('.flow-step');
+    flowSteps.forEach(s => s.classList.remove('active-step'));
+    if (flowSteps[stepIndex]) {
+      flowSteps[stepIndex].classList.add('active-step');
+    }
+  }
+
+  // Selección de Guardián
+  function selectGuardian(key) {
+    currentGuardianKey = key;
+    const g = GUARDIANES_DATA[key];
+
+    // Actualizar botones de selector
+    document.querySelectorAll('.guardian-btn').forEach(b => b.classList.remove('selected'));
+    event.currentTarget.classList.add('selected');
+
+    // Actualizar Pantalla 1: Radar
+    document.getElementById('txt-radar-station').innerText = g.station;
+    document.getElementById('txt-blip-icon').innerText = g.icon;
+    document.getElementById('txt-distancia').innerText = g.distancia;
+    document.getElementById('txt-rareza-radar').innerText = "Rareza: " + g.rarity;
+    document.getElementById('txt-nahual-verse').innerText = g.verse;
+    
+    const blip = document.getElementById('radar-blip');
+    blip.className = "radar-guardian-blip " + g.blipClass;
+
+    // Actualizar Pantalla 2: Misión
+    document.getElementById('txt-mission-title').innerText = "Misión: El Despertar de " + g.name;
+    document.getElementById('txt-poi-1-title').innerText = g.poi1;
+    document.getElementById('txt-poi-2-title').innerText = g.poi2;
+    document.getElementById('txt-poi-2-sub').innerText = g.poi2Sub;
+
+    // Actualizar Pantalla 3: Carta
+    const card = document.getElementById('living-card-elem');
+    card.className = "living-card " + g.rarityClass;
+    
+    const badge = document.getElementById('card-badge');
+    badge.className = "card-rarity-badge " + g.badgeClass;
+    badge.innerText = g.rarity;
+
+    document.getElementById('card-origin').innerText = g.origin;
+    document.getElementById('card-txt-name').innerText = g.name;
+    document.getElementById('card-txt-sub').innerText = g.title;
+    document.getElementById('c-stat-ist').innerText = g.ist;
+    document.getElementById('svg-guardian-art').innerHTML = g.artSvg;
+
+    // Actualizar Pantalla 4: Wallet
+    document.getElementById('wallet-txt-title').innerText = "Bendición de " + g.name;
+    document.getElementById('wallet-txt-discount').innerText = g.discount;
+    document.getElementById('wallet-txt-shop').innerText = g.shop;
+    document.getElementById('txt-otp-code').innerText = g.otp;
+    document.getElementById('receipt-shop-name').innerText = g.shop;
+    document.getElementById('receipt-otp-code').innerText = g.otp;
+  }
+
+  // Simulación de escaneo QR
+  function simulateQRValidation() {
+    const box = document.getElementById('scanner-box');
+    box.style.borderColor = "#10b981";
+    box.style.background = "rgba(16, 185, 129, 0.2)";
+
+    setTimeout(() => {
+      box.style.borderColor = "rgba(59, 130, 246, 0.5)";
+      box.style.background = "#09090b";
+      // Saltar a la pantalla de carta viva
+      switchPhoneTab('tab-card', 2);
+    }, 600);
+  }
+
+  // Modal del Comerciante
+  function openMerchantModal() {
+    document.getElementById('merchant-modal').style.display = 'flex';
+  }
+
+  function closeMerchantModal() {
+    document.getElementById('merchant-modal').style.display = 'none';
+  }
+
+  // Slider Ventana del Tiempo
+  function updateTimeSlider(val) {
+    document.getElementById('past-layer').style.width = val + '%';
+  }
+</script>
+
+</body>
+</html>

@@ -14,7 +14,7 @@
 
 ---
 
-## 1. 📋 Perfil Demográfico y Socioeconómico
+## 1.  Perfil Demográfico y Socioeconómico
 
 * **Edades de los padres:** 34 a 44 años.
 * **Hijos:** 1 a 3 hijos en edad escolar primaria y secundaria (6 a 15 años).
@@ -26,7 +26,7 @@
 
 ---
 
-## 2. 📊 Huella Cuantitativa en el Proyecto (Métricas de Telemetría)
+## 2. Huella Cuantitativa en el Proyecto (Métricas de Telemetría)
 
 Datos extraídos del pipeline de eventos (`datos/processed/eventos_jugadores_telemetria.csv`):
 * **Participación total:** 3,610 eventos de juego (45.1% del total).
@@ -39,7 +39,7 @@ Datos extraídos del pipeline de eventos (`datos/processed/eventos_jugadores_tel
 
 ---
 
-## 3. 🧠 Psicografía, Metas y Frustraciones
+## 3.  Psicografía, Metas y Frustraciones
 
 ### Metas y Deseos:
 * **Convivencia familiar sana:** Crear recuerdos positivos con sus hijos fuera de las pantallas pasivas (televisión y consolas de videojuegos en casa).
@@ -56,7 +56,7 @@ Datos extraídos del pipeline de eventos (`datos/processed/eventos_jugadores_tel
 
 ---
 
-## 4. 🗺️ Customer Journey Map (Recorrido de la Familia Morales)
+## 4. Customer Journey Map (Recorrido de la Familia Morales)
 
 ```
 [1. DESCUBRIMIENTO] ──► Ve afiche en andén del Tren Insurgente: "Descubre a Xinán y come con descuento".
@@ -79,7 +79,7 @@ Datos extraídos del pipeline de eventos (`datos/processed/eventos_jugadores_tel
 
 ---
 
-## 5. 📣 Estrategia de Mercadotecnia Digital y Adquisición
+## 5. Estrategia de Mercadotecnia Digital y Adquisición
 
 | Parámetro | Definición Estratégica |
 | :--- | :--- |

@@ -14,7 +14,7 @@
 
 ---
 
-## 1. 📋 Perfil Demográfico y Socioeconómico
+## 1.  Perfil Demográfico y Socioeconómico
 
 * **Edad:** 35 a 52 años.
 * **Estado civil:** Casados o en pareja sin hijos pequeños en casa (o con hijos ya universitarios).
@@ -26,7 +26,7 @@
 
 ---
 
-## 2. 📊 Huella Cuantitativa en el Proyecto (Métricas de Telemetría)
+## 2.  Huella Cuantitativa en el Proyecto (Métricas de Telemetría)
 
 Datos del dataset procesado (`datos/processed/eventos_jugadores_telemetria.csv`):
 * **Participación total:** 1,087 eventos registrados (13.6% del total).
@@ -39,7 +39,7 @@ Datos del dataset procesado (`datos/processed/eventos_jugadores_telemetria.csv`)
 
 ---
 
-## 3. 🧠 Psicografía, Metas y Frustraciones
+## 3. Psicografía, Metas y Frustraciones
 
 ### Metas y Deseos:
 * **Inmersión y aprendizaje profundo:** Conocer la historia no contada de las comunidades originarias matlatzincas, otomíes y la herencia colonial franciscana.
@@ -56,7 +56,7 @@ Datos del dataset procesado (`datos/processed/eventos_jugadores_telemetria.csv`)
 
 ---
 
-## 4. 🗺️ Customer Journey Map (Recorrido de Mariana y Javier)
+## 4. Customer Journey Map (Recorrido de Mariana y Javier)
 
 ```
 [1. DESCUBRIMIENTO] ──► Nota en portal de divulgación cultural: "La app que rescata la memoria del Valle de Toluca".
@@ -79,7 +79,7 @@ Datos del dataset procesado (`datos/processed/eventos_jugadores_telemetria.csv`)
 
 ---
 
-## 5. 📣 Estrategia de Mercadotecnia Digital y Adquisición
+## 5. Estrategia de Mercadotecnia Digital y Adquisición
 
 | Parámetro | Definición Estratégica |
 | :--- | :--- |

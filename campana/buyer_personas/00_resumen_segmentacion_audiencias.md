@@ -6,7 +6,7 @@
 
 ---
 
-## 📊 1. Justificación Cuantitativa de la Segmentación (Data-Driven)
+##  1. Justificación Cuantitativa de la Segmentación (Data-Driven)
 
 A diferencia de la mercadotecnia turística tradicional que suele basarse en suposiciones demográficas generales, la definición de nuestras audiencias está estrictamente sustentada en los **microdatos de telemetría y aforos del proyecto** (`datos/processed/eventos_jugadores_telemetria.csv`, $N = 8,000$ eventos registrados en 500 usuarios piloto):
 
@@ -20,7 +20,7 @@ A diferencia de la mercadotecnia turística tradicional que suele basarse en sup
 
 ---
 
-## 🎯 2. Matriz Comparativa de Motivaciones y Canales
+##  2. Matriz Comparativa de Motivaciones y Canales
 
 ```
 ┌────────────────────────────────────────────────────────────────────────────────────────┐
@@ -46,7 +46,7 @@ A diferencia de la mercadotecnia turística tradicional que suele basarse en sup
 
 ---
 
-## 📁 3. Índice de Fichas Individuales
+##  3. Índice de Fichas Individuales
 
 Cada una de las siguientes fichas técnicas detalla el perfil psicográfico, demográfico, dolores del usuario (*pain points*), mapa de viaje (*Customer Journey Map*), arquetipo de jugador según la taxonomía de Bartle y la estrategia de captación publicitaria:
 
