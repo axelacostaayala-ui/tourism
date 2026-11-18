@@ -5,7 +5,7 @@ UCA: Minería de Datos y Aprendizaje de Máquina
 
 Este script ejecuta:
 1. Cálculo formal del Índice de Saturación Turística (IST) por estación/municipio.
-2. Ejecución del Algoritmo de Rareza Inversa para determinar la categoría de cada Guardián.
+2. Ejecución del Algoritmo de Rareza Inversa para determinar la categoría de cada Mexamonster.
 3. Análisis de patrones temporales de afluencia (Días laborales vs Fines de semana).
 4. Métricas de derrama económica en comercios locales por redención de bendiciones.
 5. Generación de gráficos ejecutivos de KPIs y mapa interactivo geoespacial (Folium).
@@ -34,11 +34,12 @@ os.makedirs(KPIS_DIR, exist_ok=True)
 def cargar_datos():
     """Carga los datasets limpios del corredor y la telemetría."""
     estaciones = pd.read_csv(os.path.join(PROCESSED_DIR, "dataset_estaciones_el_insurgente.csv"))
-    guardianes = pd.read_csv(os.path.join(PROCESSED_DIR, "catalogo_guardianes.csv"))
+    cat_file = "catalogo_mexamonsters.csv" if os.path.exists(os.path.join(PROCESSED_DIR, "catalogo_mexamonsters.csv")) else "catalogo_guardianes.csv"
+    mexamonsters = pd.read_csv(os.path.join(PROCESSED_DIR, cat_file))
     pois = pd.read_csv(os.path.join(PROCESSED_DIR, "puntos_interes_pois.csv"))
     comercios = pd.read_csv(os.path.join(PROCESSED_DIR, "directorio_comercios_afiliados.csv"))
     eventos = pd.read_csv(os.path.join(PROCESSED_DIR, "eventos_jugadores_telemetria.csv"))
-    return estaciones, guardianes, pois, comercios, eventos
+    return estaciones, mexamonsters, pois, comercios, eventos
 
 def calcular_indice_saturacion_y_rareza(estaciones_df):
     """
@@ -193,7 +194,7 @@ def generar_visualizaciones(df_rareza, df_eventos, df_comercios):
 
 def crear_mapa_interactivo(df_estaciones, df_pois, df_comercios):
     """Construye un mapa interactivo en HTML con Folium mostrando el corredor, POIs y comercios."""
-    print("[*] Construyendo mapa interactivo del corredor 'Guardianes del Territorio'...")
+    print("[*] Construyendo mapa interactivo del corredor 'Mexamonsters'...")
     # Coordenadas centro: Valle de Toluca - CDMX
     mapa = folium.Map(location=[19.28, -99.60], zoom_start=11, tiles="OpenStreetMap")
     
@@ -242,7 +243,7 @@ def crear_mapa_interactivo(df_estaciones, df_pois, df_comercios):
         html_poi = f"""
         <div style="font-family: Arial; width: 220px;">
             <h4 style="color: #2980b9; margin-bottom: 4px;">📍 POI: {row['nombre_poi']}</h4>
-            <b>Guardián:</b> {row['id_guardian']}<br>
+            <b>Mexamonster:</b> {row.get('id_guardian', row.get('id_mexamonster', ''))}<br>
             <b>Tipo:</b> {row['tipo_poi']}<br>
             <b>Misión:</b> {row['requerimiento_mision']}
         </div>
@@ -280,15 +281,17 @@ def crear_mapa_interactivo(df_estaciones, df_pois, df_comercios):
         ).add_to(capa_comercios)
         
     folium.LayerControl().add_to(mapa)
-    mapa_html_path = os.path.join(CAMPANA_DIR, "mapa_interactivo_corredor_guardianes.html")
+    mapa_html_path = os.path.join(CAMPANA_DIR, "mapa_interactivo_corredor_mexamonsters.html")
     mapa.save(mapa_html_path)
+    # También guardar una copia en el nombre anterior para compatibilidad
+    mapa.save(os.path.join(CAMPANA_DIR, "mapa_interactivo_corredor_guardianes.html"))
     print(f"[+] Mapa interactivo generado con éxito en:\n    {mapa_html_path}")
 
 def main():
     print("=============================================================")
-    print("    GUARDIANES DEL TERRITORIO - PIPELINE DE MINERÍA EDA      ")
+    print("        MEXAMONSTERS - PIPELINE DE MINERÍA EDA               ")
     print("=============================================================")
-    estaciones, guardianes, pois, comercios, eventos = cargar_datos()
+    estaciones, mexamonsters, pois, comercios, eventos = cargar_datos()
     df_rareza = calcular_indice_saturacion_y_rareza(estaciones)
     generar_visualizaciones(df_rareza, eventos, comercios)
     crear_mapa_interactivo(estaciones, pois, comercios)

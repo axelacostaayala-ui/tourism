@@ -1,9 +1,11 @@
-# Guardianes del Territorio: App de Turismo Sostenible y Exploración Gamificada
+# Mexamonsters: App de Turismo Sostenible y Exploración Gamificada
 
 > **Especificación de Producto, Arquitectura Técnica y Mecánicas del MVP**  
 > *Proyecto Prototípico de 5to Semestre — Licenciatura en Ciencias de Datos para Negocios (Universidad Rosario Castellanos)*  
-> * **Autores:** Kevin Axel Acosta Ayala · Ivan Rafael Mena Fernández  
-> * **Fecha de actualización:** 25 de Octubre de 2026
+> * **Equipo de Alumnos:** Acosta Ayala Kevin Axel · Carrasco Sánchez Jessica Daniela · Hernández Monroy Diana Victoria  
+> * **Docente Asesor:** Rafael Mena  
+> * **Grupo:** 501  
+> * **Fecha de actualización:** Noviembre de 2026
 
 ---
 
@@ -14,7 +16,7 @@ El turismo en México enfrenta una **falla estructural de distribución**:
 * **Marginación de Destinos Emergentes:** Cientos de municipios rurales, pueblos mágicos periféricos, cooperativas ecoturísticas y comunidades originarias con un patrimonio cultural, gastronómico y natural de escala mundial permanecen invisibilizados y desprovistos de derrama económica.
 * **Falta de Incentivos Reales en Apps Tradicionales:** Aplicaciones como Google Maps, TripAdvisor o Yelp muestran recomendaciones sesgadas por el presupuesto publicitario de grandes cadenas o por la cercanía en automóvil privado, sin ofrecer dinámicas atractivas para dispersar a los viajeros hacia destinos no masivos.
 
-### La Solución: Descentralización Gamificada
+### La Solución: Descentralización Gamificada con Mexamonsters
 Descentralizar el flujo turístico transformando los viajes de fin de semana y vacaciones en una **experiencia de exploración lúdica de colección de personajes (*monster-collecting* estilo Pokémon Go)**, donde el juego premia con mayor valor el descubrimiento de destinos emergentes y recompensa al viajero con **beneficios económicos tangibles en comercios locales afiliados**.
 
 ---
@@ -27,7 +29,7 @@ Descentralizar el flujo turístico transformando los viajes de fin de semana y v
 └─────────────────────────────────────────────────────────────────────────────────┘
          │
          ▼
-[1. Radar de Exploración] ──► Detecta presencia de un "Guardián Dormido" en la zona
+[1. Radar de Exploración] ──► Detecta presencia de un "Mexamonster Dormido" en la zona
          │
          ▼
 [2. Misión Territorial]   ──► Recorrer a pie de 1 a 3 Puntos de Interés (POI) comunitarios
@@ -36,7 +38,8 @@ Descentralizar el flujo turístico transformando los viajes de fin de semana y v
 [3. Validación Física]    ──► Geofencing (GPS nativo) + Escaneo de Código QR en sitio
          │
          ▼
-[4. Despertar del Guardián]► Desbloqueo de Carta Viva 2D coleccionable con microanimación
+[4. Despertar del         ──► Desbloqueo de Carta Viva 2D coleccionable con microanimación
+    Mexamonster]
          │
          ▼
 [5. Bendición Económica]  ──► Cupón digital / Descuento para consumir en comercios locales
@@ -51,12 +54,12 @@ Descentralizar el flujo turístico transformando los viajes de fin de semana y v
 
 Para lograr el mandato del Problema Prototípico (redistribuir los flujos y mitigar la saturación), la app implementa el **Sistema de Rareza Inversa** gobernado por el **Índice de Saturación Turística (IST)** calculado con Ciencia de Datos:
 
-$$\text{Rareza del Guardián} \propto \frac{1}{\text{Saturación y Concentración de Visitantes}}$$
+$$\text{Rareza del Mexamonster} \propto \frac{1}{\text{Saturación y Concentración de Visitantes}}$$
 
-| Tipo de Destino | Nivel de Saturación | Categoría del Guardián | Características Visuales y Lore | Valor de la Bendición (Recompensa) |
+| Tipo de Destino | Nivel de Saturación | Categoría del Mexamonster | Características Visuales y Lore | Valor de la Bendición (Recompensa) |
 | :--- | :--- | :--- | :--- | :--- |
-| **Polo Hiperturístico** (Cancún, Centro Histórico saturado, Santa Fe) | **Alta / Crítica** | **Común / "Fatigado"** | Guardián con energía baja, tonos apagados, diseño estándar. | Descuento simbólico (5% o badge digital básico). |
-| **Destino de Transición** (Cabecera municipal, ruta intermedia) | **Moderada** | **Raro** | Guardián activo, detalles artesanales visibles. | 10% - 15% de descuento en comercios seleccionados. |
+| **Polo Hiperturístico** (Cancún, Centro Histórico saturado, Santa Fe) | **Alta / Crítica** | **Común / "Fatigado"** | Mexamonster con energía baja, tonos apagados, diseño estándar. | Descuento simbólico (5% o badge digital básico). |
+| **Destino de Transición** (Cabecera municipal, ruta intermedia) | **Moderada** | **Raro** | Mexamonster activo, detalles artesanales visibles. | 10% - 15% de descuento en comercios seleccionados. |
 | **Pueblo Emergente / Comunidad Artesanal** (Pueblos de tule, alfarería) | **Baja** | **Épico** | Diseños vibrantes tipo alebrije, animación fluida, efectos de luz. | 20% - 25% de descuento + acceso a experiencias o degustaciones. |
 | **Reserva Ecológica / Destino Comunitario Remoto** (Ciénegas, volcanes) | **Mínima / Ociosa** | **Legendario** | Máximo detalle artístico, microanimación compleja, aura mística, historia profunda. | Recompensa de alto valor: Regalo artesanal directo, taller vivencial gratuito o 30%+ descuento en cooperativas. |
 
@@ -64,17 +67,17 @@ $$\text{Rareza del Guardián} \propto \frac{1}{\text{Saturación y Concentració
 
 ## 4. 🧭 Corredores Piloto Propuestos (Fase 1)
 
-Para validar el MVP con un clúster regional delimitado de **3 a 4 municipios contiguos**, con **3 a 4 Guardianes** y **15 comercios afiliados**, se definen dos opciones de alto impacto:
+Para validar el MVP con un clúster regional delimitado de **3 a 4 municipios contiguos**, con **4 Mexamonsters iniciales** y **15 comercios afiliados**, se define la ruta sobre el Tren Interurbano:
 
-### 🏆 Opción Recomendada A: Corredor "El Insurgente" / Valle de Toluca (Edomex)
-Aprovecha directamente la infraestructura de transporte masivo rápido y limpio, y los datos ya estructurados en el repositorio:
+### 🏆 Opción Seleccionada: Corredor "El Insurgente" / Valle de Toluca (Edomex)
+Aprovecha directamente la infraestructura de transporte masivo rápido, electrificado y limpio, y los datos ya estructurados en el repositorio:
 
-| Municipio / Estación | Guardián Piloto | Rareza | Lore Cultural e Inspiración | Puntos de Misión Física (POIs) |
+| Municipio / Estación | Mexamonster Piloto | Rareza | Lore Cultural e Inspiración | Puntos de Misión Física (POIs) |
 | :--- | :--- | :--- | :--- | :--- |
-| **1. Zinacantepec** | **Xinán** *(El Guardián de la Escarcha y el Volcán)* | **Legendario** | Inspirado en el coyote de montaña y las nieves sagradas del Volcán Xinantécatl. | 1. Museo Virreinal de San Miguel.<br>2. Pila Bautismal Monolítica.<br>3. Módulo ecoturístico a faldas del volcán. |
-| **2. Metepec** | **Barrotépetl** *(El Espíritu Alfarero)* | **Épico** | Espíritu en forma de quimera alada elaborada en barro policromado (Árbol de la Vida). | 1. Capilla del Calvario (Cerro de los Magueyes).<br>2. Taller de alfarería tradicional.<br>3. Mercado Artesanal Municipal. |
-| **3. Lerma** | **Acatl-Tule** *(La Ninfa de los Humedales)* | **Épico** | Criatura acuática entrelazada con juncos y aves migratorias de las Ciénegas de Lerma. | 1. Mirador de aves de las Ciénegas de Lerma.<br>2. Templo de Santa Clara.<br>3. Taller de tejido de tule en San Pedro Tultepec. |
-| **4. Toluca Centro** | **Mosco Matlatzinca** | **Raro / Común** | Guardián urbano con alas de vitral inspirado en el Cosmovitral. | 1. Cosmovitral Jardín Botánico.<br>2. Los Portales de Toluca.<br>3. Museo del Alfeñique. |
+| **1. Zinacantepec** | **Xinán** *(El Mexamonster de la Escarcha y el Volcán)* | **Legendario** | Inspirado en el coyote de montaña y las nieves sagradas del Volcán Xinantécatl. Mexamonster protector de los bosques de oyamel. | 1. Museo Virreinal de San Miguel.<br>2. Pila Bautismal Monolítica S. XVI.<br>3. Módulo ecoturístico a faldas del volcán. |
+| **2. Metepec** | **Barrotépetl** *(El Mexamonster del Fuego y el Barro)* | **Épico** | Espíritu en forma de quimera alada elaborada en barro policromado (Árbol de la Vida). | 1. Capilla del Calvario (Cerro de los Magueyes).<br>2. Taller de alfarería tradicional.<br>3. Mercado Artesanal Municipal. |
+| **3. Lerma** | **Acatl-Tule** *(La Ninfa de los Humedales)* | **Épico** | Criatura acuática entrelazada con juncos y aves migratorias de las Ciénegas de Lerma. Mexamonster fluvial protector. | 1. Mirador de aves de las Ciénegas de Lerma.<br>2. Templo de Santa Clara.<br>3. Taller de tejido de tule en San Pedro Tultepec. |
+| **4. Toluca Centro** | **Mosco Matlatzinca** | **Raro / Común** | Mexamonster urbano con alas de vitral inspirado en el Cosmovitral. | 1. Cosmovitral Jardín Botánico.<br>2. Los Portales de Toluca.<br>3. Museo del Alfeñique. |
 
 ### Red de 15 Comercios Locales Afiliados Piloto (Corredor El Insurgente)
 1. **Zinacantepec:** 
@@ -95,9 +98,7 @@ Aprovecha directamente la infraestructura de transporte masivo rápido y limpio,
    - *Chorizos Tradicionales Los Portales (Verde y Rojo)* (10% en embutidos típicos).
    - *Dulcería y Alfeñiques San José* (Bolsa de dulces típicos de cortesía).
    - *Café El Labrador* (15% descuento).
-   - *Librería y Espacio Cultural del Nevado* (10% en libros de arte y mapas locales).
-
-*(Alternativa opcional documentada: Clúster Sierra Norte de Puebla: Zacatlán, Chignahuapan, Cuetzalan y Pahuatlán).*
+   - *Cervecería Artesanal Matlatzinca* (Degustación de cortesía con cupón de Mexamonster desbloqueado).
 
 ---
 
@@ -105,12 +106,12 @@ Aprovecha directamente la infraestructura de transporte masivo rápido y limpio,
 
 ### A. Chatbot Inteligente: "El Nahual Guía"
 Un asistente conversacional liviano integrado en la app con dos propósitos:
-1. **Pistas y Acertijos Gamificados:** En lugar de dar indicaciones GPS frías, el Nahual habla con personalidad mística dando pistas en forma de copla o acertijo sobre cómo encontrar a los Guardianes en los puntos de interés.
+1. **Pistas y Acertijos Gamificados:** En lugar de dar indicaciones GPS frías, el Nahual habla con personalidad mística dando pistas en forma de copla o acertijo sobre cómo encontrar a los Mexamonsters en los puntos de interés.
 2. **Divulgador Cultural y Gastronómico:** Responde dudas en tiempo real sobre la historia del pueblo, qué comer, horarios de talleres artesanales y cómo llegar en transporte público sustentable.
 
 ### B. Visor de Memoria Histórica ("La Ventana del Tiempo")
-* Función de cámara interactiva con filtro superpuesto ligero (sin requerir renderizado 3D complejo):
-* Al enfocar un punto clave (el templo, la plaza cívica o el mirador), la pantalla sobrepone una fotografía de archivo histórico o ilustración de cómo era el lugar hace 80 o 100 años (o durante su fundación originaria), comparándolo con el presente mediante una barra deslizadora (*slider* interactivo).
+* Función de cámara interactiva con filtro superpuesto ligero (sin requerir renderizado 3D complejo).
+* Al enfocar un punto clave (el templo, la plaza cívica o el mirador), la pantalla sobrepone una fotografía de archivo histórico o ilustración de cómo era el lugar hace 80 o 100 años, comparándolo con el presente mediante una barra deslizadora (*slider* interactivo).
 
 ---
 
@@ -145,7 +146,7 @@ Un asistente conversacional liviano integrado en la app con dos propósitos:
 
 ### Estrategia Offline-First para Zonas Rurales:
 1. El usuario puede pulsar "Descargar Guía de la Región" mientras tiene WiFi o datos en la estación de tren o en su casa.
-2. Todo el mapa del clúster, los artes vectoriales de los Guardianes, las pistas y las coordenadas de los POIs quedan guardados en memoria local.
+2. Todo el mapa del clúster, los artes vectoriales de los Mexamonsters, las pistas y las coordenadas de los POIs quedan guardados en memoria local.
 3. La validación GPS + QR no requiere conexión a internet activa.
 4. Las bendiciones y logros se registran localmente con una firma criptográfica hash simple y se sincronizan en cuanto el teléfono recupera señal celular.
 
@@ -155,7 +156,7 @@ Un asistente conversacional liviano integrado en la app con dos propósitos:
 
 Para garantizar la adopción de fondas, artesanos y cooperativas sin barreras tecnológicas:
 * **Método 1 (QR Dinámico del Usuario):** El usuario muestra la pantalla de su cupón con un código QR que contiene el ID de la bendición y un token de vigencia.
-* **Método 2 (Código Alfanumérico OTP de 4 Dígitos):** Para locatarios sin lector de QR, la app muestra un código simple (ej. `BND-4821`). El comerciante solo lo verifica o lo anota en su lista diaria.
+* **Método 2 (Código Alfanumérico OTP de 4 Dígitos):** Para locatarios sin lector de QR, la app muestra un código simple (ej. `MXM-4821`). El comerciante solo lo verifica o lo anota en su lista diaria.
 * **Portal Locatario Web Ultraligero (PWA):** Una página web accesible desde cualquier celular básico de gama baja donde el comerciante inicia sesión con su número de teléfono y puede ver los cupones canjeados del día y su saldo acumulado de retribución comunitaria.
 
 ---
@@ -163,20 +164,20 @@ Para garantizar la adopción de fondas, artesanos y cooperativas sin barreras te
 ## 8. 📋 Backlog de Producto y Wireframes del Flujo de Usuario
 
 ```
-[Flujo 1: Radar]       [Flujo 2: Misión POI]      [Flujo 3: Carta 2D]      [Flujo 4: Wallet]
-┌────────────────┐     ┌────────────────┐     ┌────────────────┐     ┌────────────────┐
-│  MAPA / RADAR  │     │ VALIDACIÓN POI │     │  CARTA VIVA 2D │     │   BENDICIÓN    │
-│                │     │                │     │                │     │                │
-│ [o] Guardián   │────►│ Escanear QR    │────►│  "¡Despierto!" │────►│ Cupón 20% OFF  │
-│  a 400m        │     │ en Taller de   │     │  ★ ★ ★ ÉPICO   │     │ Taller Soteno  │
-│ [Pista Nahual] │     │ Barro          │     │ (Microanimado) │     │ [Usar Cupón]   │
-└────────────────┘     └────────────────┘     └────────────────┘     └────────────────┘
+[Flujo 1: Radar]         [Flujo 2: Misión POI]        [Flujo 3: Carta 2D]        [Flujo 4: Wallet]
+┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐     ┌──────────────────┐
+│   MAPA / RADAR   │     │  VALIDACIÓN POI  │     │   CARTA VIVA 2D  │     │    BENDICIÓN     │
+│                  │     │                  │     │                  │     │                  │
+│ [o] Mexamonster  │────►│ Escanear QR      │────►│  "¡Despierto!"   │────►│  Cupón 20% OFF   │
+│     a 400m       │     │ en Taller de     │     │   ★ ★ ★ ÉPICO    │     │  Taller Soteno   │
+│ [Pista Nahual]   │     │ Barro            │     │  (Microanimado)  │     │  [Usar Cupón]    │
+└──────────────────┘     └──────────────────┘     └──────────────────┘     └──────────────────┘
 ```
 
 ### Épicas e Historias de Usuario (Fase 1 - MVP):
 
-#### ÉPICA 1: Exploración Territorial y Radar de Guardianes
-* **HU-1.1:** *Como viajero*, quiero ver un mapa estilizado con el radar de mi ubicación para identificar si hay guardianes dormidos a mi alrededor.
+#### ÉPICA 1: Exploración Territorial y Radar de Mexamonsters
+* **HU-1.1:** *Como viajero*, quiero ver un mapa estilizado con el radar de mi ubicación para identificar si hay Mexamonsters dormidos a mi alrededor.
 * **HU-1.2:** *Como viajero*, quiero recibir pistas temáticas del "Nahual Guía" sobre la ubicación de los puntos de interés para orientar mi recorrido a pie.
 * **HU-1.3:** *Como viajero en zona rural sin señal*, quiero que la aplicación funcione en modo offline para no interrumpir mi juego si pierdo conexión celular.
 
@@ -185,11 +186,11 @@ Para garantizar la adopción de fondas, artesanos y cooperativas sin barreras te
 * **HU-2.2:** *Como sistema*, quiero verificar por Geofencing (GPS nativo) que el usuario esté en un radio de 50 metros del POI para evitar capturas fraudulentas a distancia.
 
 #### ÉPICA 3: Colección y Cartas Vivas 2D
-* **HU-3.1:** *Como jugador*, quiero desbloquear una Carta Viva 2D animada con los atributos, elemento cultural y rareza del Guardián tras completar la misión.
-* **HU-3.2:** *Como coleccionista*, quiero acceder a mi Álbum/Bóveda digital donde pueda consultar todos mis guardianes ordenados por región, rareza y fecha de despertar.
+* **HU-3.1:** *Como jugador*, quiero desbloquear una Carta Viva 2D animada con los atributos, elemento cultural y rareza del Mexamonster tras completar la misión.
+* **HU-3.2:** *Como coleccionista*, quiero acceder a mi Álbum/Bóveda digital donde pueda consultar todos mis Mexamonsters ordenados por región, rareza y fecha de despertar.
 
 #### ÉPICA 4: Recompensas Comunitarias y Wallet de Bendiciones
-* **HU-4.1:** *Como usuario*, quiero recibir un cupón digital asociado al Guardián desbloqueado para canjearlo en negocios locales de la comunidad.
+* **HU-4.1:** *Como usuario*, quiero recibir un cupón digital asociado al Mexamonster desbloqueado para canjearlo en negocios locales de la comunidad.
 * **HU-4.2:** *Como comerciante local*, quiero un mecanismo simple (código de 4 dígitos o escaneo de pantalla) para validar el descuento del cliente sin requerir terminales ni pagar comisiones bancarias.
 
 #### ÉPICA 5: Experiencia Histórica
@@ -199,8 +200,8 @@ Para garantizar la adopción de fondas, artesanos y cooperativas sin barreras te
 
 ## 9. 🚀 Roadmap Futuro (Fase 2 - Post-Tracción)
 Una vez validada la tracción en el corredor piloto:
-1. **Cámara con Realidad Aumentada (AR):** Visualización del Guardián proyectado en el entorno físico mediante ARCore / ARKit.
-2. **Filtros para Redes Sociales:** Filtros interactivos en TikTok e Instagram para lucir al Guardián despertado y viralizar las visitas comunitarias.
+1. **Cámara con Realidad Aumentada (AR):** Visualización del Mexamonster proyectado en el entorno físico mediante ARCore / ARKit.
+2. **Filtros para Redes Sociales:** Filtros interactivos en TikTok e Instagram para lucir al Mexamonster despertado y viralizar las visitas comunitarias.
 3. **Torneos Estacionales de Exploración:** Competencias regionales durante puentes vacacionales y festivales tradicionales (ej. Día de Muertos, Festival del Alfeñique).
 
 ---
@@ -209,9 +210,9 @@ Una vez validada la tracción en el corredor piloto:
 
 Para cumplir al 100% con la rúbrica de la Universidad Rosario Castellanos, la app es la herramienta central evaluada por las 6 asignaturas:
 
-1. **Big Data:** Arquitectura de ingesta de eventos de jugadores (GPS, escaneos, canjes) y almacenamiento distribuido particionado por región y temporalidad.
+1. **Big Data:** Arquitectura de ingesta de eventos de jugadores (GPS, escaneos, desbloqueo de Mexamonsters, canjes) y almacenamiento distribuido particionado por región y temporalidad.
 2. **Minería de Datos:** Clustering de municipios por potencial turístico y reglas de asociación entre perfiles de jugadores y tipos de comercios visitados.
-3. **Machine Learning:** Modelo predictivo del Índice de Saturación Turística (IST) para fijar dinámicamente la rareza de los guardianes y motor de recomendación de misiones.
+3. **Machine Learning:** Modelo predictivo del Índice de Saturación Turística (IST) para fijar dinámicamente la rareza de los Mexamonsters y motor de recomendación de misiones.
 4. **Modelos Estocásticos:** Simulación Monte Carlo para calcular el impacto de las bendiciones sobre la capacidad de carga de las fondas y talleres locales, evitando desabasto.
 5. **Investigación de Operaciones:** Modelo matemático de optimización para la asignación del presupuesto de difusión de la campaña y balanceo óptimo de flujos hacia los comercios.
-6. **Mercadotecnia Digital:** Diseño integral de la campaña publicitaria gamificada, embudo de conversión, pauta digital y cuadro de mando de KPIs turísticos, económicos y de reducción de $CO_2$.
+6. **Mercadotecnia Digital:** Estudio de Mercado integral (Actividad 3: Oferta, Territorio, Periodo, Escenarios, Expansión, Audiencia y Quality Gates), diseño de campaña publicitaria *"El Despertar de los Mexamonsters"*, pauta digital y cuadro de mando de KPIs turísticos, económicos y de reducción de $CO_2$.

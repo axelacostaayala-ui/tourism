@@ -1,7 +1,7 @@
 # Buyer Persona 03: El Turista Cultural
 ## *"La Buscadora de Patrimonio y Raíces"*
 
-**Segmento de alto valor agregado:** Representa el **13.6%** de los eventos en el proyecto. Es la audiencia que más valora la precisión histórica, el lore antropológico de los Guardianes y el consumo de artesanías de autor.
+**Segmento de alto valor agregado:** Representa el **13.6%** de los eventos en el proyecto. Es la audiencia que más valora la precisión histórica, el lore antropológico de los Mexamonsters y el consumo de artesanías de autor.
 
 ---
 
@@ -31,7 +31,7 @@
 Datos del dataset procesado (`datos/processed/eventos_jugadores_telemetria.csv`):
 * **Participación total:** 1,087 eventos registrados (13.6% del total).
 * **Check-ins en POIs patrimoniales:** 443 interacciones en conventos, museos y miradores naturales.
-* **Guardianes Despertados:** 90 guardianes (se toman el tiempo de leer la ficha completa y el lore cultural).
+* **Mexamonsters Despertados:** 90 Mexamonsters (se toman el tiempo de leer la ficha completa y el lore cultural).
 * **Canjes en Comercios:** 50 compras con cupón aplicadas a productos de alto valor (piezas de barro policromado, alfeñiques tradicionales, libros y charcutería típica).
 * **Ahorro promedio:** **\$61.24 MXN** (aunque el ahorro es menor en porcentaje, su ticket de compra bruta en los comercios es el más elevado de los 4 segmentos: compras promedio superiores a \$400 - \$800 MXN).
 * **Días y horarios:** Sábados completos (10:00 a 17:00 hrs) y domingos por la mañana.

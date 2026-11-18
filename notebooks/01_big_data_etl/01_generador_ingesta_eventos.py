@@ -4,7 +4,7 @@ Proyecto Prototípico - 5to Semestre: Ciencias de Datos para Negocios
 UCA: Herramientas para el Almacenamiento de Grandes Volúmenes de Datos
 
 Este script simula el flujo de eventos continuos generados por usuarios de
-'Guardianes del Territorio' (GPS radar pings, escaneo de QRs en POIs, 
+'Mexamonsters' (GPS radar pings, escaneo de QRs en POIs, 
 desbloqueos de Cartas Vivas 2D y redención de cupones en comercios locales).
 """
 
@@ -25,11 +25,12 @@ PROCESSED_DIR = os.path.join(BASE_DIR, "datos", "processed")
 
 def cargar_catalogos():
     """Carga los catálogos base del corredor piloto."""
-    guardianes_df = pd.read_csv(os.path.join(PROCESSED_DIR, "catalogo_guardianes.csv"))
+    cat_file = "catalogo_mexamonsters.csv" if os.path.exists(os.path.join(PROCESSED_DIR, "catalogo_mexamonsters.csv")) else "catalogo_guardianes.csv"
+    mexamonsters_df = pd.read_csv(os.path.join(PROCESSED_DIR, cat_file))
     pois_df = pd.read_csv(os.path.join(PROCESSED_DIR, "puntos_interes_pois.csv"))
     comercios_df = pd.read_csv(os.path.join(PROCESSED_DIR, "directorio_comercios_afiliados.csv"))
     estaciones_df = pd.read_csv(os.path.join(PROCESSED_DIR, "dataset_estaciones_el_insurgente.csv"))
-    return guardianes_df, pois_df, comercios_df, estaciones_df
+    return mexamonsters_df, pois_df, comercios_df, estaciones_df
 
 def generar_telemetria_eventos(n_usuarios=500, n_eventos=8000):
     """
@@ -37,7 +38,7 @@ def generar_telemetria_eventos(n_usuarios=500, n_eventos=8000):
     Refleja picos de exploración turística en fines de semana (sábado y domingo).
     """
     print(f"[*] Iniciando generación de {n_eventos} eventos de telemetría para {n_usuarios} jugadores...")
-    guardianes_df, pois_df, comercios_df, estaciones_df = cargar_catalogos()
+    mexamonsters_df, pois_df, comercios_df, estaciones_df = cargar_catalogos()
     
     # Generar IDs de usuarios y perfiles
     perfiles = ["Familia Trabajadora", "Joven Mochilero", "Adulto Mayor", "Turista Cultural"]
@@ -55,7 +56,7 @@ def generar_telemetria_eventos(n_usuarios=500, n_eventos=8000):
     fecha_inicio = datetime(2026, 9, 20, 6, 0, 0)
     
     eventos = []
-    tipos_evento = ["RADAR_PING", "POI_CHECKIN_GPS", "POI_QR_SCAN", "GUARDIAN_UNLOCKED", "COUPON_REDEEMED"]
+    tipos_evento = ["RADAR_PING", "POI_CHECKIN_GPS", "POI_QR_SCAN", "MEXAMONSTER_UNLOCKED", "COUPON_REDEEMED"]
     
     for _ in range(n_eventos):
         u_id = random.choice(list(usuarios_db.keys()))
@@ -101,7 +102,7 @@ def generar_telemetria_eventos(n_usuarios=500, n_eventos=8000):
         lon = None
         monto_ahorro_mxn = 0.0
         
-        if len(pois_sub) > 0 and tipo_ev in ["POI_CHECKIN_GPS", "POI_QR_SCAN", "GUARDIAN_UNLOCKED"]:
+        if len(pois_sub) > 0 and tipo_ev in ["POI_CHECKIN_GPS", "POI_QR_SCAN", "MEXAMONSTER_UNLOCKED"]:
             poi_row = pois_sub.sample(1).iloc[0]
             poi_id = poi_row["id_poi"]
             poi_nombre = poi_row["nombre_poi"]
