@@ -3,16 +3,22 @@
 **UCA:** Mercadotecnia Digital  
 **Grupo:** 501  
 **Actividad 4:** Análisis de Mercado de la Competencia (Benchmarking Competitivo Directo, Indirecto y Sustituto)  
-**Docente:** [Asignado en Plataforma]  
+**Docente:** Rafael Mena  
+**Ciclo:** 2026-2  
 
 ---
 
 ### DATOS DEL EQUIPO Y PROYECTO
-* **Integrantes del Equipo:**
-  1. **Acosta Ayala Kevin Axel**
-  2. **Carrasco Sánchez Jessica Daniela**
-  3. **Hernández Monror Diana Victoria**
-* **Nombre del Proyecto:** *Guardianes del Territorio (Mexamosters)*
+* **Integrantes del Equipo (Orden Oficial):**  
+  1. **Miembro 1:** Hernández Monroy Diana Victoria (*Product & Growth / Marketing Lead*)  
+  2. **Miembro 2:** Acosta Ayala Kevin Axel (*Data Engineering & ML Lead*)  
+  3. **Miembro 3:** Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)  
+* **Nombre Oficial del Proyecto:** *Mexamonsters (Turismo Sostenible, Exploración Gamificada y Redistribución Territorial de Flujos)*  
+* **Documentos Complementarios de Referencia:**  
+  * [Estudio de Mercado Interno (Mexamonsters)](ESTUDIO_DE_MERCADO_MEXAMONSTERS.md)  
+  * [Estudio de Mercado Externo mediante el Modelo PESTEL](ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md)  
+  * [Arquitectura de Almacenamiento Big Data y Offline-First](ARQUITECTURA_BIG_DATA.md)  
+  * [Modelo de Aprendizaje de Máquina (IST y Recomendador)](MODELO_APRENDIZAJE_MAQUINA.md)  
 * **Fecha de Investigación:** 18 de Noviembre de 2026
 
 ---
