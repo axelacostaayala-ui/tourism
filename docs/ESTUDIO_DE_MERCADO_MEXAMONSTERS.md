@@ -3,14 +3,15 @@
 > **UCA:** Mercadotecnia Digital  
 > **Actividad 3:** ESTUDIO DE MERCADO  
 > **Proyecto:** Mexamonsters (anteriormente *Guardianes del Territorio*)  
-> **Alumnos:**  
-> • Acosta Ayala Kevin Axel  
-> • Carrasco Sánchez Jessica Daniela  
-> • Hernández Monroy Diana Victoria  
+> **Integrantes del Equipo:**  
+> • **Miembro 1:** Hernández Monroy Diana Victoria (*Product & Growth / Marketing Lead*)  
+> • **Miembro 2:** Acosta Ayala Kevin Axel (*Data Engineering & ML Lead*)  
+> • **Miembro 3:** Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)  
 > **Docente:** Rafael Mena  
 > **Grupo:** 501  
 > **Licenciatura:** Ciencias de Datos para Negocios — Universidad Rosario Castellanos  
 > **Ciclo:** 2026-2  
+> **Documento Complementario:** [Estudio de Mercado Externo PESTEL](ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md)  
 
 ---
 

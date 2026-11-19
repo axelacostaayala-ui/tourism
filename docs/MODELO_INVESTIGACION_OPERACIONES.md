@@ -4,7 +4,7 @@
 > *Licenciatura en Ciencias de Datos para Negocios — Universidad Rosario Castellanos*  
 > * **UCA:** Investigación de Operaciones  
 > * **Incidente Crítico:** *"Optimización de los flujos turísticos para un desarrollo sustentable"*  
-> * **Rol Responsable:** Integrante 2 — Operations Research & Quants (`monenri9-svg`)  
+> * **Rol Responsable:** Miembro 3 — Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)  
 > * **Script Ejecutable:** [`notebooks/05_optimizacion_io/01_optimizacion_presupuesto_y_flujos.py`](../notebooks/05_optimizacion_io/01_optimizacion_presupuesto_y_flujos.py)
 
 ---

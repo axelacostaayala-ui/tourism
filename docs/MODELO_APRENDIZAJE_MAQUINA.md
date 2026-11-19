@@ -4,7 +4,7 @@
 > *Licenciatura en Ciencias de Datos para Negocios — Universidad Rosario Castellanos*  
 > * **UCA:** Aprendizaje de Máquina (Machine Learning)  
 > * **Incidente Crítico:** *"Turismo inteligente sustentable en México"*  
-> * **Rol Responsable:** Integrante 1 — Data Engineering & ML Lead (`monenri9-svg`)  
+> * **Rol Responsable:** Miembro 2 — Acosta Ayala Kevin Axel (*Data Engineering & ML Lead*)  
 > * **Scripts Ejecutables:**  
 >   * [`notebooks/03_machine_learning/01_modelo_predictivo_ist_y_recomendador.py`](../notebooks/03_machine_learning/01_modelo_predictivo_ist_y_recomendador.py)  
 >   * [`notebooks/03_machine_learning/02_chatbot_nahual_guia_nlp.py`](../notebooks/03_machine_learning/02_chatbot_nahual_guia_nlp.py)  
@@ -14,7 +14,7 @@
 
 ---
 
-## 1. 🎯 Propósito del Aprendizaje de Máquina en "Guardianes del Territorio"
+## 1. 🎯 Propósito del Aprendizaje de Máquina en "Mexamonsters"
 
 En el marco del *Turismo Inteligente Sustentable* (Gretzel et al., 2015; UNWTO, 2018), el Aprendizaje de Máquina en este proyecto no se limita a pronosticar pasivamente cuántos visitantes llegarán a un destino, sino que constituye el **cerebro algorítmico que modifica activamente los incentivos del viajero** a través de tres motores:
 
@@ -88,7 +88,7 @@ con $\alpha = 0.70$, donde $\mathbf{v}_u \in \mathbb{R}^6$ caracteriza al segmen
 
 El script [`02_chatbot_nahual_guia_nlp.py`](../notebooks/03_machine_learning/02_chatbot_nahual_guia_nlp.py) entrena un clasificador de intenciones basado en extracción híbrida de características **TF-IDF (unigramas, bigramas y raíces morfológicas en español)** acoplado a un clasificador lineal regularizado L2 con calibración **Softmax** (`modelos/chatbot_nahual_nlp.pkl`).
 
-* **Intenciones Soportadas:** `PISTA_ACERTIJO_POI`, `RECOMENDACION_GASTRONOMIA_CUPON`, `TRANSPORTE_COMO_LLEGAR`, `LORE_HISTORIA_GUARDIAN`, `MODO_OFFLINE_Y_QR` y `VENTANA_DEL_TIEMPO_HISTORIA`.
+* **Intenciones Soportadas:** `PISTA_ACERTIJO_POI`, `RECOMENDACION_GASTRONOMIA_CUPON`, `TRANSPORTE_COMO_LLEGAR`, `LORE_HISTORIA_MEXAMONSTER`, `MODO_OFFLINE_Y_QR` y `VENTANA_DEL_TIEMPO_HISTORIA`.
 * **Reconocimiento de Entidades Territoriales:** Identifica automáticamente si el viajero pregunta por *Zinacantepec*, *Metepec*, *Lerma* o *Toluca Centro* y responde con una copla en rima tradicional y la recomendación exacta de comercios locales ([`ml_evaluacion_chatbot_nahual.csv`](../datos/processed/ml_evaluacion_chatbot_nahual.csv)).
 
 ---
@@ -96,7 +96,7 @@ El script [`02_chatbot_nahual_guia_nlp.py`](../notebooks/03_machine_learning/02_
 ## 5. 💡 Respuestas a las Preguntas Éticas y de Negocio del Incidente Crítico (UCA Aprendizaje de Máquina)
 
 ### 1. ¿Qué sesgos pueden existir en los datos de entrenamiento y cómo se corrigen para no invisibilizar a destinos emergentes?
-En plataformas comerciales convencionales (Google Maps, TripAdvisor, Booking), los algoritmos de recomendación sufren de **sesgo de popularidad (*popularity bias*) y retroalimentación positiva**: los destinos ya masificados acumulan el $90\%$ de las reseñas y clics, por lo que un modelo estándar sigue enviando a todos los turistas al mismo lugar, invisibilizando a comunidades rurales o artesanales. En *"Guardianes del Territorio"* corregimos matemáticamente este sesgo mediante el término inverso $(1 - \widehat{\text{IST}}_{i,t})$ en el recomendador y el **Sistema de Rareza Inversa**: cuando un destino tiene baja huella digital y amplia capacidad ociosa, el algoritmo le otorga la categoría **Legendaria o Épica**, invirtiendo el sesgo a favor de los pueblos emergentes.
+En plataformas comerciales convencionales (Google Maps, TripAdvisor, Booking), los algoritmos de recomendación sufren de **sesgo de popularidad (*popularity bias*) y retroalimentación positiva**: los destinos ya masificados acumulan el $90\%$ de las reseñas y clics, por lo que un modelo estándar sigue enviando a todos los turistas al mismo lugar, invisibilizando a comunidades rurales o artesanales. En *"Mexamonsters"* corregimos matemáticamente este sesgo mediante el término inverso $(1 - \widehat{\text{IST}}_{i,t})$ en el recomendador y el **Sistema de Rareza Inversa**: cuando un destino tiene baja huella digital y amplia capacidad ociosa, el algoritmo le otorga la categoría **Legendaria o Épica**, invirtiendo el sesgo a favor de los pueblos emergentes.
 
 ### 2. ¿Cómo empaquetar esta solución predictiva como un producto de negocio escalable y financieramente sostenible?
 El motor predictivo de saturación y el sistema de recomendación gamificado pueden escalarse mediante un modelo **B2G / B2B2C de Turismo Inteligente (*Smart Destination SaaS*)**:

@@ -4,7 +4,10 @@
 
 Proyecto integrador correspondiente al **Problema Prototípico de 5to Semestre** de la Licenciatura en Ciencias de Datos para Negocios de la **Universidad Rosario Castellanos**.
 
-* **Equipo de Alumnos:** Acosta Ayala Kevin Axel · Carrasco Sánchez Jessica Daniela · Hernández Monroy Diana Victoria
+* **Equipo de Alumnos:**
+  * **Miembro 1:** Hernández Monroy Diana Victoria (*Product & Growth / Marketing Lead*)
+  * **Miembro 2:** Acosta Ayala Kevin Axel (*Data Engineering & ML Lead*)
+  * **Miembro 3:** Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)
 * **Docente Asesor:** Rafael Mena
 * **Grupo:** 501
 * **Ciclo Académico:** 2026-2
@@ -47,7 +50,7 @@ En México, el turismo masivo se concentra en unos pocos polos saturados provoca
 | **3. Machine Learning** | Modelo predictivo del **Índice de Saturación Turística (IST)** que calcula dinámicamente la rareza de los Mexamonsters y motor de recomendación de rutas personalizadas. |
 | **4. Modelos Estocásticos** | Simulación **Monte Carlo** para evaluar el riesgo de saturar la capacidad de carga comunitaria de las fondas y talleres locales por el éxito de las bendiciones. |
 | **5. Investigación de Operaciones** | Optimización matemática de la asignación del presupuesto de la campaña publicitaria y distribución óptima de cupones para maximizar la derrama local. |
-| **6. Mercadotecnia Digital** | **Estudio de Mercado Formal (Actividad 3 UCA Mercadotecnia Digital)**: Oferta, Territorio, Periodo, Benchmarking competitivo, Matriz de Escenarios Schwartz 2×2, Estrategia de Expansión en Espiral, Modelado de Buyer Personas y Criterios de Transición (Quality Gates). |
+| **6. Mercadotecnia Digital** | **Estudios de Mercado Integrales (Actividad 3 UCA Mercadotecnia Digital)**:<br>• **Estudio Interno y de Oferta:** [ESTUDIO_DE_MERCADO_MEXAMONSTERS.md](docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md) (Territorio, Periodo, Benchmarking, Matriz Schwartz 2×2, Expansión, Buyer Personas y Quality Gates).<br>• **Estudio de Mercado Externo PESTEL:** [ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md](docs/ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md) (Factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales con decisiones estratégicas). |
 
 ---
 
@@ -59,7 +62,9 @@ Tourism/
 ├── PLAN_DE_ACCION.md              # Cronograma de 16 semanas, backlog y 3 entregas
 ├── problema prototípico 5to...pdf # Documento oficial de la Universidad
 ├── docs/                          # Documentación conceptual, técnica y de mercado
-│   ├── ESTUDIO_DE_MERCADO_MEXAMONSTERS.md # Estudio de Mercado completo (Actividad 3 - Mercadotecnia)
+│   ├── ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md # Estudio PESTEL externo completo (Actividad 3)
+│   ├── ESTUDIO_DE_MERCADO_MEXAMONSTERS.md   # Estudio de Mercado interno y de oferta (Actividad 3)
+│   ├── MODELO_INVESTIGACION_OPERACIONES.md  # Formulación y optimización matemática (IO)
 │   ├── PIVOT_APP_GAMIFICADA.md    # Especificación completa del MVP y backlog
 │   ├── ASIGNACION_ROLES_Y_ACTIVIDADES.md  # Asignación de roles y entregables (3 integrantes)
 │   ├── BASE_DE_DATOS_TEMPORADAS_TURISMO.md # Documentación técnica base CETM 2024 SQLite

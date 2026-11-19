@@ -2,8 +2,11 @@
 
 **Plan de Acción, Backlog de Producto y Roadmap de Desarrollo**  
 *Proyecto Prototípico de 5to Semestre — Licenciatura en Ciencias de Datos para Negocios (Universidad Rosario Castellanos)*  
-* **Equipo de Alumnos:** Acosta Ayala Kevin Axel · Carrasco Sánchez Jessica Daniela · Hernández Monroy Diana Victoria  
-* **Docente Asesor:** Rafael Mena  
+* **Equipo de Alumnos:**
+  * **Miembro 1:** Hernández Monroy Diana Victoria (*Product & Growth / Marketing Lead*)
+  * **Miembro 2:** Acosta Ayala Kevin Axel (*Data Engineering & ML Lead*)
+  * **Miembro 3:** Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)
+* **Docente Asesor:** Rafael Mena
 * **Grupo:** 501  
 * **Evidencia Integradora:** Campaña publicitaria inteligente, Estudio de Mercado y sistema de analítica de datos para la redistribución sustentable de los flujos turísticos.
 
@@ -39,9 +42,9 @@ La aplicación y su campaña publicitaria están completamente soportadas por la
 ## 👥 3. Organización y Asignación para 3 Integrantes
 
 Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las responsabilidades se dividen en 3 roles especializados:
-* **Integrante 1 — Acosta Ayala Kevin Axel (Data Engineering & ML Lead):** Big Data, pipelines ETL, modelos predictivos de afluencia, base de datos offline-first y Chatbot IA ("El Nahual Guía").
-* **Integrante 2 — Carrasco Sánchez Jessica Daniela (Operations Research & Quants):** Minería de datos, simulación Monte Carlo de capacidad de carga, optimización matemática (IO en Python/PuLP) y métricas de impacto ecológico ($CO_2$).
-* **Integrante 3 — Hernández Monroy Diana Victoria (Product & Marketing Lead):** Wireframes UX/UI de la app, Cartas Vivas 2D, lore de Mexamonsters, módulo de comercios locales, Estudio de Mercado, Buyer Personas, campaña publicitaria y maquetación del Informe Técnico.
+* **Miembro 1 — Hernández Monroy Diana Victoria (Product & Marketing Lead):** Wireframes UX/UI de la app, Cartas Vivas 2D, lore de Mexamonsters, módulo de comercios locales, Estudios de Mercado (Interno y PESTEL), Buyer Personas, campaña publicitaria y maquetación del Informe Técnico.
+* **Miembro 2 — Acosta Ayala Kevin Axel (Data Engineering & ML Lead):** Big Data, pipelines ETL, modelos predictivos de afluencia, base de datos offline-first y Chatbot IA ("El Nahual Guía").
+* **Miembro 3 — Carrasco Sánchez Jessica Daniela (Operations Research & Quants):** Minería de datos, simulación Monte Carlo de capacidad de carga, optimización matemática (IO en Python/PuLP) y métricas de impacto ecológico ($CO_2$).
 
 > Consulta la matriz completa de tareas por semana y entregables individuales en [docs/ASIGNACION_ROLES_Y_ACTIVIDADES.md](docs/ASIGNACION_ROLES_Y_ACTIVIDADES.md).
 
@@ -107,7 +110,9 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
     - Integración de enlace directo con Google Maps (*Deeplinking* para iniciar caminata a POIs).
     - Prototipo del visor histórico de cámara ("La Ventana del Tiempo" con filtro sobrepuesto).
   - [x] **Mercadotecnia Digital (UCA Mercadotecnia Digital):**
-    - **Estudio de Mercado formal:** Oferta, Territorio, Periodo, Benchmarking competitivo, Matriz de Escenarios Schwartz 2×2, Expansión y Criterios de Transición (`docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md`).
+    - **Estudios de Mercado Integrales (Actividad 3):**
+      - *Estudio Interno y de Oferta:* Oferta, Territorio, Periodo, Benchmarking competitivo, Matriz Schwartz 2×2, Expansión y Criterios de Transición (`docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md`).
+      - *Estudio Externo PESTEL:* Diagnóstico del macroentorno (Político, Económico, Social, Tecnológico, Ecológico y Legal) con decisiones estratégicas data-driven (`docs/ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md`).
     - Perfilado cuantitativo de los **3 Buyer Personas** (`campana/buyer_personas/`):
       1. *Explorador Completista (Gamers & Geeks)*: Adopción y viralidad.
       2. *Turista Consciente / Mochilero*: Sostenibilidad y ticket cultural.

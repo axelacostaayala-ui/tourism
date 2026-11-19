@@ -2,7 +2,7 @@
 
 > **Especificación de Producto, Arquitectura Técnica y Mecánicas del MVP**  
 > *Proyecto Prototípico de 5to Semestre — Licenciatura en Ciencias de Datos para Negocios (Universidad Rosario Castellanos)*  
-> * **Equipo de Alumnos:** Acosta Ayala Kevin Axel · Carrasco Sánchez Jessica Daniela · Hernández Monroy Diana Victoria  
+> * **Equipo de Alumnos:** Hernández Monroy Diana Victoria (Miembro 1) · Acosta Ayala Kevin Axel (Miembro 2) · Carrasco Sánchez Jessica Daniela (Miembro 3)  
 > * **Docente Asesor:** Rafael Mena  
 > * **Grupo:** 501  
 > * **Fecha de actualización:** Noviembre de 2026
