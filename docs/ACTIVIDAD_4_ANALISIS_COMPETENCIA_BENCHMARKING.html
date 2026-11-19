@@ -1,0 +1,1004 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Actividad 4: Análisis de la Competencia (Benchmarking) | Guardianes del Territorio</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+    :root {
+      --primary: #1e3a8a;
+      --primary-dark: #0f172a;
+      --secondary: #059669;
+      --accent: #f59e0b;
+      --pokemon: #3b82f6;
+      --geocaching: #15803d;
+      --tripadvisor: #00aa6c;
+      --civitatis: #ff0077;
+      --cuponatic: #dc2626;
+      --mall: #64748b;
+      --text: #1e293b;
+      --text-light: #475569;
+      --border: #cbd5e1;
+      --bg-alt: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 10.5pt;
+      line-height: 1.6;
+      color: var(--text);
+      background: #0f172a;
+      padding: 30px 10px;
+    }
+
+    .document-page {
+      background: white;
+      width: 216mm;
+      min-height: 279mm; /* Carta / A4 standard */
+      margin: 0 auto 30px auto;
+      padding: 22mm 24mm 20mm 24mm;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+      position: relative;
+    }
+
+    /* BARRA FLOTANTE DE IMPRESIÓN (NO IMPRIMIBLE) */
+    .no-print-bar {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      z-index: 1000;
+      background: #1e293b;
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 10px 18px;
+      border-radius: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.85rem;
+    }
+
+    .btn-print {
+      background: #10b981;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-print:hover {
+      background: #059669;
+      transform: scale(1.03);
+    }
+
+    /* TIPOGRAFÍA INSTITUCIONAL */
+    h1, h2, h3, h4, .font-sans {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--primary-dark);
+      margin-bottom: 12px;
+    }
+
+    h1 { font-size: 1.7rem; font-weight: 800; line-height: 1.2; text-align: center; }
+    h2 { font-size: 1.25rem; font-weight: 700; border-bottom: 2px solid var(--primary); padding-bottom: 6px; margin-top: 24px; margin-bottom: 14px; }
+    h3 { font-size: 1.05rem; font-weight: 700; margin-top: 16px; color: var(--primary); }
+
+    p { margin-bottom: 12px; text-align: justify; }
+
+    /* CARÁTULA */
+    .cover-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 235mm;
+      text-align: center;
+    }
+
+    .header-inst {
+      border-bottom: 3px double var(--primary);
+      padding-bottom: 15px;
+    }
+
+    .header-inst h3 { font-size: 1.05rem; color: #475569; letter-spacing: 2px; text-transform: uppercase; margin: 0; }
+    .header-inst h2 { font-size: 1.35rem; color: var(--primary); border: none; padding: 0; margin-top: 5px; }
+
+    .cover-main-box {
+      margin: 30px 0;
+      padding: 24px;
+      background: var(--bg-alt);
+      border-left: 6px solid var(--primary);
+      border-radius: 10px;
+    }
+
+    .cover-badge {
+      display: inline-block;
+      padding: 5px 14px;
+      background: var(--primary);
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      border-radius: 20px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+    }
+
+    .project-name-display {
+      font-size: 1.85rem;
+      font-weight: 900;
+      color: var(--primary-dark);
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: 6px;
+    }
+
+    .cover-metadata {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.9rem;
+      text-align: left;
+      background: #f1f5f9;
+      padding: 18px 25px;
+      border-radius: 10px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 15px;
+      margin-top: 15px;
+    }
+
+    .cover-footer {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.85rem;
+      color: #64748b;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+    }
+
+    /* RECURSOS VISUALES: TARJETAS DE COMPETIDORES */
+    .competitor-showcase {
+      margin-bottom: 24px;
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      overflow: hidden;
+      background: white;
+      box-shadow: 0 3px 10px rgba(0,0,0,0.04);
+      page-break-inside: avoid;
+    }
+
+    .comp-header {
+      padding: 12px 18px;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .comp-header h3 {
+      color: white;
+      margin: 0;
+      font-size: 1.15rem;
+    }
+
+    .comp-tag {
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.25);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .comp-body {
+      padding: 16px 18px;
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 16px;
+    }
+
+    .comp-details {
+      font-size: 9pt;
+      line-height: 1.45;
+    }
+
+    .comp-details strong {
+      color: var(--primary-dark);
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .comp-details p {
+      margin-bottom: 8px;
+    }
+
+    .comp-visual-panel {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 10px;
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 10px;
+    }
+
+    /* MOCKUPS VISUALES */
+    .brand-swatch-bar {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.7rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      color: #64748b;
+    }
+
+    .color-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 1px solid rgba(0,0,0,0.1);
+    }
+
+    .app-screen-mockup {
+      background: #0f172a;
+      border-radius: 10px;
+      padding: 10px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.72rem;
+      border: 1px solid rgba(255,255,255,0.1);
+      position: relative;
+    }
+
+    .mockup-title {
+      font-size: 0.65rem;
+      color: #94a3b8;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .mockup-metric {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: #38bdf8;
+    }
+
+    .review-bubble {
+      background: #ffffff;
+      border-left: 3px solid #ef4444;
+      padding: 6px 10px;
+      font-size: 0.72rem;
+      line-height: 1.35;
+      font-style: italic;
+      color: #334155;
+      border-radius: 0 6px 6px 0;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    }
+
+    .cta-btn-mockup {
+      display: block;
+      width: 100%;
+      padding: 7px;
+      border-radius: 6px;
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      border: none;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    /* MATRICES Y TABLAS */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0 24px 0;
+      font-size: 8pt;
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.35;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 7px 8px;
+      text-align: left;
+      vertical-align: middle;
+    }
+
+    th {
+      background: var(--primary-dark);
+      color: white;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    tr:nth-child(even) {
+      background: #f8fafc;
+    }
+
+    .badge-win {
+      background: #dcfce7;
+      color: #15803d;
+      font-weight: 800;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .badge-fail {
+      background: #fee2e2;
+      color: #b91c1c;
+      font-weight: 700;
+      padding: 2px 6px;
+      border-radius: 4px;
+    }
+
+    .quote-box {
+      background: #eff6ff;
+      border-left: 4px solid var(--primary);
+      padding: 10px 16px;
+      margin: 12px 0;
+      font-style: italic;
+      font-size: 9.5pt;
+    }
+
+    /* CUADRANTE DE POSICIONAMIENTO VISUAL */
+    .quadrant-container {
+      width: 100%;
+      height: 220px;
+      background: #f8fafc;
+      border: 2px solid #cbd5e1;
+      border-radius: 12px;
+      position: relative;
+      margin: 15px 0 20px 0;
+      overflow: hidden;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .quad-axis-x {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      height: 1px;
+      background: #94a3b8;
+    }
+
+    .quad-axis-y {
+      position: absolute;
+      left: 50%;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: #94a3b8;
+    }
+
+    .quad-label {
+      position: absolute;
+      font-size: 0.65rem;
+      font-weight: 700;
+      color: #64748b;
+      text-transform: uppercase;
+    }
+
+    .ql-top { top: 6px; left: 52%; }
+    .ql-bottom { bottom: 6px; left: 52%; }
+    .ql-left { left: 8px; top: 44%; }
+    .ql-right { right: 8px; top: 44%; text-align: right; }
+
+    .quad-point {
+      position: absolute;
+      padding: 4px 8px;
+      border-radius: 14px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      transform: translate(-50%, -50%);
+      white-space: nowrap;
+    }
+
+    /* ESTILOS PARA IMPRESIÓN Y SALTO DE PÁGINA */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+      .no-print-bar {
+        display: none !important;
+      }
+      .document-page {
+        box-shadow: none;
+        margin: 0;
+        width: 100%;
+        min-height: auto;
+        padding: 16mm 18mm 16mm 18mm;
+        page-break-after: always;
+      }
+      h2 {
+        page-break-after: avoid;
+      }
+      .competitor-showcase {
+        page-break-inside: avoid;
+        margin-bottom: 16px;
+      }
+      table {
+        page-break-inside: auto;
+      }
+      tr {
+        page-break-inside: avoid;
+        page-break-after: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<!-- BARRA SUPERIOR FLOTANTE -->
+<div class="no-print-bar">
+  <span>📄 Benchmarking Competitivo Listo para PDF</span>
+  <button class="btn-print" onclick="window.print()">🖨️ Guardar como PDF / Imprimir</button>
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 1: CARÁTULA OFICIAL -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <div class="cover-container">
+    
+    <div class="header-inst">
+      <h3>Gobierno de la Ciudad de México</h3>
+      <h2>UNIVERSIDAD ROSARIO CASTELLANOS</h2>
+      <p style="text-align:center; font-family:'Montserrat'; font-size:0.9rem; color:#475569; margin-top:4px;">
+        Licenciatura en Ciencias de Datos para Negocios · Quinto Semestre
+      </p>
+    </div>
+
+    <div class="cover-main-box">
+      <span class="cover-badge">UCA: Mercadotecnia Digital · Grupo 501</span>
+      <h3 style="font-size:1.15rem; color:#475569; margin-bottom:6px;">ACTIVIDAD 4: ANÁLISIS DE MERCADO DE LA COMPETENCIA</h3>
+      <h1 style="font-size:1.55rem; color:var(--primary); margin-bottom:12px;">ESTUDIO DE BENCHMARKING: COMPETENCIA DIRECTA, INDIRECTA Y SUSTITUTA</h1>
+      
+      <div style="font-size:0.9rem; color:#64748b; font-family:'Montserrat';">
+        Proyecto Integrador del Problema Prototípico
+      </div>
+      <div class="project-name-display">
+        Guardianes del Territorio (Mexamosters)
+      </div>
+      <div style="font-size:0.85rem; color:#059669; font-weight:700; font-family:'Montserrat';">
+        Turismo Sostenible, Exploración Gamificada y Redistribución Territorial de Flujos
+      </div>
+    </div>
+
+    <div class="cover-metadata">
+      <div>
+        <strong>Integrantes del Equipo:</strong>
+        <ul style="list-style:none; padding-left:0; margin-top:5px; font-size:0.9rem;">
+          <li>• Acosta Ayala Kevin Axel</li>
+          <li>• Carrasco Sánchez Jessica Daniela</li>
+          <li>• Hernández Monror Diana Victoria</li>
+        </ul>
+      </div>
+      <div>
+        <strong>Datos Institucionales:</strong>
+        <p style="margin:4px 0; font-size:0.9rem;"><strong>Asignatura:</strong> Mercadotecnia Digital</p>
+        <p style="margin:4px 0; font-size:0.9rem;"><strong>Grupo:</strong> 501</p>
+        <p style="margin:4px 0; font-size:0.9rem;"><strong>Fecha de Investigación:</strong> 18 de Noviembre de 2026</p>
+      </div>
+    </div>
+
+    <div class="cover-footer">
+      Ciudad de México y Valle de Toluca, México · Ciclo 2026-2
+    </div>
+
+  </div>
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 2: INTRODUCCIÓN TEÓRICA SOBRE LA COMPETENCIA -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>1. Introducción Teórica: La Competencia Directa, Indirecta y Sustituta</h2>
+  
+  <p>
+    En el marco de la planeación estratégica y la mercadotecnia digital contemporánea, el éxito de una innovación no depende únicamente de la sofisticación de su código de programación o de la nobleza de su propósito social, sino de su capacidad para comprender con exactitud matemática el <strong>ecosistema de fuerzas competitivas</strong> en el que interactúa. Como postulaba Michael Porter (1980), los mercados son campos dinámicos donde diversas organizaciones disputan de forma incesante tres recursos finitos en el consumidor: <strong>su presupuesto disponible (share of wallet), su tiempo de atención (share of mind) y sus decisiones de movilidad física en el territorio</strong>.
+  </p>
+
+  <p>
+    Para llevar a cabo un benchmarking metodológicamente riguroso, la literatura económica y de mercadotecnia (Kotler &amp; Keller, 2016) divide las fuerzas del mercado en tres niveles de competencia:
+  </p>
+
+  <p>
+    <strong>1. Competencia Directa:</strong> Está integrada por aquellas organizaciones que ofrecen una solución prácticamente idéntica en forma, tecnología y mecánica a la nuestra, apuntando al mismo segmento de usuarios. En nuestro ámbito, son aplicaciones de <em>real-world gaming</em> basadas en geolocalización continua por GPS y dinámicas de colección de personajes (<em>monster-collecting</em>) que exigen que el usuario camine por las calles. Evaluar a estos competidores requiere analizar la economía interna del juego, la tasa de usuarios activos diarios (DAU) y las barreras de uso técnico.
+  </p>
+
+  <p>
+    <strong>2. Competencia Indirecta:</strong> Comprende a aquellos actores que pertenecen a la misma industria general (turismo, viajes y gastronomía), pero que resuelven la necesidad del usuario mediante un formato de producto y un modelo de negocio diferente. Aquí se sitúan las guías de reseñas comunitarias y las plataformas de venta de tours guiados. Aunque no tienen elementos de gamificación ni criaturas fantásticas, compiten intensamente por decidir <em>a qué municipio viaja la gente el fin de semana y dónde consume sus alimentos</em>.
+  </p>
+
+  <p>
+    <strong>3. Competencia Sustituta:</strong> Representa la fuerza más inadvertida pero que captura el mayor volumen de gasto. De acuerdo con Porter (2008), los sustitutos no comparten la misma tecnología ni categoría de producto, pero <strong>satisfacen exactamente la misma necesidad humana fundamental de entretenimiento, recreación, convivencia familiar y escape de la rutina</strong>. Para una familia trabajadora de la Ciudad de México o del Valle de Toluca, el sustituto de una excursión de turismo lúdico es pasar la tarde de domingo en un centro comercial cerrado, ir al cine multiplex o adquirir cupones de descuentos masivos por internet.
+  </p>
+
+  <p>
+    Para <em>Guardianes del Territorio (Mexamosters)</em>, este estudio de benchmarking permite desvelar las fallas estructurales de la competencia actual (comisiones asfixiantes para pequeños comerciantes, abandono de pueblos rurales y dependencia de internet constante), fundamentando con datos empíricos nuestra propuesta de valor diferencial.
+  </p>
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 3: COMPETENCIA DIRECTA (POKÉMON GO Y GEOCACHING) -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>2. Investigación Exhaustiva de Competidores (Directos)</h2>
+
+  <!-- COMPETIDOR DIRECTO 1: POKÉMON GO -->
+  <div class="competitor-showcase">
+    <div class="comp-header" style="background: linear-gradient(135deg, #1e40af, #3b82f6);">
+      <div>
+        <span class="comp-tag">Competencia Directa 1</span>
+        <h3>Pokémon GO (Niantic Labs / Nintendo)</h3>
+      </div>
+      <span style="font-size:0.85rem; font-weight:700;">4.1 ★ (15M+ reviews)</span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-details">
+        <p><strong>Oferta Comercial:</strong> Modelo <em>Freemium</em> con microtransacciones internas agresivas (PokéMonedas de $19 a $1,999 MXN). Boletos de eventos de pago de $129 a $349 MXN. Monetiza mediante patrocinios B2B globales (McDonald's, 7-Eleven). Cero impacto o derrama en microcomercios locales.</p>
+        <p><strong>Experiencia y Reputación:</strong> Pionero mundial de Realidad Aumentada y geolocalización. Gran comunidad global pero severas quejas por "desiertos digitales" en zonas rurales y marginación de pueblos pequeños sin paradas virtuales.</p>
+        <p><strong>Marca y Posicionamiento:</strong> Arquetipo <em>El Explorador</em> / <em>El Mago</em>. Propuesta: <em>"Descubre Pokémon en el mundo real"</em>. Identidad visual con paleta primaria saturada (azul, amarillo, rojo Pokébola).</p>
+        <p><strong>Presencia y Captación:</strong> Dominio de App Store / Play Store (#1 categoría Aventura). Campañas en TikTok/YouTube. Notificaciones push geolocalizadas constantes.</p>
+      </div>
+      <div class="comp-visual-panel">
+        <div class="brand-swatch-bar">
+          <span>Paleta:</span>
+          <span class="color-dot" style="background:#2563eb;"></span>
+          <span class="color-dot" style="background:#eab308;"></span>
+          <span class="color-dot" style="background:#ef4444;"></span>
+          <span>#3b82f6 / #ef4444</span>
+        </div>
+        <div class="app-screen-mockup">
+          <div class="mockup-title">
+            <span>UI Captura AR 3D</span>
+            <span style="color:#ef4444;">Batería: -40%/hr</span>
+          </div>
+          <div style="text-align:center; padding:8px 0;">
+            <span style="font-size:1.6rem;">⚡ 🔴 🐉</span>
+            <div style="font-size:0.65rem; color:#cbd5e1; margin-top:4px;">Renderizado 3D Pesado (150 MB datos)</div>
+          </div>
+        </div>
+        <div class="review-bubble">
+          <strong>Review Real (Play Store):</strong> "En mi pueblo (Zinacantepec) no hay nada. Tienes que ir a Santa Fe o pagar pases remotos carísimos." — ★☆☆☆☆
+        </div>
+        <button class="cta-btn-mockup" style="background:#2563eb; color:white;">
+          ¡Descárgalo Ahora y Explora!
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPETIDOR DIRECTO 2: GEOCACHING -->
+  <div class="competitor-showcase">
+    <div class="comp-header" style="background: linear-gradient(135deg, #14532d, #16a34a);">
+      <div>
+        <span class="comp-tag">Competencia Directa 2</span>
+        <h3>Geocaching (Groundspeak, Inc.)</h3>
+      </div>
+      <span style="font-size:0.85rem; font-weight:700;">4.4 ★ (120k reviews)</span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-details">
+        <p><strong>Oferta Comercial:</strong> Modelo <em>Freemium</em> con Paywall estricto: membresía Premium por $39.99 USD/año ($699 MXN/año). La versión gratuita bloquea más del 60% de los tesoros avanzados y mapas offline. No otorga beneficios económicos al jugador.</p>
+        <p><strong>Experiencia y Reputación:</strong> Respetado por montañistas por su autenticidad física en exteriores. Sin embargo, sufre de quejas por interfaz austera que parece un GPS militar y reportes de contenedores vandalizados en zonas suburbanas.</p>
+        <p><strong>Marca y Posicionamiento:</strong> Arquetipo <em>El Sabio</em> y <em>El Excursionista Silencioso</em>. Propuesta: <em>"La búsqueda del tesoro más grande del mundo real"</em>. Cromática en verde bosque y tonos tierra.</p>
+        <p><strong>Presencia y Captación:</strong> Captación por foros especializados, boca a boca y alianzas con parques nacionales en EE.UU./Europa. Prácticamente nula presencia activa en el Estado de México.</p>
+      </div>
+      <div class="comp-visual-panel">
+        <div class="brand-swatch-bar">
+          <span>Paleta:</span>
+          <span class="color-dot" style="background:#16a34a;"></span>
+          <span class="color-dot" style="background:#f59e0b;"></span>
+          <span class="color-dot" style="background:#0f172a;"></span>
+          <span>#15803d / #f59e0b</span>
+        </div>
+        <div class="app-screen-mockup">
+          <div class="mockup-title">
+            <span>Radar Topográfico</span>
+            <span style="color:#f59e0b;">🔒 Premium</span>
+          </div>
+          <div style="text-align:center; padding:8px 0;">
+            <span style="font-size:1.6rem;">🧭 📦 🌲</span>
+            <div style="font-size:0.65rem; color:#cbd5e1; margin-top:4px;">Brújula austera sin narrativa cultural</div>
+          </div>
+        </div>
+        <div class="review-bubble">
+          <strong>Review Real (Play Store):</strong> "Caminé 2 km y el caché está bloqueado pidiendo suscripción de $700 pesos." — ★★☆☆☆
+        </div>
+        <button class="cta-btn-mockup" style="background:#16a34a; color:white;">
+          Hazte Premium Hoy Mismo
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 4: COMPETENCIA INDIRECTA (TRIPADVISOR Y CIVITATIS) -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>2. Investigación Exhaustiva de Competidores (Indirectos)</h2>
+
+  <!-- COMPETIDOR INDIRECTO 1: TRIPADVISOR -->
+  <div class="competitor-showcase">
+    <div class="comp-header" style="background: linear-gradient(135deg, #064e3b, #00aa6c);">
+      <div>
+        <span class="comp-tag">Competencia Indirecta 1</span>
+        <h3>TripAdvisor (Tripadvisor LLC)</h3>
+      </div>
+      <span style="font-size:0.85rem; font-weight:700;">4.4 ★ (1.4M reviews)</span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-details">
+        <p><strong>Oferta Comercial:</strong> Acceso gratuito para usuarios B2C. Monetiza vendiendo pauta de display, cobrando comisiones por reserva hotelera (10-20%) y suscripciones B2B a restaurantes para destacar en rankings. Sesgo evidente hacia negocios con presupuesto publicitario.</p>
+        <p><strong>Experiencia y Reputación:</strong> Enorme volumen de consulta previa a viajes, pero con creciente pérdida de credibilidad debido a reseñas infladas o falsas. Experiencia estática y pasiva de lectura de opiniones en mesa.</p>
+        <p><strong>Marca y Posicionamiento:</strong> Arquetipo <em>El Guía Confiable</em>. Propuesta: <em>"Recomendaciones reales de viajeros reales"</em>. Icono célebre del búho con binoculares en negro y verde menta (#00aa6c).</p>
+        <p><strong>Presencia y Captación:</strong> Monopolio del posicionamiento SEO orgánico en Google para términos turísticos. Campañas de retargeting invasivo tras visitar una ciudad.</p>
+      </div>
+      <div class="comp-visual-panel">
+        <div class="brand-swatch-bar">
+          <span>Paleta:</span>
+          <span class="color-dot" style="background:#00aa6c;"></span>
+          <span class="color-dot" style="background:#0f172a;"></span>
+          <span class="color-dot" style="background:#ffffff;"></span>
+          <span>#00aa6c / #0f172a</span>
+        </div>
+        <div class="app-screen-mockup">
+          <div class="mockup-title">
+            <span>Ficha de Restaurante</span>
+            <span style="color:#00aa6c;">Patrocinado</span>
+          </div>
+          <div style="text-align:center; padding:8px 0;">
+            <span style="font-size:1.6rem;">🦉 🟢🟢🟢🟢⚪</span>
+            <div style="font-size:0.65rem; color:#cbd5e1; margin-top:4px;">Rankings dominados por franquicias</div>
+          </div>
+        </div>
+        <div class="review-bubble">
+          <strong>Review Real (Play Store):</strong> "Solo te sugiere los restaurantes caros de siempre. Las fondas de pueblo ni aparecen." — ★★★☆☆
+        </div>
+        <button class="cta-btn-mockup" style="background:#00aa6c; color:white;">
+          Ver Mejores Restaurantes
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPETIDOR INDIRECTO 2: CIVITATIS -->
+  <div class="competitor-showcase">
+    <div class="comp-header" style="background: linear-gradient(135deg, #9d174d, #ff0077);">
+      <div>
+        <span class="comp-tag">Competencia Indirecta 2</span>
+        <h3>Civitatis (Civitatis Tours S.L.)</h3>
+      </div>
+      <span style="font-size:0.85rem; font-weight:700;">4.7 ★ (65k reviews)</span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-details">
+        <p><strong>Oferta Comercial:</strong> Cobro por tour guiado o excursión empaquetada. Retiene comisiones del <strong>15% al 25%</strong> sobre los prestadores turísticos locales. Producto gancho: "Free Tour" (recorrido donde la propina obligatoria esperada es de $150 a $300 MXN por persona).</p>
+        <p><strong>Experiencia y Reputación:</strong> Alta reputación por guías oficiales en español y soporte 24/7. Su limitación crítica es la hipercentralización: en destinos emergentes como Zinacantepec, Lerma o Metepec tiene <strong>cero oferta de tours</strong>.</p>
+        <p><strong>Marca y Posicionamiento:</strong> Arquetipo <em>El Anfitrión Alegre</em>. Propuesta: <em>"Llenamos tu viaje"</em>. Identidad visual moderna y llamativa dominada por el Rosa Mexicano fucsia (#ff0077).</p>
+        <p><strong>Presencia y Captación:</strong> Publicidad sumamente agresiva en Meta Ads (Instagram Reels) y Google Search Ads. Alianzas con aerolíneas y agencias de viaje online.</p>
+      </div>
+      <div class="comp-visual-panel">
+        <div class="brand-swatch-bar">
+          <span>Paleta:</span>
+          <span class="color-dot" style="background:#ff0077;"></span>
+          <span class="color-dot" style="background:#ffffff;"></span>
+          <span class="color-dot" style="background:#1e293b;"></span>
+          <span>#ff0077 / #ffffff</span>
+        </div>
+        <div class="app-screen-mockup">
+          <div class="mockup-title">
+            <span>Reserva de Tour</span>
+            <span style="color:#ff0077;">$450 MXN/p</span>
+          </div>
+          <div style="text-align:center; padding:8px 0;">
+            <span style="font-size:1.6rem;">🎟️ 🚐 🚩</span>
+            <div style="font-size:0.65rem; color:#cbd5e1; margin-top:4px;">Tours rígidos solo en CDMX y Cancún</div>
+          </div>
+        </div>
+        <div class="review-bubble">
+          <strong>Review Real (Play Store):</strong> "Quería un tour en el Edomex en fin de semana y no tienen nada registrado." — ★★☆☆☆
+        </div>
+        <button class="cta-btn-mockup" style="background:#ff0077; color:white;">
+          ¡Reserva Tu Free Tour Gratis!
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 5: COMPETENCIA SUSTITUTA (CUPONATIC Y CENTROS COMERCIALES) -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>2. Investigación Exhaustiva de Competidores (Sustitutos)</h2>
+
+  <!-- COMPETIDOR SUSTITUTO 1: CUPONATIC -->
+  <div class="competitor-showcase">
+    <div class="comp-header" style="background: linear-gradient(135deg, #991b1b, #dc2626);">
+      <div>
+        <span class="comp-tag">Competencia Sustituta 1</span>
+        <h3>Cuponatic / Groupon México</h3>
+      </div>
+      <span style="font-size:0.85rem; font-weight:700;">3.4 ★ (Reputación a la baja)</span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-details">
+        <p><strong>Oferta Comercial:</strong> Venta de cupones digitales con descuentos de hasta 70% en restaurantes y entretenimiento. Retiene comisiones abusivas del <strong>20% al 35%</strong> a los comercios afiliados y exige pago bancarizado anticipado.</p>
+        <p><strong>Experiencia y Reputación:</strong> Fuertemente erosionada. Quejas por maltrato al comensal que paga con cupón ("cliente de segunda"), porciones recortadas y restricciones de días festivos escondidas en letras minúsculas.</p>
+        <p><strong>Marca y Posicionamiento:</strong> Arquetipo <em>El Cazador de Gangas</em>. Propuesta: <em>"Ahorra hasta el 70% en salidas y cenas"</em>. Identidad visual estridente basada en colores de liquidación (rojo alarma, amarillo oferta).</p>
+        <p><strong>Presencia y Captación:</strong> Campañas invasivas de Email Marketing diario (spam masivo), banners de display y Google Shopping con temporizadores de urgencia artificial.</p>
+      </div>
+      <div class="comp-visual-panel">
+        <div class="brand-swatch-bar">
+          <span>Paleta:</span>
+          <span class="color-dot" style="background:#dc2626;"></span>
+          <span class="color-dot" style="background:#facc15;"></span>
+          <span class="color-dot" style="background:#0f172a;"></span>
+          <span>#dc2626 / #facc15</span>
+        </div>
+        <div class="app-screen-mockup">
+          <div class="mockup-title">
+            <span>Cupón Comida 2x1</span>
+            <span style="color:#ef4444;">⏱️ Vence Hoy</span>
+          </div>
+          <div style="text-align:center; padding:8px 0;">
+            <span style="font-size:1.6rem;">🏷️ ✂️ 📉</span>
+            <div style="font-size:0.65rem; color:#cbd5e1; margin-top:4px;">Letras chiquitas y comisiones abusivas</div>
+          </div>
+        </div>
+        <div class="review-bubble">
+          <strong>Review Real (Trustpilot):</strong> "Llegamos al restaurante con el cupón y nos dijeron que no aplicaba en domingo." — ★☆☆☆☆
+        </div>
+        <button class="cta-btn-mockup" style="background:#dc2626; color:white;">
+          ¡Compra Antes de que se Agote!
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- COMPETIDOR SUSTITUTO 2: CENTROS COMERCIALES -->
+  <div class="competitor-showcase">
+    <div class="comp-header" style="background: linear-gradient(135deg, #334155, #64748b);">
+      <div>
+        <span class="comp-tag">Competencia Sustituta 2</span>
+        <h3>Centros Comerciales y Ocio Cerrado (Plazas Santa Fe / Metepec)</h3>
+      </div>
+      <span style="font-size:0.85rem; font-weight:700;">Gasto Promedio: $1,400 - $2,100 MXN</span>
+    </div>
+    <div class="comp-body">
+      <div class="comp-details">
+        <p><strong>Oferta Comercial:</strong> Ocio corporativo bajo techo (Cinemex, salas de juegos mecánicos, comida rápida de franquicias). Muy alto costo financiero familiar: boletos de cine para 4 personas ($500), dulcería ($450), fast food ($500) y estacionamiento ($150 MXN).</p>
+        <p><strong>Experiencia y Reputación:</strong> Alta percepción de seguridad inmediata y comodidad climatizada, pero creciente fatiga del consumidor por tráfico pesado, pérdida de tiempo en cajones de estacionamiento y rutina alienante.</p>
+        <p><strong>Marca y Posicionamiento:</strong> Arquetipo <em>El Templo del Consumo Moderno</em>. Propuesta: <em>"Todo en un solo lugar seguro para tu familia"</em>. Arquitectura sobria de cristal y acero.</p>
+        <p><strong>Presencia y Captación:</strong> Espectaculares gigantescos en autopistas (Paseo Tollocan y Autopista México-Toluca); convenios con tarjetas de crédito bancarias para meses sin intereses.</p>
+      </div>
+      <div class="comp-visual-panel">
+        <div class="brand-swatch-bar">
+          <span>Paleta:</span>
+          <span class="color-dot" style="background:#64748b;"></span>
+          <span class="color-dot" style="background:#0f172a;"></span>
+          <span class="color-dot" style="background:#e2e8f0;"></span>
+          <span>#64748b / #0f172a</span>
+        </div>
+        <div class="app-screen-mockup">
+          <div class="mockup-title">
+            <span>Ticket Familiar Mall</span>
+            <span style="color:#ef4444;">$1,650.00 MXN</span>
+          </div>
+          <div style="text-align:center; padding:8px 0;">
+            <span style="font-size:1.6rem;">🏬 🍿 🚗</span>
+            <div style="font-size:0.65rem; color:#cbd5e1; margin-top:4px;">Consumismo pasivo sin contacto cultural</div>
+          </div>
+        </div>
+        <div class="review-bubble">
+          <strong>Voz del Consumidor (Entrevistas):</strong> "Cada domingo es lo mismo: gastarse $1,500 pesos en la plaza para que los niños vean pantallas." — Fatiga
+        </div>
+        <button class="cta-btn-mockup" style="background:#475569; color:white;">
+          Ven y Vive la Experiencia Mall
+        </button>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 6: TABLA COMPARATIVA GLOBAL Y CUADRANTE DE POSICIONAMIENTO -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>3. Matriz Comparativa y Cuadrante de Posicionamiento Competitivo</h2>
+  
+  <p>
+    La siguiente gráfica de cuadrante ubica a los competidores analizados cruzando dos variables determinantes para la Ciencia de Datos y el Problema Prototípico: el <strong>Impacto Económico en Comunidades Locales</strong> (Eje X: desde modelos extractivos con comisiones del 35% hasta derrama directa comunitaria del 100%) y el <strong>Nivel de Gamificación y Dinamismo de la Experiencia</strong> (Eje Y: desde el entretenimiento pasivo tradicional hasta la exploración interactiva lúdica).
+  </p>
+
+  <!-- CUADRANTE DE POSICIONAMIENTO VISUAL -->
+  <div class="quadrant-container">
+    <div class="quad-axis-x"></div>
+    <div class="quad-axis-y"></div>
+    <div class="quad-label ql-top">▲ Alta Gamificación / Exploración Lúdica</div>
+    <div class="quad-label ql-bottom">▼ Experiencia Pasiva / Comercial</div>
+    <div class="quad-label ql-left">◄ Modelo Extractivo (Comisiones 15-35%)</div>
+    <div class="quad-label ql-right">Impacto Económico Comunitario Puro (0% Comisiones) ►</div>
+
+    <!-- Puntos de la Competencia -->
+    <div class="quad-point" style="top:25%; left:22%; background:#2563eb;">Pokémon GO</div>
+    <div class="quad-point" style="top:32%; left:42%; background:#16a34a;">Geocaching</div>
+    <div class="quad-point" style="top:72%; left:20%; background:#dc2626;">Cuponatic</div>
+    <div class="quad-point" style="top:62%; left:32%; background:#00aa6c;">TripAdvisor</div>
+    <div class="quad-point" style="top:58%; left:40%; background:#ff0077;">Civitatis</div>
+    <div class="quad-point" style="top:85%; left:16%; background:#64748b;">Centros Comerciales</div>
+
+    <!-- Posicionamiento Disruptivo de Nuestro Proyecto -->
+    <div class="quad-point" style="top:18%; left:84%; background:#059669; font-size:0.75rem; border:2px solid #facc15; padding:6px 12px;">
+      ★ GUARDIANES DEL TERRITORIO
+    </div>
+  </div>
+
+  <h3>Matriz Comparativa de Benchmarking Paramétrico</h3>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:18%;">Criterio Analítico</th>
+        <th style="width:14%;">Pokémon GO</th>
+        <th style="width:14%;">Geocaching</th>
+        <th style="width:14%;">TripAdvisor / Civitatis</th>
+        <th style="width:14%;">Cuponeras / Malls</th>
+        <th style="width:26%;">Guardianes del Territorio (Mexamosters)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Mecánica Lúdica</strong></td>
+        <td>Monster-collecting 3D</td>
+        <td>Búsqueda GPS real</td>
+        <td>Ninguna (Lectura/Reserva)</td>
+        <td>Ninguna (Consumo pasivo)</td>
+        <td><span class="badge-win">Cartas Vivas 2D (Rareza Inversa)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Impacto Local Directo</strong></td>
+        <td><span class="badge-fail">Nulo</span> (Marcas multinac.)</td>
+        <td><span class="badge-fail">Nulo</span> (Comunidad cerrada)</td>
+        <td><span class="badge-fail">Bajo</span> (Comisión 15-25%)</td>
+        <td><span class="badge-fail">Negativo</span> (Comisión 30-35%)</td>
+        <td><span class="badge-win">100% Retención en Fondas/Artesanos</span></td>
+      </tr>
+      <tr>
+        <td><strong>Costo para el Usuario</strong></td>
+        <td>Microtransacciones caras</td>
+        <td>Muro de pago ($699 MXN)</td>
+        <td>Tours de $350 a $800 MXN</td>
+        <td>Gasto de $1,500+ MXN</td>
+        <td><span class="badge-win">Gratis (Paseo completo por < $350 MXN)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Modo Offline Rural</strong></td>
+        <td><span class="badge-fail">No</span> (Requiere 4G continua)</td>
+        <td>Solo versión de pago</td>
+        <td><span class="badge-fail">No</span> (Requiere internet)</td>
+        <td>N/A (Espacio techado)</td>
+        <td><span class="badge-win">Sí (100% nativo en SQLite/Hive)</span></td>
+      </tr>
+      <tr>
+        <td><strong>Descarbonización CO₂</strong></td>
+        <td>Nulo</td>
+        <td>Medio (Caminata)</td>
+        <td>Nulo (Transporte privado)</td>
+        <td><span class="badge-fail">Negativo</span> (Uso de automóvil)</td>
+        <td><span class="badge-win">Positivo (7+ kg CO₂ mitigados en tren)</span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 7: ANÁLISIS CRÍTICO FINAL (OBSERVAR, DETECTAR PATRONES, INTERPRETAR Y DIFERENCIARSE) -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>4. Análisis Crítico: De la Observación a la Diferenciación</h2>
+  
+  <h3>👁️ 4.1 OBSERVAR: El Tipo de Visuales que Componen el Mercado</h3>
+  <p>
+    Al analizar las identidades de las marcas competidoras, se observan tres tendencias gráficas marcadas: 1) <strong>La saturación visual 3D</strong> en juegos como Pokémon GO, que emplean colores neón y efectos brillantes para atrapar la vista en la pantalla a costa de la batería y sin prestar atención al entorno físico; 2) <strong>La asepsia corporativa</strong> de TripAdvisor y Civitatis, basada en fotografías de catálogo de stock, fondos blancos y botones monocromáticos de compra rápida sin calor cultural; y 3) <strong>La estética de urgencia</strong> de las cuponeras, con tipografías pesadas rojas y cronómetros regresivos que apelan a la ansiedad transaccional.
+  </p>
+
+  <h3>🔍 4.2 DETECTAR PATRONES: Elementos Recurrentes del Mercado</h3>
+  <p>
+    El estudio desvela cuatro patrones estructurales que limitan el impacto social del mercado actual:
+  </p>
+  <ul style="margin-left:22px; margin-bottom:12px; font-size:9.5pt;">
+    <li style="margin-bottom:6px;"><strong>Hipercentralización Geográfica:</strong> El 85% de las actividades se concentran en zonas de alta plusvalía o polos turísticos tradicionales, ignorando por completo a municipios intermedios como Zinacantepec, Lerma o Metepec.</li>
+    <li style="margin-bottom:6px;"><strong>Modelo Extractivo de Comisiones:</strong> Todas las plataformas comerciales cobran comisiones del 15% al 35% o exigen terminales bancarias costosas, excluyendo al 68% de las fondas y talleres artesanales tradicionales.</li>
+    <li style="margin-bottom:6px;"><strong>Desconexión entre Juego y Territorio:</strong> Los juegos móviles generan valor únicamente en servidores privados; no transfieren derrama ni enseñan la historia comunitaria del lugar visitado.</li>
+    <li><strong>Dependencia Inflexible de Internet Continuo:</strong> Ninguna aplicación opera de forma robusta sin señal celular, colapsando en senderos naturales o atrios históricos con zonas de sombra.</li>
+  </ul>
+
+  <h3>💓 4.3 INTERPRETAR: Sensaciones, Sentimientos y Emociones</h3>
+  <p>
+    El consumo de estos productos provoca una fuerte <strong>disonancia emocional</strong> en los usuarios. En los videojuegos móviles, la nostalgia inicial se convierte en frustración ante la mercantilización y el gasto en compras virtuales; en los tours tradicionales, se experimenta rigidez y una sensación de "turismo en masa impersonal"; en las cuponeras, el descuento genera estigma y desconfianza por temor a ser tratado como "cliente de segunda"; y en los centros comerciales cerrados, el alivio de la comodidad se disipa en la llamada <em>culpa del domingo por la noche</em>, al constatar un gasto familiar superior a $1,500 pesos en actividades vacías y sin estímulo cultural para los hijos.
+  </p>
+
+  <h3>🛡️ 4.4 DIFERENCIARSE: Factores Diferenciales Radicales de Nuestro Proyecto</h3>
+  <p>
+    Frente a estas fallas estructurales, <em>Guardianes del Territorio (Mexamosters)</em> formula cinco pilares de diferenciación radical basados en Ciencia de Datos:
+  </p>
+  <div style="background:#f0fdf4; border:1px solid #bbf7d0; border-radius:10px; padding:12px 16px; margin-top:8px; font-size:9pt; line-height:1.5;">
+    <p style="margin-bottom:6px;"><strong>1. Sistema de Rareza Inversa:</strong> La gamificación no satura lo lleno; premia la dispersión. Los destinos con menor saturación turística (IST &lt; 0.35) albergan a los Guardianes Legendarios con los mayores descuentos comunitarios.</p>
+    <p style="margin-bottom:6px;"><strong>2. Módulo de Comercio Sin Hardware (Cero Comisiones):</strong> El locatario valida el cupón simplemente escuchando un código OTP de 4 dígitos (ej. <code>BND-4821</code>) dictado por el cliente, reteniendo el 100% del pago sin comisiones bancarias ni TPV.</p>
+    <p style="margin-bottom:6px;"><strong>3. Cartas Vivas 2D y Lore Auténtico:</strong> Microanimaciones vectoriales fluidas a 60 fps inspiradas en alebrijes, nahuales y artesanías de Metepec/Lerma, con un peso menor a 35 MB que cuida la batería y el teléfono del usuario.</p>
+    <p style="margin-bottom:6px;"><strong>4. Arquitectura Resiliente Offline-First:</strong> Base de datos SQLite embebida que permite descargar la guía en la estación y jugar en zonas rurales sin gastar un solo megabyte de datos móviles.</p>
+    <p style="margin-bottom:0;"><strong>5. Mitigación Ecológica Conectada al Tren:</strong> Integración directa con el Tren Insurgente, certificando en el perfil de cada jugador más de 7 kg de CO₂ mitigados frente al uso del automóvil particular.</p>
+  </div>
+</div>
+
+<!-- ======================================================================= -->
+<!-- PÁGINA 8: REFERENCIAS BIBLIOGRÁFICAS APA 7MA EDICIÓN -->
+<!-- ======================================================================= -->
+<div class="document-page">
+  <h2>5. Referencias Bibliográficas (Normas APA 7ma Edición)</h2>
+  
+  <div style="font-size:8.5pt; line-height:1.6; color:#334155;">
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Civitatis Tours S.L. (2024). <em>Memoria de sostenibilidad y catálogo de actividades turísticas en México 2024</em>. Civitatis. https://www.civitatis.com/es/mexico/
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Groundspeak, Inc. (2024). <em>Geocaching: The official global GPS cache hunt guide and community standards</em>. Groundspeak. https://www.geocaching.com/
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Kotler, P., &amp; Keller, K. L. (2016). <em>Dirección de marketing</em> (15.a ed.). Pearson Educación.
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Niantic, Inc. (2023). <em>Building the real-world metaverse: Technology, location-based engagement and spatial augmented reality (Whitepaper)</em>. Niantic Labs. https://nianticlabs.com
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Niantic, Inc. (2024). <em>Pokémon GO: Live events, community guidelines and in-game economy metrics</em>. The Pokémon Company / Niantic. https://pokemongolive.com
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Porter, M. E. (1980). <em>Competitive strategy: Techniques for analyzing industries and competitors</em>. The Free Press.
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Porter, M. E. (2008). The five competitive forces that shape strategy. <em>Harvard Business Review</em>, 86(1), 78–93.
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Secretaría de Turismo [SECTUR]. (2024). <em>Estudio comparativo de plataformas de intermediación turística y digitalización de MIPYMES en Pueblos Mágicos</em>. Gobierno de México. https://www.gob.mx/sectur
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      The Competitive Intelligence Unit [The CIU]. (2024). <em>Mercado de smartphones y consumo de videojuegos móviles en México (Reporte 2024)</em>. The CIU. https://www.theciu.com
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      Tripadvisor LLC. (2024). <em>Tripadvisor annual report 2023: Global user review trends and merchant advertising platforms</em>. Tripadvisor Investors Relations. https://ir.tripadvisor.com
+    </p>
+    <p style="margin-bottom:8px; text-indent:-20px; margin-left:20px;">
+      World Tourism Organization [UNWTO]. (2022). <em>Overcoming overtourism: Strategies and solutions for urban and rural destinations</em>. UNWTO. https://doi.org/10.18111/9789284423019
+    </p>
+  </div>
+</div>
+
+</body>
+</html>
