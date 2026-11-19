@@ -1,0 +1,5 @@
+modelo,r2_train,r2_test,cv_r2_media,cv_r2_std,rmse_test,mae_test,mape_test_pct,exactitud_asignacion_rareza_pct
+Gradient Boosting Regressor,0.9947,0.9899,0.99,0.0008,0.0294,0.0216,5.63,91.67
+Random Forest Regressor,0.9893,0.9833,0.9843,0.0009,0.0377,0.0287,8.23,90.87
+Decision Tree Regressor (CART),0.9786,0.9696,0.9742,0.0028,0.0509,0.0385,11.25,89.29
+Ridge Regression (Lineal Base),0.6112,0.6097,0.6092,0.011,0.1823,0.1504,48.91,50.2

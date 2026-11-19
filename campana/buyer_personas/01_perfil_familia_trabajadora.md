@@ -31,7 +31,7 @@
 Datos extraídos del pipeline de eventos (`datos/processed/eventos_jugadores_telemetria.csv`):
 * **Participación total:** 3,610 eventos de juego (45.1% del total).
 * **Check-ins en POIs comunitarios:** 917 validaciones GPS y 562 escaneos QR en sitios históricos.
-* **Guardianes Despertados:** 349 desbloqueos exitosos.
+* **Mexamonsters Despertados:** 349 desbloqueos exitosos.
 * **Redención de Cupones (Bendiciones):** 193 canjes efectivos en fondas y comercios locales.
 * **Ahorro promedio por ticket:** **\$65.97 MXN** (representa entre el 12% y el 20% del consumo de una comida familiar).
 * **Días pico:** Domingos entre las 11:30 hrs y las 16:30 hrs.
@@ -84,7 +84,7 @@ Datos extraídos del pipeline de eventos (`datos/processed/eventos_jugadores_tel
 | Parámetro | Definición Estratégica |
 | :--- | :--- |
 | **Canales Principales** | Facebook (Campañas locales segmentadas a madres y padres de familia), Grupos vecinales de WhatsApp, Publicidad visual en andenes del Tren Insurgente y módulos turísticos del DIF / Ayuntamientos. |
-| **Formato de Contenido** | Carruseles con fotos de comida auténtica, infografías de "Cuánto gastas en un domingo tradicional vs. un domingo con Guardianes del Territorio", y videos cortos de familias reales explorando. |
-| **Propuesta de Valor** | *"El paseo dominical que tus hijos amarán y tu bolsillo agradecerá: viaja en tren, diviértanse buscando guardianes y ahorra comiendo lo mejor de nuestra tierra."* |
+| **Formato de Contenido** | Carruseles con fotos de comida auténtica, infografías de "Cuánto gastas en un domingo tradicional vs. un domingo con Mexamonsters", y videos cortos de familias reales explorando. |
+| **Propuesta de Valor** | *"El paseo dominical que tus hijos amarán y tu bolsillo agradecerá: viaja en tren, diviértanse buscando Mexamonsters y ahorra comiendo lo mejor de nuestra tierra."* |
 | **Call to Action (CTA)** | *¡Descarga gratis la app en el andén y desbloquea hoy tu primer descuento familiar!* |
 | **KPI de Éxito** | Costo de Adquisición (CAC) < \$12 MXN; Tasa de conversión de descarga a primer canje > 18%. |

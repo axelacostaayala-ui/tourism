@@ -4,14 +4,14 @@
 > *Licenciatura en Ciencias de Datos para Negocios — Universidad Rosario Castellanos*  
 > * **UCA:** Investigación de Operaciones  
 > * **Incidente Crítico:** *"Optimización de los flujos turísticos para un desarrollo sustentable"*  
-> * **Rol Responsable:** Integrante 2 — Operations Research & Quants (`monenri9-svg`)  
+> * **Rol Responsable:** Miembro 3 — Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)  
 > * **Script Ejecutable:** [`notebooks/05_optimizacion_io/01_optimizacion_presupuesto_y_flujos.py`](../notebooks/05_optimizacion_io/01_optimizacion_presupuesto_y_flujos.py)
 
 ---
 
 ## 1. 🎯 Planteamiento del Problema de Optimización
 
-En el diseño de la campaña publicitaria inteligente **"Guardianes del Territorio"** sobre el corredor del Tren Interurbano *"El Insurgente"* (Zinacantepec, Toluca Centro, Metepec y Lerma), las decisiones de asignación de recursos enfrentan objetivos en tensión:
+En el diseño de la campaña publicitaria inteligente **"Mexamonsters"** sobre el corredor del Tren Interurbano *"El Insurgente"* (Zinacantepec, Toluca Centro, Metepec y Lerma), las decisiones de asignación de recursos enfrentan objetivos en tensión:
 1. **Eficiencia Económica vs. Equidad Territorial:** Concentrar el presupuesto publicitario en el nodo urbano consolidado (Toluca Centro) o en los meses de Temporada Alta presenta costos de adquisición (CAC) nominalmente menores en el corto plazo, pero reproduce la desigualdad territorial y satura un solo punto.
 2. **Maximización de Derrama vs. Capacidad de Carga Ecosistémica y Comunitaria:** Las cooperativas ecoturísticas del Nevado de Toluca (Zinacantepec), los humedales de las Ciénegas de Lerma (Sitio Ramsar) y los talleres familiares de barro y tule tienen **límites físicos estrictos de atención mensual**. Rebasar dicha capacidad degradaría el ecosistema, saturaría a las fondas locales y deterioraría la experiencia del visitante.
 3. **Inclusión Sociodemográfica de Medios:** Depender exclusivamente de pauta en redes sociales excluiría a **Adultos Mayores** y **Familias Trabajadoras** que utilizan el transporte público físico.

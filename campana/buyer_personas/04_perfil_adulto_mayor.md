@@ -31,7 +31,7 @@
 Datos del pipeline analítico (`datos/processed/eventos_jugadores_telemetria.csv`):
 * **Participación total:** 738 eventos de telemetría (9.2% del total de la muestra).
 * **Check-ins y validaciones en POIs:** 287 eventos físicos en atrios, jardines públicos y mercados tradicionales.
-* **Guardianes Despertados:** 82 desbloqueos (los realizan principalmente con apoyo de familiares o tras instrucciones muy claras).
+* **Mexamonsters Despertados:** 82 desbloqueos (los realizan principalmente con apoyo de familiares o tras instrucciones muy claras).
 * **Canjes en Comercios:** 38 redenciones en panaderías de fiesta, boticas tradicionales y fondas típicas.
 * **Ahorro promedio por cupón:** **\$65.55 MXN** (muy significativo para su economía mensual).
 * **Días y horarios clave:** De martes a jueves entre las 10:30 y las 14:00 hrs (días valle en los que el tren y las plazas están despejados), y domingos por la mañana.

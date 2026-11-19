@@ -47,8 +47,9 @@ def cargar_insumos_corredor():
     """Carga los catálogos procesados de estaciones, rareza inversa y comercios afiliados."""
     df_rareza = pd.read_csv(os.path.join(PROCESSED_DIR, "indice_saturacion_rareza_estaciones.csv"))
     df_comercios = pd.read_csv(os.path.join(PROCESSED_DIR, "directorio_comercios_afiliados.csv"))
-    df_guardianes = pd.read_csv(os.path.join(PROCESSED_DIR, "catalogo_guardianes.csv"))
-    return df_rareza, df_comercios, df_guardianes
+    cat_file = "catalogo_mexamonsters.csv" if os.path.exists(os.path.join(PROCESSED_DIR, "catalogo_mexamonsters.csv")) else "catalogo_guardianes.csv"
+    df_mexamonsters = pd.read_csv(os.path.join(PROCESSED_DIR, cat_file))
+    return df_rareza, df_comercios, df_mexamonsters
 
 
 def parametrizar_modelo(df_rareza, df_comercios):
@@ -628,7 +629,7 @@ def generar_visualizaciones_io(df_sol_presupuesto, df_sol_comercios, df_sensibil
     axes[1].set_ylim(0, max(totales_temp) * 1.18)
 
     plt.suptitle(
-        "INVESTIGACIÓN DE OPERACIONES: OPTIMIZACIÓN DEL PRESUPUESTO PUBLICITARIO ($250,000 MXN)\nCorredor Tren Interurbano 'El Insurgente' — Guardianes del Territorio",
+        "INVESTIGACIÓN DE OPERACIONES: OPTIMIZACIÓN DEL PRESUPUESTO PUBLICITARIO ($250,000 MXN)\nCorredor Tren Interurbano 'El Insurgente' — Mexamonsters",
         fontsize=13, fontweight="bold", y=1.01
     )
     plt.tight_layout()
@@ -764,10 +765,10 @@ def generar_visualizaciones_io(df_sol_presupuesto, df_sol_comercios, df_sensibil
 
 def main():
     print("=========================================================================")
-    print("  MODELO DE INVESTIGACIÓN DE OPERACIONES - GUARDIANES DEL TERRITORIO     ")
+    print("  MODELO DE INVESTIGACIÓN DE OPERACIONES - MEXAMONSTERS                  ")
     print("=========================================================================")
 
-    df_rareza, df_comercios, df_guardianes = cargar_insumos_corredor()
+    df_rareza, df_comercios, df_mexamonsters = cargar_insumos_corredor()
     params = parametrizar_modelo(df_rareza, df_comercios)
 
     # Resolver modelo base ($250,000 MXN, Capacidad 100%)
