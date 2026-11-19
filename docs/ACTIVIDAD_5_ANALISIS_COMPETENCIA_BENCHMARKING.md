@@ -2,7 +2,7 @@
 ### Licenciatura en Ciencias de Datos para Negocios — 5to Semestre
 **UCA:** Mercadotecnia Digital  
 **Grupo:** 501  
-**Actividad 4:** Análisis de Mercado de la Competencia (Benchmarking Competitivo Directo, Indirecto y Sustituto)  
+**Actividad 5:** Análisis de Mercado de la Competencia (Benchmarking Competitivo Directo, Indirecto y Sustituto)  
 **Docente:** Rafael Mena  
 **Ciclo:** 2026-2  
 

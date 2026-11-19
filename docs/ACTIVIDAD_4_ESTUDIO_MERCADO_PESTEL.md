@@ -2,29 +2,30 @@
 ### Licenciatura en Ciencias de Datos para Negocios — 5to Semestre
 **UCA:** Mercadotecnia Digital  
 **Grupo:** 501  
-**Actividad 3:** Estudio de Mercado Externo mediante el Modelo PESTEL  
-**Docente:** [Asignado en Plataforma]  
+**Actividad 4:** EVIDENCIA DE APRENDIZAJE — ESTUDIO DE MERCADO EXTERNO MEDIANTE EL MODELO PESTEL  
+**Docente Asesor:** Rafael Mena  
+**Ciclo:** 2026-2  
 
 ---
 
 ### DATOS DEL EQUIPO Y PROYECTO
-* **Integrantes del Equipo:**
-  1. **Acosta Ayala Kevin Axel**
-  2. **Carrasco Sánchez Jessica Daniela**
-  3. **Hernández Monror Diana Victoria**
-* **Nombre Provisional del Proyecto:** *Guardianes del Territorio (Mexamosters)*
-* **Fecha de Entrega:** 17 de Noviembre de 2026
+* **Integrantes del Equipo (Orden Oficial):**  
+  1. **Miembro 1:** Hernández Monroy Diana Victoria (*Product & Growth / Marketing Lead*)  
+  2. **Miembro 2:** Acosta Ayala Kevin Axel (*Data Engineering & ML Lead*)  
+  3. **Miembro 3:** Carrasco Sánchez Jessica Daniela (*Operations Research & Quants Lead*)  
+* **Nombre Oficial del Proyecto:** *Mexamonsters (Turismo Sostenible, Exploración Gamificada y Redistribución Territorial de Flujos)*  
+* **Fecha de Entrega:** 17 de Noviembre de 2026  
 
 ---
 
 ## 1. 📌 Nombre del Proyecto y Breve Descripción
 
 ### Nombre del Proyecto:
-> **Guardianes del Territorio (Mexamosters)**  
-> *Turismo Sostenible, Exploración Gamificada y Redistribución Territorial de Flujos*
+> **Mexamonsters (Turismo Sostenible y Exploración Gamificada)**  
+> *Redistribución Territorial de Flujos mediante Rareza Inversa y Beneficios Comunitarios*
 
 ### Breve Descripción:
-*Guardianes del Territorio (Mexamosters)* es una aplicación móvil de turismo sostenible y exploración en el mundo real (*monster-collecting* de bajo impacto ambiental) diseñada para descentralizar los flujos de visitantes en México y combatir los efectos nocivos del *overtourism* (sobreturismo) en enclaves saturados. 
+*Mexamonsters* es una aplicación móvil de turismo cultural sostenible y exploración en el mundo real (*monster-collecting* de bajo impacto ambiental) diseñada para descentralizar los flujos de visitantes en México y combatir los efectos nocivos del *overtourism* (sobreturismo) en enclaves saturados. 
 
 El sistema utiliza la infraestructura masiva y limpia del **Tren Interurbano "El Insurgente"** (corredor Ciudad de México – Valle de Toluca) para guiar a los viajeros hacia municipios y comunidades periféricas con alta riqueza biocultural pero bajo aforo turístico (Zinacantepec, Metepec, Lerma y Toluca).
 

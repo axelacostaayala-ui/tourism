@@ -1,7 +1,7 @@
 # Estudio de Mercado Externo mediante el Modelo PESTEL
 
 > **UCA:** Mercadotecnia Digital  
-> **Actividad 3:** EVIDENCIA DE APRENDIZAJE — ESTUDIO DE MERCADO EXTERNO MEDIANTE EL MODELO PESTEL  
+> **Actividad 4:** EVIDENCIA DE APRENDIZAJE — ESTUDIO DE MERCADO EXTERNO MEDIANTE EL MODELO PESTEL  
 > **Proyecto Integrador del Problema Prototípico:** Mexamonsters (*Turismo Sostenible, Exploración Gamificada y Redistribución Territorial de Flujos*)  
 > **Integrantes del Equipo:**  
 > • **Miembro 1:** Hernández Monroy Diana Victoria (*Product & Growth / Marketing Lead*)  
