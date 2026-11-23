@@ -50,7 +50,7 @@ En México, el turismo masivo se concentra en unos pocos polos saturados provoca
 | **3. Machine Learning** | Modelo predictivo del **Índice de Saturación Turística (IST)** que calcula dinámicamente la rareza de los Mexamonsters y motor de recomendación de rutas personalizadas. |
 | **4. Modelos Estocásticos** | Simulación **Monte Carlo** para evaluar el riesgo de saturar la capacidad de carga comunitaria de las fondas y talleres locales por el éxito de las bendiciones. |
 | **5. Investigación de Operaciones** | Optimización matemática de la asignación del presupuesto de la campaña publicitaria y distribución óptima de cupones para maximizar la derrama local. |
-| **6. Mercadotecnia Digital** | **Estudios de Mercado Integrales (Actividad 3 UCA Mercadotecnia Digital)**:<br>• **Estudio Interno y de Oferta:** [ESTUDIO_DE_MERCADO_MEXAMONSTERS.md](docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md) (Territorio, Periodo, Benchmarking, Matriz Schwartz 2×2, Expansión, Buyer Personas y Quality Gates).<br>• **Estudio de Mercado Externo PESTEL:** [ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md](docs/ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md) (Factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales con decisiones estratégicas). |
+| **6. Mercadotecnia Digital** | **Estudios de Mercado y Competencia (UCAs Mercadotecnia Digital)**:<br>• **Estudio Interno y de Oferta (Actividad 3):** [ESTUDIO_DE_MERCADO_MEXAMONSTERS.md](docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md) (Territorio, Periodo, Matriz Schwartz 2×2, Expansión, Buyer Personas y Quality Gates).<br>• **Estudio de Mercado Externo PESTEL (Actividad 3):** [ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md](docs/ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md) (Factores Políticos, Económicos, Sociales, Tecnológicos, Ecológicos y Legales).<br>• **Benchmarking de Competencia (Actividad 5):** [BENCHMARKING_MERCADO_COMPETENCIA.md](docs/BENCHMARKING_MERCADO_COMPETENCIA.md) (Competidores directos, indirectos y sustitutos, matriz paramétrica y factores diferenciales radicales). |
 
 ---
 
@@ -62,6 +62,7 @@ Tourism/
 ├── PLAN_DE_ACCION.md              # Cronograma de 16 semanas, backlog y 3 entregas
 ├── problema prototípico 5to...pdf # Documento oficial de la Universidad
 ├── docs/                          # Documentación conceptual, técnica y de mercado
+│   ├── BENCHMARKING_MERCADO_COMPETENCIA.md  # Benchmarking de Competidores (Actividad 5)
 │   ├── ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md # Estudio PESTEL externo completo (Actividad 3)
 │   ├── ESTUDIO_DE_MERCADO_MEXAMONSTERS.md   # Estudio de Mercado interno y de oferta (Actividad 3)
 │   ├── MODELO_INVESTIGACION_OPERACIONES.md  # Formulación y optimización matemática (IO)

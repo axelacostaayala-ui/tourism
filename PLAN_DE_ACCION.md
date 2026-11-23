@@ -110,9 +110,10 @@ Para ejecutar cada fase de manera coordinada y sin cuellos de botella, las respo
     - Integración de enlace directo con Google Maps (*Deeplinking* para iniciar caminata a POIs).
     - Prototipo del visor histórico de cámara ("La Ventana del Tiempo" con filtro sobrepuesto).
   - [x] **Mercadotecnia Digital (UCA Mercadotecnia Digital):**
-    - **Estudios de Mercado Integrales (Actividad 3):**
-      - *Estudio Interno y de Oferta:* Oferta, Territorio, Periodo, Benchmarking competitivo, Matriz Schwartz 2×2, Expansión y Criterios de Transición (`docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md`).
-      - *Estudio Externo PESTEL:* Diagnóstico del macroentorno (Político, Económico, Social, Tecnológico, Ecológico y Legal) con decisiones estratégicas data-driven (`docs/ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md`).
+    - **Estudios de Mercado Integrales (Actividad 3 y 5):**
+      - *Estudio Interno y de Oferta (Actividad 3):* Oferta, Territorio, Periodo, Matriz Schwartz 2×2, Expansión y Criterios de Transición (`docs/ESTUDIO_DE_MERCADO_MEXAMONSTERS.md`).
+      - *Estudio Externo PESTEL (Actividad 3):* Diagnóstico del macroentorno (Político, Económico, Social, Tecnológico, Ecológico y Legal) con decisiones estratégicas data-driven (`docs/ESTUDIO_DE_MERCADO_EXTERNO_PESTEL.md`).
+      - *Benchmarking de Competencia (Actividad 5):* Análisis exhaustivo de competidores directos, indirectos y sustitutos, matriz paramétrica y factores diferenciales radicales (`docs/BENCHMARKING_MERCADO_COMPETENCIA.md`).
     - Perfilado cuantitativo de los **3 Buyer Personas** (`campana/buyer_personas/`):
       1. *Explorador Completista (Gamers & Geeks)*: Adopción y viralidad.
       2. *Turista Consciente / Mochilero*: Sostenibilidad y ticket cultural.
