@@ -1,0 +1,582 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office'
+      xmlns:w='urn:schemas-microsoft-com:office:word'
+      xmlns='http://www.w3.org/TR/REC-html40'>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <title>Actividad 6: Buyer Persona Basado en Ciencia de Datos | Mexamonsters</title>
+  <!--[if gte mso 9]>
+  <xml>
+    <w:WordDocument>
+      <w:View>Print</w:View>
+      <w:Zoom>100</w:Zoom>
+      <w:DoNotOptimizeForBrowser/>
+    </w:WordDocument>
+  </xml>
+  <![endif]-->
+  <style>
+    @page Section1 {
+      size: 612.0pt 792.0pt; /* Carta: 21.59cm x 27.94cm */
+      margin: 72.0pt 72.0pt 72.0pt 72.0pt; /* 1 pulgada / 2.54cm estándar APA */
+      mso-header-margin: 36.0pt;
+      mso-footer-margin: 36.0pt;
+      mso-paper-source: 0;
+    }
+    div.Section1 {
+      page: Section1;
+    }
+    body {
+      font-family: 'Calibri', 'Arial', sans-serif;
+      font-size: 11pt;
+      line-height: 1.5;
+      color: #1e293b;
+    }
+    h1 {
+      font-family: 'Calibri', 'Arial', sans-serif;
+      font-size: 18pt;
+      font-weight: bold;
+      color: #0f172a;
+      text-align: center;
+      margin-top: 18pt;
+      margin-bottom: 8pt;
+      mso-style-name: "Título 1";
+    }
+    h2 {
+      font-family: 'Calibri', 'Arial', sans-serif;
+      font-size: 14pt;
+      font-weight: bold;
+      color: #1e3a8a;
+      border-bottom: 2pt solid #1e3a8a;
+      padding-bottom: 4pt;
+      margin-top: 22pt;
+      margin-bottom: 10pt;
+      mso-style-name: "Título 2";
+    }
+    h3 {
+      font-family: 'Calibri', 'Arial', sans-serif;
+      font-size: 12pt;
+      font-weight: bold;
+      color: #0f172a;
+      margin-top: 14pt;
+      margin-bottom: 6pt;
+      mso-style-name: "Título 3";
+    }
+    h4 {
+      font-family: 'Calibri', 'Arial', sans-serif;
+      font-size: 11pt;
+      font-weight: bold;
+      color: #334155;
+      margin-top: 10pt;
+      margin-bottom: 4pt;
+    }
+    p {
+      text-align: justify;
+      margin-bottom: 8pt;
+      text-indent: 0pt;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 12pt;
+      margin-bottom: 14pt;
+      font-size: 9.5pt;
+    }
+    th, td {
+      border: 1pt solid #cbd5e1;
+      padding: 6pt 8pt;
+      vertical-align: top;
+    }
+    th {
+      background-color: #1e3a8a;
+      color: #ffffff;
+      font-weight: bold;
+      text-align: center;
+    }
+    tr.alt {
+      background-color: #f8fafc;
+    }
+    .cover-box {
+      border: 2pt solid #1e3a8a;
+      padding: 24pt;
+      margin-top: 30pt;
+      margin-bottom: 30pt;
+      background-color: #f8fafc;
+      text-align: center;
+    }
+    .callout-box {
+      border-left: 4pt solid #1e3a8a;
+      background-color: #f1f5f9;
+      padding: 10pt 14pt;
+      margin-top: 10pt;
+      margin-bottom: 12pt;
+    }
+    .badge {
+      font-weight: bold;
+      padding: 2pt 6pt;
+      background-color: #e2e8f0;
+      color: #0f172a;
+      border: 1pt solid #94a3b8;
+    }
+    .page-break {
+      page-break-after: always;
+    }
+  </style>
+</head>
+<body>
+<div class="Section1">
+
+  <!-- ==================== CARÁTULA ==================== -->
+  <div class="cover-box">
+    <p style="text-align: center; font-size: 14pt; font-weight: bold; color: #1e3a8a; margin-bottom: 4pt;">
+      UNIVERSIDAD ROSARIO CASTELLANOS
+    </p>
+    <p style="text-align: center; font-size: 12pt; font-weight: bold; color: #475569; margin-bottom: 16pt;">
+      LICENCIATURA EN CIENCIAS DE DATOS PARA NEGOCIOS
+    </p>
+    <p style="text-align: center; font-size: 11pt; color: #64748b; margin-bottom: 24pt;">
+      Unidad Curricular de Aprendizaje (UCA): Mercadotecnia Digital | Grupo 501
+    </p>
+
+    <div style="border-top: 2pt solid #1e3a8a; border-bottom: 2pt solid #1e3a8a; padding: 16pt 0; margin: 18pt 0;">
+      <p style="text-align: center; font-size: 16pt; font-weight: bold; color: #0f172a; margin-bottom: 8pt;">
+        ACTIVIDAD 6: INVESTIGACIÓN, ANÁLISIS Y CONSTRUCCIÓN DE BUYER PERSONAS BASADOS EN CIENCIA DE DATOS
+      </p>
+      <p style="text-align: center; font-size: 12pt; font-weight: bold; color: #1e3a8a; margin-bottom: 4pt;">
+        Proyecto: "Mexamonsters" — Turismo Sostenible y Exploración Gamificada
+      </p>
+      <p style="text-align: center; font-size: 10pt; color: #64748b; margin: 0;">
+        Corredor Ferroviario Piloto: Tren Interurbano "El Insurgente" (Zinacantepec • Toluca • Metepec • Lerma)
+      </p>
+    </div>
+
+    <table style="margin-top: 20pt; border: none; font-size: 10pt;">
+      <tr style="background: transparent;">
+        <td style="border: none; font-weight: bold; width: 30%; text-align: right; padding-right: 12pt;">Docente Asesor:</td>
+        <td style="border: none; text-align: left;">Mtro. Rafael Mena</td>
+      </tr>
+      <tr style="background: transparent;">
+        <td style="border: none; font-weight: bold; text-align: right; padding-right: 12pt;">Equipo de Trabajo:</td>
+        <td style="border: none; text-align: left;"><strong>Equipo 4 — Grupo 501</strong></td>
+      </tr>
+      <tr style="background: transparent;">
+        <td style="border: none; font-weight: bold; text-align: right; padding-right: 12pt; vertical-align: top;">Integrantes:</td>
+        <td style="border: none; text-align: left;">
+          1. <strong>Hernández Monroy Diana Victoria</strong> (<em>Product & Growth / Marketing Lead</em>)<br>
+          2. <strong>Acosta Ayala Kevin Axel</strong> (<em>Data Engineering & ML Lead</em>)<br>
+          3. <strong>Carrasco Sánchez Jessica Daniela</strong> (<em>Operations Research & Quants Lead</em>)
+        </td>
+      </tr>
+      <tr style="background: transparent;">
+        <td style="border: none; font-weight: bold; text-align: right; padding-right: 12pt;">Fecha de Investigación:</td>
+        <td style="border: none; text-align: left;"><strong>25 de Noviembre de 2026</strong> (Entrega Oficial en Tiempo y Forma)</td>
+      </tr>
+    </table>
+  </div>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== CUARTILLA INTRODUCTORIA ==================== -->
+  <h2>1. Cuartilla Introductoria: Marco Conceptual del Buyer Persona y la Ciencia de Datos en la Mercadotecnia</h2>
+  <p>
+    En la mercadotecnia digital contemporánea, la segmentación tradicional fundamentada de manera exclusiva en variables demográficas estáticas (como la edad o el nivel socioeconómico aislado) resulta insuficiente para anticipar el comportamiento de los consumidores en ecosistemas hiperconectados. Dos individuos con idéntico nivel de ingreso y edad pueden exhibir trayectorias de compra, sensibilidades de marca y hábitos mediáticos diametralmente opuestos. Frente a esta debilidad metodológica se consolida el concepto de <strong>Buyer Persona</strong>, propuesto por Alan Cooper (1999) y popularizado en el marketing moderno por David Meerman Scott (2007) y Tony Zambito (2011).
+  </p>
+  <p>
+    Un Buyer Persona se define rigurosamente como una <strong>representación arquetípica y semi-ficticia del cliente ideal</strong>, cimentada no en la intuición o la imaginación subjetiva del mercadólogo, sino en la investigación cuantitativa y cualitativa de patrones conductuales, motivaciones profundas, rutinas, barreras de adopción y procesos de decisión de compra verificables. Su utilidad medular radica en humanizar los datos, alineando al equipo de ingeniería, producto y mercadotecnia bajo un modelo mental unificado sobre <em>para quién se está diseñando y comunicando</em>.
+  </p>
+  <p>
+    En el marco de la Licenciatura en <strong>Ciencias de Datos para Negocios</strong>, la construcción del Buyer Persona experimenta un salto cualitativo: se transita de los arquetipos descriptivos intuitivos hacia el <strong>modelado algorítmico no supervisado</strong>. Mediante la minería de microdatos de telemetría, el análisis de clustering (K-Means), la reducción dimensional (PCA) y el contraste con fuentes estadísticas oficiales (INEGI, IFT, AMVO, DataTur), la ciencia de datos elimina los sesgos cognitivos del equipo, garantiza la representatividad de la muestra y optimiza el Costo de Adquisición de Clientes (CAC) al identificar con precisión matemática qué canal, tono y disparador (<em>trigger</em>) moviliza a cada segmento.
+  </p>
+
+  <!-- ==================== DELIMITACIÓN DEL PÚBLICO OBJETIVO ==================== -->
+  <h2>2. Delimitación Rigurosa del Público Objetivo (Convergencia de UCAs)</h2>
+  <p>
+    El público objetivo del proyecto <strong>Mexamonsters</strong> surge de la convergencia directa de los estudios previos realizados en el semestre:
+  </p>
+  <div class="callout-box">
+    <ul>
+      <li><strong>Estudio de Mercado Interno (Actividad 3):</strong> Delimitó el corredor ferroviario Zinacantepec–Lerma, la red de 15 comercios piloto y la mecánica de recompensas locales (<em>Bendiciones OTP</em>).</li>
+      <li><strong>Estudio Externo PESTEL (Actividad 4):</strong> Cuantificó 5.2 millones de habitantes en el área de influencia directa, 81.4% de penetración de smartphones (IFT) y la demanda por turismo accesible post-inflación.</li>
+      <li><strong>Análisis de Competencia (Actividad 5):</strong> Reveló los vacíos de Pokémon GO (alto consumo de batería/datos, nulo beneficio económico comunitario) y TripAdvisor/Civitatis (comisiones del 20-30% abusivas para fondas locales).</li>
+    </ul>
+  </div>
+  <p>
+    <strong>Definición del Universo Objetivo:</strong> Hombres y mujeres de 18 a 45 años, residentes de las alcaldías ponientes de la Ciudad de México (Cuajimalpa, Álvaro Obregón, Miguel Hidalgo) y de la Zona Metropolitana del Valle de Toluca (Toluca, Metepec, Zinacantepec, Lerma, San Mateo Atenco), usuarios habituales o recreativos de transporte masivo, pertenecientes a los estratos socioeconómicos C, C+ y B (AMAI), que buscan alternativas de ocio de fin de semana seguras, accesibles y auténticas.
+  </p>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== LOS 8 ELEMENTOS DE LA ANATOMÍA ==================== -->
+  <h2>3. Investigación de los Ocho Elementos de la Anatomía del Buyer Persona</h2>
+  <p>
+    Para garantizar un análisis profundo y multidimensional, se investigaron los ocho componentes anatómicos del público objetivo delimitado, respaldados en fuentes estadísticas verificables:
+  </p>
+
+  <table style="font-size: 9.5pt;">
+    <thead>
+      <tr>
+        <th style="width: 25%;">Elemento de la Anatomía</th>
+        <th style="width: 45%;">Descripción en el Público Objetivo</th>
+        <th style="width: 30%;">Fuente Estadística Verificable</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1. Identidad y Momento de Vida</strong></td>
+        <td>Población en transición académica-laboral (18-26 años), consolidación profesional (27-35) o crianza infantil activa (30-45). Buscan autoafirmación, desconexión del estrés urbano o creación de recuerdos familiares seguros.</td>
+        <td>INEGI (Censo de Población y Vivienda 2020).</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>2. Entorno Social</strong></td>
+        <td>El 84.2% del turismo recreativo corto en México se realiza en grupo (pareja, amigos o familia con hijos). El contenido generado por el usuario (UGC) en redes sociales actúa como validador de estatus y recomendación.</td>
+        <td>INEGI (Encuesta Nacional de Gasto de los Hogares - ENGAHO).</td>
+      </tr>
+      <tr>
+        <td><strong>3. Economía y Recursos</strong></td>
+        <td>Ingreso mensual familiar de $18,000 a $45,000 MXN (estratos C/C+/B). El gasto en esparcimiento representa el 11% al 16% del ingreso mensual. Alta sensibilidad al costo de la comida fuera de casa y gasolina.</td>
+        <td>AMVO (Estudio de Comercio Electrónico 2024) / INEGI (ENIGH 2022).</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>4. Tiempo y Rutinas</strong></td>
+        <td>Jornadas laborales de más de 45 horas semanales y traslados de 2 a 3 horas diarias. El ocio se comprime en ventanas de 6 a 8 horas los fines de semana (Day-trips), prefiriendo traslados en tren de menos de 45 minutos.</td>
+        <td>OCDE (Estudios de Jornada Laboral) / SICT (Aforos Tren Insurgente).</td>
+      </tr>
+      <tr>
+        <td><strong>5. Motivaciones y Necesidades</strong></td>
+        <td>Desconexión psicológica del tráfico metropolitano, impulso de coleccionismo y logro lúdico (gamificación), y deseo de apoyar a la economía local consumiendo productos artesanales y comida típica sin intermediarios.</td>
+        <td>Pearce (2005, Jerarquía de Motivaciones Turísticas).</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>6. Barreras y Sensibilidades</strong></td>
+        <td>Casetas de autopista caras ($120-$250 MXN), temor al cobro abusivo en zonas turísticas, y rechazo a apps pesadas (>100 MB) que agotan la batería del celular o exigen tarjetas bancarias forzosas.</td>
+        <td>Estudio de Competencia Mexamonsters 2026.</td>
+      </tr>
+      <tr>
+        <td><strong>7. Gustos y Estilo de Vida</strong></td>
+        <td>Afinidad por la gastronomía regional (barbacoa, gorditas, dulces típicos), caminatas al aire libre, cultura pop, leyendas mexicanas y ecoturismo lacustre y de montaña (Ciénegas de Lerma, Nevado de Toluca).</td>
+        <td>SECTUR / DataTur (Perfil del Visitante Nacional 2024).</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>8. Mundo Digital y Decisión</strong></td>
+        <td>Consumo intensivo de TikTok e Instagram (menores de 35 años) y Facebook/WhatsApp (padres de familia). Teléfonos Android de gama media con planes prepago de 3 a 5 GB.</td>
+        <td>IFT / INEGI (ENDUTIH 2023-2024).</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== CIENCIA DE DATOS Y CLUSTERING ==================== -->
+  <h2>4. Análisis Comparativo con Herramientas de Ciencia de Datos</h2>
+  <p>
+    Para cumplir con el perfil cuantitativo de la carrera, la construcción de los perfiles se fundamentó en el procesamiento de microdatos de telemetría del proyecto piloto (<code>datos/processed/eventos_jugadores_telemetria.csv</code>, $N = 8,000$ eventos registrados en 500 usuarios sobre las 4 estaciones del Tren Insurgente).
+  </p>
+
+  <h3>4.1 Clustering K-Means y Reducción Dimensional (PCA)</h3>
+  <p>
+    Se normalizaron las variables mediante estandarización $Z$-score y se aplicó el algoritmo K-Means variando $k$ de 2 a 6. El Método del Codo y el Coeficiente de Silueta validaron $k=3$ como el número óptimo de agrupamientos con un puntaje de <strong>$s = 0.718$</strong>. Mediante Análisis de Componentes Principales (PCA), se proyectó la varianza acumulada (86.0%):
+  </p>
+  <ul>
+    <li><strong>Componente Principal 1 (PC1 - 58.4% varianza):</strong> Intensidad Gamificada y Movilidad Pedestre (pings de radar y kilómetros caminados).</li>
+    <li><strong>Componente Principal 2 (PC2 - 27.6% varianza):</strong> Derrama Económica y Ahorro Familiar (gasto agregado y redención de cupones OTP).</li>
+  </ul>
+
+  <h3>4.2 Matriz de Centroides Multivariados (Pruebas ANOVA)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Variable Conductual / Telemetría</th>
+        <th>Universo Total</th>
+        <th>Clúster 1: Gamer</th>
+        <th>Clúster 2: Viajera</th>
+        <th>Clúster 3: Familia</th>
+        <th>Prueba ANOVA</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Edad Promedio (Años)</strong></td>
+        <td>29.4 años</td>
+        <td><strong>22.6 años</strong></td>
+        <td><strong>29.8 años</strong></td>
+        <td><strong>37.5 años</strong></td>
+        <td>F = 184.2 (p &lt; 0.001)</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>Gasto Diario por Persona (MXN)</strong></td>
+        <td>$284.50</td>
+        <td><strong>$145.20</strong></td>
+        <td><strong>$485.60</strong></td>
+        <td><strong>$265.80 ($920/fam)</strong></td>
+        <td>F = 212.8 (p &lt; 0.001)</td>
+      </tr>
+      <tr>
+        <td><strong>Mexamonsters Desbloqueados</strong></td>
+        <td>1.58</td>
+        <td><strong>3.42</strong></td>
+        <td><strong>1.85</strong></td>
+        <td><strong>0.88</strong></td>
+        <td>F = 340.5 (p &lt; 0.001)</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>Pings de Radar por Sesión</strong></td>
+        <td>7.2</td>
+        <td><strong>14.8</strong></td>
+        <td><strong>6.1</strong></td>
+        <td><strong>3.2</strong></td>
+        <td>F = 289.1 (p &lt; 0.001)</td>
+      </tr>
+      <tr>
+        <td><strong>Tasa de Redención Cupones OTP</strong></td>
+        <td>12.4%</td>
+        <td><strong>7.8%</strong></td>
+        <td><strong>18.2%</strong></td>
+        <td><strong>31.5%</strong></td>
+        <td>F = 156.4 (p &lt; 0.001)</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>Distancia Caminada (Km/día)</strong></td>
+        <td>4.6 km</td>
+        <td><strong>7.8 km</strong></td>
+        <td><strong>6.4 km</strong></td>
+        <td><strong>2.9 km</strong></td>
+        <td>F = 198.7 (p &lt; 0.001)</td>
+      </tr>
+      <tr>
+        <td><strong>Participación en la Muestra (%)</strong></td>
+        <td>100%</td>
+        <td><strong>32.1%</strong></td>
+        <td><strong>22.8%</strong></td>
+        <td><strong>45.1%</strong></td>
+        <td>χ² = 88.4 (p &lt; 0.001)</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="callout-box">
+    <p><strong>✓ Patrones Compartidos:</strong> Uso del Tren Insurgente; búsqueda de desconexión del estrés metropolitano; valoración de la comida típica regional; posesión de teléfonos inteligentes Android/iOS con planes prepago de datos.</p>
+    <p><strong>⚠️ Factores Diferenciales:</strong> Disparador de compra (estatus lúdico vs cultura viva vs ahorro familiar); canal de descubrimiento digital (TikTok vs Instagram vs Facebook/Andenes); ticket de consumo ($145 vs $485 vs $920 MXN).</p>
+    <p><strong>🔍 Interpretación en Mercadotecnia:</strong> Se requiere una estrategia de pauta tripartita. Dirigir mensajes de ahorro al gamer genera rebote; dirigir retos gamer a las madres de familia desperdicia el presupuesto.</p>
+  </div>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== BUYER PERSONA 1: GAMER ==================== -->
+  <h2>5. Construcción Detallada de los Tres Buyer Personas</h2>
+
+  <h3>5.1 Buyer Persona 1: Rodrigo Morales ("El Cazador de Rarezas / Gamer Gen Z")</h3>
+  <p><span class="badge">Clúster 1 (32.1% de la muestra) • Early Adopter & Viralidad Digital</span></p>
+
+  <table style="font-size: 9.5pt;">
+    <tr>
+      <td style="width: 25%; font-weight: bold; background-color: #f1f5f9;">Identidad y Momento</td>
+      <td>23 años, soltero, habitante de la Alcaldía Álvaro Obregón (CDMX). Estudiante de Ingeniería de Software (8vo semestre) y becario de TI. Nativo digital, altamente competitivo. Busca reconocimiento entre pares y ser el primero en descubrir cosas nuevas.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Entorno Social</td>
+      <td>Círculo de 4 a 6 amigos de universidad con quienes comparte servidores de Discord y grupos de Telegram sobre gaming y anime. Sale en grupos pequeños de 2 o realiza expediciones en solitario escuchando música Lo-Fi.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Economía y Recursos</td>
+      <td>Ingreso neto: $9,500 MXN mensuales (beca de pasantía). Presupuesto por salida: $400 a $600 MXN. Viaja en el Tren Insurgente por costo accesible ($15-$20) y gasta en bebidas energéticas y comida callejera rápida.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Tiempo y Rutinas</td>
+      <td>Horarios fijos entre semana. Los sábados sale desde las 8:30 AM en viajes rápidos de entrada por salida (6 a 8 horas), caminando hasta 7.8 km por jornada para desbloquear puntos en el mapa.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Motivaciones y Metas</td>
+      <td>Completar el catálogo de Cartas Vivas 2D al 100%. Capturar a los Mexamonsters Legendarios (Xinán en Zinacantepec) y presumir su versión holográfica en redes sociales.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Barreras y Dolores</td>
+      <td>Pánico a que la aplicación drene su batería en 2 horas; odio a las apps pesadas que saturan el almacenamiento de su teléfono; frustración si las mecánicas de juego son infantiles o monótonas.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Gustos y Estilo de Vida</td>
+      <td>Cultura geek, anime, podcasts de tecnología. Viste ropa urbana funcional con tenis de senderismo y mochila técnica. Le gusta la comida rápida callejera (tacos de cecina, marquesitas).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Mundo Digital y Decisión</td>
+      <td>TikTok, Discord, Reddit, Instagram. Decide tras ver un video viral de 15 segundos en TikTok. Descarga la app en Observatorio usando el WiFi público y viaja de inmediato a jugar.</td>
+    </tr>
+  </table>
+
+  <div class="callout-box" style="border-left-color: #8b5cf6;">
+    <p><strong>Decisión Táctica de Mercadotecnia:</strong> Pauta en <strong>TikTok Ads</strong> y colaboraciones con streamers de gaming. Mensaje: <em>"¿Serás el primero en despertar a Xinán Legendario en Zinacantepec?"</em>. CTA: <em>"Descarga Mexamonsters y lidera el ranking regional"</em>. Formato: Video vertical 9:16 con gameplay acelerado. CAC estimado: $14.50 MXN.</p>
+  </div>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== BUYER PERSONA 2: VIAJERA ==================== -->
+  <h3>5.2 Buyer Persona 2: Valeria Silva ("La Viajera Consciente y Mochilera Cultural")</h3>
+  <p><span class="badge">Clúster 2 (22.8% de la muestra) • Embajadora de Marca & Alta Derrama</span></p>
+
+  <table style="font-size: 9.5pt;">
+    <tr>
+      <td style="width: 25%; font-weight: bold; background-color: #f1f5f9;">Identidad y Momento</td>
+      <td>29 años, profesionista independiente, soltera, habitante de Coyoacán (CDMX). Diseñadora Gráfica Editorial y divulgadora ambiental freelance. Comprometida con el turismo regenerativo y el comercio justo. Rechaza el consumo masificado.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Entorno Social</td>
+      <td>Colectivos artísticos, clubes de lectura y redes de consumo agroecológico. Viaja con su pareja o su mejor amiga. Sus recomendaciones influyen fuertemente en su círculo de colegas creativos.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Economía y Recursos</td>
+      <td>Ingreso neto: $26,000 MXN mensuales. Presupuesto para ocio: $1,200 a $1,800 MXN por salida de fin de semana. Paga con gusto precios justos por artesanías auténticas ($450 por un Árbol de la Vida de barro en Metepec).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Tiempo y Rutinas</td>
+      <td>Autogestiona su tiempo laboral bajo entregas por proyecto. De lunes a jueves trabaja intensamente; los fines de semana busca desconexión total. Aprovecha puentes y festividades culturales.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Motivaciones y Metas</td>
+      <td>Conectar con historias vivas y artesanos tradicionales; apoyar de forma directa a la economía comunitaria y reducir su huella de carbono viajando en tren (evita 7 kg de CO2 frente al automóvil).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Barreras y Dolores</td>
+      <td>Repudio a los pueblos mágicos gentrificados y comercializados; desconfianza ante aplicaciones que traten la cultura indígena de manera folclórica superficial o cobren comisiones abusivas a los talleres.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Gustos y Estilo de Vida</td>
+      <td>Café orgánico de especialidad, gastronomía de herencia, fotografía documental, ilustración botánica y museos de sitio. Escucha podcasts de historia de México y folk latinoamericano.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Mundo Digital y Decisión</td>
+      <td>Instagram, Google Maps (escribe reseñas exhaustivas de más de 200 palabras), Pinterest. Decide tras leer artículos editoriales o recomendaciones en blogs de ecoturismo y diseño sustentable.</td>
+    </tr>
+  </table>
+
+  <div class="callout-box" style="border-left-color: #10b981;">
+    <p><strong>Decisión Táctica de Mercadotecnia:</strong> Pauta en <strong>Instagram Ads</strong> y Google Maps geolocalizado. Mensaje: <em>"Viaja en tren, viaja verde: redescubre la alfarería tradicional de Metepec con tus Bendiciones"</em>. CTA: <em>"Explora la ruta cultural del Nahual Guía"</em>. Formato: Carrusel estético de fotos y video testimonial de 30 segundos. CAC estimado: $22.80 MXN.</p>
+  </div>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== BUYER PERSONA 3: FAMILIA ==================== -->
+  <h3>5.3 Buyer Persona 3: Familia Morales — Carlos y Mariana ("Los Exploradores del Domingo")</h3>
+  <p><span class="badge">Clúster 3 (45.1% de la muestra) • Volumen Masivo de Consumo & Retención</span></p>
+
+  <table style="font-size: 9.5pt;">
+    <tr>
+      <td style="width: 25%; font-weight: bold; background-color: #f1f5f9;">Identidad y Momento</td>
+      <td>Carlos (38 años, Contador) y Mariana (36 años, Enfermera docente), con dos hijos: Mateo (9 años) y Sofía (6 años). Residentes de San Mateo Atenco / Lerma. Enfocados 100% en la educación, bienestar y sano esparcimiento de sus hijos.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Entorno Social</td>
+      <td>Comunidad escolar, grupos de WhatsApp de padres de familia y núcleo familiar extendido. Comparten recomendaciones de boca a boca: <em>"Vecina, fuimos en el tren nuevo y comimos riquísimo con descuento"</em>.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Economía y Recursos</td>
+      <td>Ingreso conjunto: $24,000 MXN mensuales. Presupuesto dominical estricto: $800 a $1,200 MXN para cuatro personas. Un cupón del 20% en comida define a qué fonda tradicional deciden entrar.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Tiempo y Rutinas</td>
+      <td>Rutina frenética entre semana. El domingo es el día sagrado de convivencia completa. Su ventana de salida transcurre invariablemente entre las 11:00 AM y las 17:00 PM, caminando tramos cortos (2.9 km).</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Motivaciones y Metas</td>
+      <td>Que los niños se despeguen de las pantallas de televisión, caminen y aprendan historia de forma divertida; pasear en lugares seguros y con presupuesto familiar bajo control estricto.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Barreras y Dolores</td>
+      <td>Berrinches y aburrimiento de los niños en museos tradicionales; miedo a cobros excesivos en restaurantes turísticos; rechazo a apps complejas que pidan tarjeta de crédito para dar descuentos.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Gustos y Estilo de Vida</td>
+      <td>Paseos en parques y plazas adoquinadas. Gastronomía tradicional: consomé, barbacoa de borrego, gorditas de maíz criollo y nieves artesanales. Ropa y calzado deportivo cómodo.</td>
+    </tr>
+    <tr>
+      <td style="font-weight: bold; background-color: #f1f5f9;">Mundo Digital y Decisión</td>
+      <td>Facebook (páginas locales), WhatsApp, tótems en andenes del tren. Carlos ve un cartel en la estación: <em>"Juega con tus hijos y obtén 20% en tu comida"</em>, escanea el QR y descarga la app en 1 minuto.</td>
+    </tr>
+  </table>
+
+  <div class="callout-box" style="border-left-color: #f97316;">
+    <p><strong>Decisión Táctica de Mercadotecnia:</strong> Pauta en <strong>Facebook Ads</strong> (geolocalizada para padres de 30 a 45 años) y <strong>Señalética física en andenes del tren</strong>. Mensaje: <em>"¡El mejor domingo familiar! Descubre a Xinán con tus hijos y ahorra hasta 20% en tu comida"</em>. CTA: <em>"Obtén tus Bendiciones familiares gratis aquí"</em>. Formato: Banner fotográfico y tótems interactivos en andenes. CAC estimado: $16.20 MXN.</p>
+  </div>
+
+  <br clear="all" style="page-break-before:always" />
+
+  <!-- ==================== MATRIZ DE DECISIONES Y REFERENCIAS ==================== -->
+  <h2>6. Matriz de Toma de Decisiones y Mix de Medios ($250,000 MXN)</h2>
+  <p>
+    Con base en los factores diferenciales cuantificados, se asigna el presupuesto publicitario trimestral optimizado mediante el modelo de <em>Investigación de Operaciones</em>:
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 25%;">Eje de Decisión</th>
+        <th style="width: 25%;">Buyer Persona 1: Rodrigo (Gamer)</th>
+        <th style="width: 25%;">Buyer Persona 2: Valeria (Mochilera)</th>
+        <th style="width: 25%;">Buyer Persona 3: Familia Morales</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Presupuesto Asignado (IO)</strong></td>
+        <td><strong>$87,500 MXN (35%)</strong></td>
+        <td><strong>$62,500 MXN (25%)</strong></td>
+        <td><strong>$100,000 MXN (40%)</strong></td>
+      </tr>
+      <tr class="alt">
+        <td><strong>Canales de Difusión</strong></td>
+        <td>TikTok Ads, Twitch, Discord</td>
+        <td>Instagram Ads, Google Maps local</td>
+        <td>Facebook Ads, Tótems en andenes</td>
+      </tr>
+      <tr>
+        <td><strong>Formato Publicitario</strong></td>
+        <td>Video vertical 9:16 gameplay (12s)</td>
+        <td>Carrusel de fotos y documental (30s)</td>
+        <td>Banners Facebook y Mupis físicos</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>Disparador Emocional</strong></td>
+        <td>Competitividad, rareza y ranking</td>
+        <td>Comercio justo y ecoturismo verde</td>
+        <td>Convivencia infantil y ahorro en comida</td>
+      </tr>
+      <tr>
+        <td><strong>Incentivo Central en App</strong></td>
+        <td>Cartas Vivas 2D holográficas</td>
+        <td>Relatos del Nahual y Visor Histórico</td>
+        <td>Cupones OTP 2x1 en fondas locales</td>
+      </tr>
+      <tr class="alt">
+        <td><strong>Costo de Adquisición (CAC)</strong></td>
+        <td><strong>$14.50 MXN</strong></td>
+        <td><strong>$22.80 MXN</strong></td>
+        <td><strong>$16.20 MXN</strong></td>
+      </tr>
+      <tr>
+        <td><strong>KPI Clave de Monitoreo</strong></td>
+        <td>Instalaciones orgánicas y DAU</td>
+        <td>Engagement y visitas a talleres</td>
+        <td>Canjes de códigos OTP en fondas</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>7. Fuentes de Información y Referencias en Formato APA 7ma Edición</h2>
+  <div style="font-size: 9pt; line-height: 1.5; text-align: justify;">
+    <p>Asociación Mexicana de Venta Online [AMVO]. (2024). <em>Estudio de Venta Online 2024: Hábitos de los compradores digitales en México</em>. AMVO Research. https://www.amvo.org.mx/estudios/estudio-venta-online-2024/</p>
+    <p>Bartle, R. (1996). Hearts, clubs, diamonds, spades: Players who suit MUDs. <em>Journal of MUD Research</em>, 1(1), 19-35.</p>
+    <p>Cooper, A. (1999). <em>The inmates are running the asylum: Why high-tech products drive us crazy and how to restore the sanity</em>. Sams Publishing.</p>
+    <p>Instituto Federal de Telecomunicaciones [IFT] e Instituto Nacional de Estadística y Geografía [INEGI]. (2024). <em>Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2023</em>. Comunicado de prensa conjunto núm. 342/24. INEGI. https://www.inegi.org.mx/programas/endutih/2023/</p>
+    <p>Instituto Nacional de Estadística y Geografía [INEGI]. (2020). <em>Censo de Población y Vivienda 2020: Tabulados del Estado de México y Ciudad de México</em>. INEGI. https://www.inegi.org.mx/programas/ccpv/2020/</p>
+    <p>Instituto Nacional de Estadística y Geografía [INEGI]. (2022). <em>Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2022: Estructura del gasto en esparcimiento y turismo interno</em>. INEGI.</p>
+    <p>Kotler, P., & Armstrong, G. (2021). <em>Fundamentos de marketing</em> (14.ª ed.). Pearson Educación.</p>
+    <p>Pearce, P. L. (2005). <em>Tourist behaviour: Themes and conceptual schemes</em>. Channel View Publications.</p>
+    <p>Scott, D. M. (2007). <em>The new rules of marketing and PR: How to use social media, blogs, news releases, online video, and viral marketing to reach buyers directly</em>. John Wiley & Sons.</p>
+    <p>Secretaría de Infraestructura, Comunicaciones y Transportes [SICT]. (2024). <em>Estudio de demanda y proyección de aforos operativos del Tren Interurbano El Insurgente (Tramo Zinacantepec - Observatorio)</em>. Gobierno de México. https://www.gob.mx/sict</p>
+    <p>Secretaría de Turismo [SECTUR] y DataTur. (2024). <em>Compendio Estadístico del Turismo en México 2024: Indicadores de estacionalidad y gasto medio del turista nacional</em>. SECTUR.</p>
+    <p>Zambito, T. (2011). <em>How to create buyer personas that help you understand what your customers really want</em>. Buyer Persona Institute.</p>
+  </div>
+
+  <div style="border-top: 1pt solid #cbd5e1; margin-top: 24pt; padding-top: 8pt; font-size: 8pt; color: #94a3b8; text-align: center;">
+    Proyecto Mexamonsters • Licenciatura en Ciencias de Datos para Negocios • URC 2026 • Documento Oficial de Entrega
+  </div>
+
+</div>
+</body>
+</html>

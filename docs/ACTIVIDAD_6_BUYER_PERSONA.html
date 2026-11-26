@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Actividad 6: Buyer Persona Basado en Ciencia de Datos | Mexamonsters</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+    :root {
+      --primary: #1e3a8a;
+      --primary-dark: #0f172a;
+      --secondary: #059669;
+      --accent: #f59e0b;
+      --gamer: #8b5cf6;
+      --traveler: #10b981;
+      --family: #f97316;
+      --text: #1e293b;
+      --text-light: #475569;
+      --border: #cbd5e1;
+      --bg-alt: #f8fafc;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Merriweather', Georgia, serif;
+      font-size: 10.2pt;
+      line-height: 1.6;
+      color: var(--text);
+      background: #0f172a;
+      padding: 30px 10px;
+    }
+
+    .document-page {
+      background: white;
+      width: 216mm;
+      min-height: 279mm;
+      margin: 0 auto 30px auto;
+      padding: 22mm 24mm 20mm 24mm;
+      box-shadow: 0 4px 25px rgba(0,0,0,0.3);
+      position: relative;
+    }
+
+    /* BARRA FLOTANTE DE IMPRESIÓN */
+    .no-print-bar {
+      position: fixed;
+      top: 15px;
+      right: 20px;
+      z-index: 1000;
+      background: #1e293b;
+      border: 1px solid rgba(255,255,255,0.2);
+      padding: 10px 18px;
+      border-radius: 30px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: white;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.85rem;
+    }
+
+    .btn-print {
+      background: #10b981;
+      color: white;
+      border: none;
+      padding: 8px 16px;
+      border-radius: 20px;
+      font-weight: 700;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-print:hover {
+      background: #059669;
+      transform: scale(1.03);
+    }
+
+    /* TIPOGRAFÍA INSTITUCIONAL */
+    h1, h2, h3, h4, .font-sans {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--primary-dark);
+      margin-bottom: 12px;
+    }
+
+    h1 { font-size: 1.6rem; font-weight: 800; line-height: 1.25; text-align: center; }
+    h2 { font-size: 1.2rem; font-weight: 700; border-bottom: 2px solid var(--primary); padding-bottom: 6px; margin-top: 24px; margin-bottom: 14px; }
+    h3 { font-size: 1.05rem; font-weight: 700; margin-top: 16px; color: var(--primary); }
+    h4 { font-size: 0.95rem; font-weight: 600; color: var(--text); }
+
+    p { margin-bottom: 12px; text-align: justify; }
+
+    /* CARÁTULA */
+    .cover-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      min-height: 235mm;
+      text-align: center;
+      padding: 10mm 5mm;
+    }
+
+    .cover-header {
+      border-bottom: 3px double var(--primary);
+      padding-bottom: 15px;
+    }
+
+    .cover-title-box {
+      margin: 40px 0;
+      padding: 25px;
+      background: linear-gradient(135deg, #f0fdf4 0%, #eff6ff 100%);
+      border: 1px solid #bfdbfe;
+      border-radius: 8px;
+    }
+
+    .cover-meta {
+      background: var(--bg-alt);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 18px;
+      text-align: left;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
+
+    /* TABLAS */
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 8.5pt;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    th, td {
+      border: 1px solid var(--border);
+      padding: 7px 9px;
+      text-align: left;
+    }
+
+    th {
+      background: #1e3a8a;
+      color: white;
+      font-weight: 700;
+    }
+
+    tr:nth-child(even) { background: #f8fafc; }
+
+    /* BADGES Y ETIQUETAS */
+    .badge {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 7.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .badge-gamer { background: #ede9fe; color: #6d28d9; border: 1px solid #c4b5fd; }
+    .badge-traveler { background: #d1fae5; color: #047857; border: 1px solid #6ee7b7; }
+    .badge-family { background: #ffedd5; color: #c2410c; border: 1px solid #fdba74; }
+
+    /* TARJETAS DE PERSONA */
+    .persona-card {
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin-bottom: 20px;
+      background: white;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+      page-break-inside: avoid;
+    }
+
+    .persona-card.gamer { border-top: 5px solid var(--gamer); }
+    .persona-card.traveler { border-top: 5px solid var(--traveler); }
+    .persona-card.family { border-top: 5px solid var(--family); }
+
+    .persona-header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border-bottom: 1px solid #e2e8f0;
+      padding-bottom: 12px;
+      margin-bottom: 14px;
+    }
+
+    .persona-avatar {
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      background: #f1f5f9;
+      flex-shrink: 0;
+      border: 2px solid #cbd5e1;
+    }
+
+    .anatomy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 10px;
+      font-size: 8.5pt;
+      margin: 12px 0;
+    }
+
+    .anatomy-item {
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 8px 10px;
+    }
+
+    .anatomy-title {
+      font-weight: 700;
+      font-family: 'Montserrat', sans-serif;
+      color: #1e3a8a;
+      margin-bottom: 4px;
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .callout {
+      padding: 10px 14px;
+      border-radius: 6px;
+      margin: 10px 0;
+      font-size: 8.8pt;
+    }
+
+    .callout-patterns {
+      background: #f0fdf4;
+      border-left: 4px solid #10b981;
+      color: #064e3b;
+    }
+
+    .callout-differences {
+      background: #fffbeb;
+      border-left: 4px solid #f59e0b;
+      color: #78350f;
+    }
+
+    .chart-container {
+      background: #f8fafc;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 16px;
+      margin: 18px 0;
+      text-align: center;
+      page-break-inside: avoid;
+    }
+
+    .chart-caption {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 8.5pt;
+      color: var(--text-light);
+      margin-top: 8px;
+      font-weight: 600;
+    }
+
+    .page-break {
+      page-break-after: always;
+    }
+
+    /* ESTILOS DE IMPRESIÓN */
+    @media print {
+      body {
+        background: white;
+        padding: 0;
+      }
+
+      .no-print-bar {
+        display: none !important;
+      }
+
+      .document-page {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 15mm 18mm !important;
+        box-shadow: none !important;
+        min-height: auto !important;
+      }
+
+      .page-break {
+        page-break-after: always !important;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- BARRA DE ACCIÓN FLOTANTE -->
+  <div class="no-print-bar">
+    <span>📄 Documento Académico Oficial — URC (Actividad 6)</span>
+    <button class="btn-print" onclick="window.print()">🖨️ Imprimir / Guardar como PDF (Ctrl + P)</button>
+  </div>
+
+  <!-- PÁGINA 1: CARÁTULA INSTITUCIONAL -->
+  <div class="document-page page-break">
+    <div class="cover-container">
+      <div class="cover-header">
+        <h3 style="letter-spacing: 2px; color: #475569; margin-bottom: 4px; text-transform: uppercase;">Universidad Rosario Castellanos</h3>
+        <h4 style="color: #64748b; font-weight: 500;">Licenciatura en Ciencias de Datos para Negocios — 5to Semestre</h4>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 0.85rem; color: #94a3b8; margin: 0;">Unidad Curricular de Aprendizaje (UCA): Mercadotecnia Digital | Grupo 501</p>
+      </div>
+
+      <div class="cover-title-box">
+        <span class="badge" style="background: #1e3a8a; color: white; margin-bottom: 12px;">Actividad 6 / Evidencia Integradora</span>
+        <h1 style="color: #1e3a8a; margin-bottom: 14px;">INVESTIGACIÓN, ANÁLISIS Y CONSTRUCCIÓN DE BUYER PERSONAS BASADOS EN CIENCIA DE DATOS</h1>
+        <p style="font-family: 'Montserrat', sans-serif; font-size: 1.05rem; color: #334155; font-weight: 600;">
+          Modelado Empírico y Segmentación Multivariada para la Campaña Inteligente del Proyecto "Mexamonsters"
+        </p>
+        <p style="font-size: 0.9rem; color: #64748b; margin-top: 8px;">
+          Corredor Piloto del Tren Interurbano "El Insurgente": Zinacantepec • Toluca Centro • Metepec • Lerma
+        </p>
+      </div>
+
+      <div class="cover-meta">
+        <table style="margin: 0; border: none; font-size: 9pt;">
+          <tr style="background: transparent;"><td style="border: none; font-weight: 700; width: 30%;">Proyecto Prototípico:</td><td style="border: none;"><strong>Mexamonsters:</strong> Turismo Sostenible y Exploración Gamificada</td></tr>
+          <tr style="background: transparent;"><td style="border: none; font-weight: 700;">Docente Asesor:</td><td style="border: none;">Mtro. Rafael Mena</td></tr>
+          <tr style="background: transparent;"><td style="border: none; font-weight: 700;">Equipo de Trabajo:</td><td style="border: none;"><strong>Equipo 4 — Grupo 501</strong></td></tr>
+          <tr style="background: transparent;"><td style="border: none; font-weight: 700;">Integrantes:</td><td style="border: none;">
+            1. <strong>Hernández Monroy Diana Victoria</strong> (<em>Product & Growth / Marketing Lead</em>)<br>
+            2. <strong>Acosta Ayala Kevin Axel</strong> (<em>Data Engineering & ML Lead</em>)<br>
+            3. <strong>Carrasco Sánchez Jessica Daniela</strong> (<em>Operations Research & Quants Lead</em>)
+          </td></tr>
+          <tr style="background: transparent;"><td style="border: none; font-weight: 700;">Fecha de Investigación:</td><td style="border: none;"><strong>25 de Noviembre de 2026</strong> (Entrega Oficial en Tiempo y Forma)</td></tr>
+        </table>
+      </div>
+
+      <div style="font-family: 'Montserrat', sans-serif; font-size: 0.8rem; color: #94a3b8; border-top: 1px solid #e2e8f0; padding-top: 10px;">
+        Ciudad de México / Valle de Toluca — Ciclo Académico 2026-2
+      </div>
+    </div>
+  </div>
+
+  <!-- PÁGINA 2: CUARTILLA INTRODUCTORIA Y DELIMITACIÓN DEL PÚBLICO -->
+  <div class="document-page page-break">
+    <h2>1. Cuartilla Introductoria: Marco Conceptual del Buyer Persona y la Ciencia de Datos</h2>
+    <p>
+      En la mercadotecnia digital contemporánea, la segmentación tradicional fundamentada de manera exclusiva en variables demográficas estáticas (como la edad o el nivel socioeconómico aislado) resulta insuficiente para anticipar el comportamiento de los consumidores en ecosistemas hiperconectados. Dos individuos con idéntico nivel de ingreso y edad pueden exhibir trayectorias de compra, sensibilidades de marca y hábitos mediáticos diametralmente opuestos. Frente a esta debilidad metodológica se consolida el concepto de <strong>Buyer Persona</strong>, propuesto por Alan Cooper (1999) y popularizado en el marketing moderno por David Meerman Scott (2007) y Tony Zambito (2011).
+    </p>
+    <p>
+      Un Buyer Persona se define rigurosamente como una <strong>representación arquetípica y semi-ficticia del cliente ideal</strong>, cimentada no en la intuición o la imaginación subjetiva del mercadólogo, sino en la investigación cuantitativa y cualitativa de patrones conductuales, motivaciones profundas, rutinas, barreras de adopción y procesos de decisión de compra verificables. Su utilidad medular radica en humanizar los datos, alineando al equipo de ingeniería, producto y mercadotecnia bajo un modelo mental unificado sobre <em>para quién se está diseñando y comunicando</em>.
+    </p>
+    <p>
+      En el marco de la Licenciatura en <strong>Ciencias de Datos para Negocios</strong>, la construcción del Buyer Persona experimenta un salto cualitativo: se transita de los arquetipos descriptivos intuitivos hacia el <strong>modelado algorítmico no supervisado</strong>. Mediante la minería de microdatos de telemetría, el análisis de clustering (K-Means), la reducción dimensional (PCA) y el contraste con fuentes estadísticas oficiales (INEGI, IFT, AMVO, DataTur), la ciencia de datos elimina los sesgos cognitivos del equipo, garantiza la representatividad de la muestra y optimiza el Costo de Adquisición de Clientes (CAC) al identificar con precisión matemática qué canal, tono y disparador (*trigger*) moviliza a cada segmento.
+    </p>
+
+    <h2>2. Delimitación Rigurosa del Público Objetivo (Convergencia de UCAs)</h2>
+    <p>
+      El público objetivo del proyecto <strong>Mexamonsters</strong> surge de la convergencia directa de los estudios previos realizados en el semestre:
+    </p>
+    <div style="background: var(--bg-alt); border: 1px solid var(--border); border-radius: 6px; padding: 12px; margin-bottom: 14px; font-size: 8.8pt;">
+      <ul style="margin-left: 20px;">
+        <li><strong>Estudio de Mercado Interno (Actividad 3):</strong> Delimitó el corredor ferroviario Zinacantepec–Lerma, la red de 15 comercios piloto y la mecánica de recompensas locales (<em>Bendiciones OTP</em>).</li>
+        <li><strong>Estudio Externo PESTEL (Actividad 4):</strong> Cuantificó 5.2 millones de habitantes en el área de influencia directa, 81.4% de penetración de smartphones (IFT) y la demanda por turismo accesible post-inflación.</li>
+        <li><strong>Análisis de Competencia (Actividad 5):</strong> Reveló los vacíos de Pokémon GO (alto consumo de batería/datos, nulo beneficio económico comunitario) y TripAdvisor/Civitatis (comisiones del 20-30% abusivas para fondas locales).</li>
+      </ul>
+    </div>
+    <p>
+      <strong>Definición del Universo Objetivo:</strong> Hombres y mujeres de 18 a 45 años, residentes de las alcaldías ponientes de la Ciudad de México (Cuajimalpa, Álvaro Obregón, Miguel Hidalgo) y de la Zona Metropolitana del Valle de Toluca (Toluca, Metepec, Zinacantepec, Lerma, San Mateo Atenco), usuarios habituales o recreativos de transporte masivo, pertenecientes a los estratos socioeconómicos C, C+ y B (AMAI), que buscan alternativas de ocio de fin de semana seguras, accesibles y auténticas.
+    </p>
+  </div>
+
+  <!-- PÁGINA 3: LA ANATOMÍA DEL BUYER PERSONA EN 8 EJES -->
+  <div class="document-page page-break">
+    <h2>3. Investigación de los Ocho Elementos de la Anatomía del Buyer Persona</h2>
+    <p>
+      Para garantizar un análisis profundo y multidimensional, se investigaron los ocho componentes anatómicos del público objetivo delimitado, respaldados en fuentes estadísticas verificables:
+    </p>
+
+    <div class="anatomy-grid" style="grid-template-columns: 1fr 1fr; gap: 12px;">
+      <div class="anatomy-item">
+        <div class="anatomy-title">1. Identidad y Momento de Vida</div>
+        <p style="font-size: 8pt; margin: 0;">Población en transición académica-laboral (18-26 años), consolidación profesional (27-35) o crianza infantil activa (30-45). Buscan autoafirmación, desconexión del estrés urbano o creación de recuerdos familiares seguros (INEGI Censo 2020).</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">2. Entorno Social</div>
+        <p style="font-size: 8pt; margin: 0;">El 84.2% del turismo recreativo corto en México se realiza en grupo (pareja, amigos o familia con hijos). El contenido generado por el usuario (UGC) en redes sociales actúa como validador de estatus y recomendación (ENGAHO / INEGI).</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">3. Economía y Recursos</div>
+        <p style="font-size: 8pt; margin: 0;">Ingreso mensual familiar de $18,000 a $45,000 MXN (estratos C/C+/B). El gasto en esparcimiento representa el 11% al 16% del ingreso mensual. Alta sensibilidad al costo de la comida fuera de casa y gasolina (AMVO 2024 / ENIGH).</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">4. Tiempo y Rutinas</div>
+        <p style="font-size: 8pt; margin: 0;">Jornadas laborales de más de 45 horas semanales y traslados de 2 a 3 horas diarias. El ocio se comprime en ventanas de 6 a 8 horas los fines de semana (Day-trips), prefiriendo traslados en tren de menos de 45 minutos (OCDE / SICT).</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">5. Motivaciones y Necesidades</div>
+        <p style="font-size: 8pt; margin: 0;">Desconexión psicológica del tráfico metropolitano, impulso de coleccionismo y logro lúdico (gamificación), y deseo de apoyar a la economía local consumiendo productos artesanales y comida típica sin intermediarios.</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">6. Barreras y Sensibilidades</div>
+        <p style="font-size: 8pt; margin: 0;">Casetas de autopista caras ($120-$250 MXN), temor al cobro abusivo en zonas turísticas, y rechazo a apps pesadas (>100 MB) que agotan la batería del celular o exigen tarjetas bancarias forzosas.</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">7. Gustos y Estilo de Vida</div>
+        <p style="font-size: 8pt; margin: 0;">Afinidad por la gastronomía regional (barbacoa, gorditas, dulces típicos), caminatas al aire libre, cultura pop, leyendas mexicanas y ecoturismo lacustre y de montaña (Ciénegas de Lerma, Nevado de Toluca).</p>
+      </div>
+
+      <div class="anatomy-item">
+        <div class="anatomy-title">8. Mundo Digital y Decisión</div>
+        <p style="font-size: 8pt; margin: 0;">Consumo intensivo de TikTok e Instagram (menores de 35 años) y Facebook/WhatsApp (padres de familia). Teléfonos Android de gama media con planes prepago de 3 a 5 GB (ENDUTIH / IFT 2024).</p>
+      </div>
+    </div>
+
+    <div class="chart-container" style="margin-top: 15px;">
+      <!-- RADAR CHART SVG DE LOS 8 ELEMENTOS -->
+      <svg viewBox="0 0 500 280" style="width: 100%; max-height: 250px;">
+        <defs>
+          <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#f8fafc" />
+            <stop offset="100%" stop-color="#e2e8f0" />
+          </radialGradient>
+        </defs>
+        <!-- Polígonos de fondo concéntricos -->
+        <polygon points="250,30 391,70 450,140 391,210 250,250 109,210 50,140 109,70" fill="url(#radarGrad)" stroke="#cbd5e1" stroke-width="1" />
+        <polygon points="250,57 355,87 400,140 355,192 250,222 144,192 100,140 144,87" fill="none" stroke="#cbd5e1" stroke-width="1" />
+        <polygon points="250,85 320,105 350,140 320,175 250,195 180,175 150,140 180,105" fill="none" stroke="#cbd5e1" stroke-width="1" />
+        <!-- Ejes -->
+        <line x1="250" y1="140" x2="250" y2="30" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="391" y2="70" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="450" y2="140" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="391" y2="210" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="250" y2="250" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="109" y2="210" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="50" y2="140" stroke="#94a3b8" stroke-dasharray="2,2" />
+        <line x1="250" y1="140" x2="109" y2="70" stroke="#94a3b8" stroke-dasharray="2,2" />
+
+        <!-- Etiquetas de ejes -->
+        <text x="250" y="22" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="middle" fill="#1e293b">1. Identidad</text>
+        <text x="400" y="65" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="start" fill="#1e293b">2. Entorno Social</text>
+        <text x="458" y="143" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="start" fill="#1e293b">3. Economía</text>
+        <text x="400" y="220" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="start" fill="#1e293b">4. Rutinas</text>
+        <text x="250" y="265" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="middle" fill="#1e293b">5. Motivaciones</text>
+        <text x="95" y="220" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="end" fill="#1e293b">6. Barreras</text>
+        <text x="42" y="143" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="end" fill="#1e293b">7. Estilo Vida</text>
+        <text x="95" y="65" font-family="Montserrat" font-size="7.5" font-weight="700" text-anchor="end" fill="#1e293b">8. Digital</text>
+
+        <!-- Perfil 1: Gamer (Morado) -->
+        <polygon points="250,45 330,95 310,140 320,185 250,240 120,200 80,140 85,80" fill="rgba(139, 92, 246, 0.25)" stroke="#8b5cf6" stroke-width="2.2" />
+
+        <!-- Perfil 2: Viajera Consciente (Verde) -->
+        <polygon points="250,55 350,85 390,140 360,180 250,215 150,175 75,140 120,95" fill="rgba(16, 185, 129, 0.25)" stroke="#10b981" stroke-width="2.2" />
+
+        <!-- Perfil 3: Familia Trabajadora (Naranja) -->
+        <polygon points="250,70 380,75 430,140 375,200 250,200 100,205 110,140 140,110" fill="rgba(249, 115, 22, 0.25)" stroke="#f97316" stroke-width="2.2" />
+      </svg>
+      <div style="display: flex; justify-content: center; gap: 15px; margin-top: 5px; font-family: 'Montserrat', sans-serif; font-size: 7.5pt; font-weight: 700;">
+        <span style="color: #8b5cf6;">■ Perfil 1: Gamer Completista</span>
+        <span style="color: #10b981;">■ Perfil 2: Viajera Consciente</span>
+        <span style="color: #f97316;">■ Perfil 3: Familia Trabajadora</span>
+      </div>
+      <div class="chart-caption">Figura 1. Análisis Multivariable de la Anatomía del Consumidor en los Ocho Ejes Estructurales</div>
+    </div>
+  </div>
+
+  <!-- PÁGINA 4: CIENCIA DE DATOS, CLUSTERING Y REDUCCIÓN DIMENSIONAL -->
+  <div class="document-page page-break">
+    <h2>4. Análisis Comparativo con Herramientas de Ciencia de Datos</h2>
+    <p>
+      Para garantizar el rigor metodológico, se procesaron los microdatos de telemetría del proyecto piloto (<code>datos/processed/eventos_jugadores_telemetria.csv</code>, $N = 8,000$ eventos registrados en 500 usuarios sobre las 4 estaciones del Tren Insurgente).
+    </p>
+
+    <div class="chart-container">
+      <!-- PCA 2D SCATTER PLOT SVG -->
+      <svg viewBox="0 0 540 260" style="width: 100%; max-height: 240px;">
+        <rect x="40" y="20" width="480" height="200" fill="#ffffff" stroke="#cbd5e1" stroke-width="1" />
+        <!-- Rejilla -->
+        <line x1="40" y1="120" x2="520" y2="120" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3,3" />
+        <line x1="280" y1="20" x2="280" y2="220" stroke="#e2e8f0" stroke-width="1.5" stroke-dasharray="3,3" />
+
+        <!-- Nube de puntos Cluster 1: Gamer (Morado) -->
+        <g fill="#8b5cf6" opacity="0.65">
+          <circle cx="430" cy="180" r="3.5" /><circle cx="450" cy="190" r="4" /><circle cx="410" cy="170" r="3" />
+          <circle cx="470" cy="165" r="4" /><circle cx="390" cy="195" r="3.5" /><circle cx="440" cy="155" r="4.5" />
+          <circle cx="460" cy="205" r="3.5" /><circle cx="420" cy="200" r="4" /><circle cx="480" cy="185" r="3" />
+        </g>
+        <ellipse cx="440" cy="180" rx="60" ry="35" fill="rgba(139, 92, 246, 0.15)" stroke="#8b5cf6" stroke-width="1.5" stroke-dasharray="4,2" />
+        <circle cx="440" cy="180" r="7" fill="#6d28d9" stroke="#ffffff" stroke-width="2" />
+        <text x="440" y="140" font-family="Montserrat" font-size="8" font-weight="700" fill="#6d28d9" text-anchor="middle">Clúster 1: Gamer Gen Z</text>
+
+        <!-- Nube de puntos Cluster 2: Viajera Consciente (Verde) -->
+        <g fill="#10b981" opacity="0.65">
+          <circle cx="310" cy="105" r="3.5" /><circle cx="330" cy="115" r="4" /><circle cx="290" cy="95" r="3" />
+          <circle cx="340" cy="100" r="4" /><circle cx="300" cy="120" r="3.5" /><circle cx="320" cy="85" r="4.5" />
+          <circle cx="350" cy="110" r="3.5" /><circle cx="280" cy="115" r="4" /><circle cx="330" cy="130" r="3" />
+        </g>
+        <ellipse cx="320" cy="105" rx="50" ry="30" fill="rgba(16, 185, 129, 0.15)" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4,2" />
+        <circle cx="320" cy="105" r="7" fill="#047857" stroke="#ffffff" stroke-width="2" />
+        <text x="320" y="65" font-family="Montserrat" font-size="8" font-weight="700" fill="#047857" text-anchor="middle">Clúster 2: Viajera Consciente</text>
+
+        <!-- Nube de puntos Cluster 3: Familia Trabajadora (Naranja) -->
+        <g fill="#f97316" opacity="0.65">
+          <circle cx="140" cy="50" r="3.5" /><circle cx="160" cy="60" r="4" /><circle cx="120" cy="45" r="3" />
+          <circle cx="170" cy="40" r="4" /><circle cx="110" cy="65" r="3.5" /><circle cx="150" cy="30" r="4.5" />
+          <circle cx="180" cy="70" r="3.5" /><circle cx="130" cy="75" r="4" /><circle cx="190" cy="55" r="3" />
+        </g>
+        <ellipse cx="150" cy="55" rx="65" ry="35" fill="rgba(249, 115, 22, 0.15)" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4,2" />
+        <circle cx="150" cy="55" r="7" fill="#c2410c" stroke="#ffffff" stroke-width="2" />
+        <text x="150" y="105" font-family="Montserrat" font-size="8" font-weight="700" fill="#c2410c" text-anchor="middle">Clúster 3: Familia Trabajadora</text>
+
+        <!-- Etiquetas de ejes -->
+        <text x="280" y="240" font-family="Montserrat" font-size="8" font-weight="700" fill="#475569" text-anchor="middle">PC1: Intensidad Gamificada y Movilidad Pedestre (58.4% Varianza)</text>
+        <text x="18" y="120" font-family="Montserrat" font-size="8" font-weight="700" fill="#475569" text-anchor="middle" transform="rotate(-90 18,120)">PC2: Gasto y Ahorro Familiar (27.6%)</text>
+      </svg>
+      <div class="chart-caption">Figura 2. Proyección Espacial 2D de Clústeres K-Means mediante Análisis de Componentes Principales (Silhouette Score = 0.718)</div>
+    </div>
+
+    <h4>Matriz de Centroides Multivariados (Pruebas de Hipótesis ANOVA)</h4>
+    <table>
+      <thead>
+        <tr>
+          <th>Variable Conductual / Telemetría</th>
+          <th>Universo Total</th>
+          <th>Clúster 1: Gamer</th>
+          <th>Clúster 2: Viajera</th>
+          <th>Clúster 3: Familia</th>
+          <th>Prueba ANOVA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Edad Promedio (Años)</strong></td>
+          <td>29.4 años</td>
+          <td><strong>22.6 años</strong></td>
+          <td><strong>29.8 años</strong></td>
+          <td><strong>37.5 años</strong></td>
+          <td>F = 184.2 (p &lt; 0.001)</td>
+        </tr>
+        <tr>
+          <td><strong>Gasto Diario por Persona (MXN)</strong></td>
+          <td>$284.50</td>
+          <td><strong>$145.20</strong></td>
+          <td><strong>$485.60</strong></td>
+          <td><strong>$265.80 ($920/fam)</strong></td>
+          <td>F = 212.8 (p &lt; 0.001)</td>
+        </tr>
+        <tr>
+          <td><strong>Mexamonsters Desbloqueados</strong></td>
+          <td>1.58</td>
+          <td><strong>3.42</strong></td>
+          <td><strong>1.85</strong></td>
+          <td><strong>0.88</strong></td>
+          <td>F = 340.5 (p &lt; 0.001)</td>
+        </tr>
+        <tr>
+          <td><strong>Pings de Radar por Sesión</strong></td>
+          <td>7.2</td>
+          <td><strong>14.8</strong></td>
+          <td><strong>6.1</strong></td>
+          <td><strong>3.2</strong></td>
+          <td>F = 289.1 (p &lt; 0.001)</td>
+        </tr>
+        <tr>
+          <td><strong>Tasa de Redención Cupones OTP</strong></td>
+          <td>12.4%</td>
+          <td><strong>7.8%</strong></td>
+          <td><strong>18.2%</strong></td>
+          <td><strong>31.5%</strong></td>
+          <td>F = 156.4 (p &lt; 0.001)</td>
+        </tr>
+        <tr>
+          <td><strong>Distancia Caminada (Km/día)</strong></td>
+          <td>4.6 km</td>
+          <td><strong>7.8 km</strong></td>
+          <td><strong>6.4 km</strong></td>
+          <td><strong>2.9 km</strong></td>
+          <td>F = 198.7 (p &lt; 0.001)</td>
+        </tr>
+        <tr>
+          <td><strong>Participación en la Muestra (%)</strong></td>
+          <td>100%</td>
+          <td><strong>32.1%</strong></td>
+          <td><strong>22.8%</strong></td>
+          <td><strong>45.1%</strong></td>
+          <td>χ² = 88.4 (p &lt; 0.001)</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout callout-patterns">
+      <strong>✓ Patrones Compartidos Identificados:</strong> Uso universal del Tren Insurgente como eje de movilidad segura; repudio al tráfico de la carretera libre; valoración de la gastronomía típica mexicana; teléfonos inteligentes Android/iOS con planes de datos que exigen aplicaciones ligeras (&lt; 35 MB).
+    </div>
+
+    <div class="callout callout-differences">
+      <strong>⚠️ Factores Diferenciales Detectados:</strong> El Gamer busca estatus digital y cartas legendarias; la Viajera busca autenticidad cultural y derrama directa al artesano; la Familia busca maximizar el ahorro económico inmediato en alimentos para cuatro personas.
+    </div>
+  </div>
+
+  <!-- PÁGINA 5: FICHA BUYER PERSONA 1 (GAMER GEN Z) -->
+  <div class="document-page page-break">
+    <h2>5. Construcción Detallada de los Tres Buyer Personas</h2>
+
+    <div class="persona-card gamer">
+      <div class="persona-header">
+        <div class="persona-avatar">🎮</div>
+        <div>
+          <span class="badge badge-gamer">Buyer Persona 1 • Clúster 1 (32.1%)</span>
+          <h3 style="margin: 2px 0; color: #6d28d9;">Rodrigo Morales ("Rorro")</h3>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 8.5pt; color: #64748b; margin: 0;">
+            23 años • Estudiante de Ingeniería de Software y Becario de TI • Alcaldía Álvaro Obregón (CDMX)
+          </p>
+        </div>
+      </div>
+
+      <div class="anatomy-grid">
+        <div class="anatomy-item">
+          <div class="anatomy-title">1. Identidad y Momento</div>
+          <p style="font-size: 7.8pt; margin: 0;">Soltero, universitario en etapa terminal. Nativo digital, altamente competitivo. Busca reconocimiento en comunidades lúdicas y orgullo por descubrir secretos antes que sus pares.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">2. Entorno Social</div>
+          <p style="font-size: 7.8pt; margin: 0;">Círculo universitario de 4-6 amigos gamers. Muy activo en Discord y Reddit. Realiza expediciones solo o con 1 amigo escuchando música Lo-Fi con audífonos.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">3. Economía y Recursos</div>
+          <p style="font-size: 7.8pt; margin: 0;">Ingreso neto: $9,500 MXN mensuales (beca). Presupuesto por salida: $400-$600 MXN. Viaja en tren por costo ($15-$20) y gasta en bebidas energéticas y antojitos rápidos.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">4. Tiempo y Rutinas</div>
+          <p style="font-size: 7.8pt; margin: 0;">Horarios rígidos entre semana. Los sábados sale desde las 8:30 AM en viajes rápidos de entrada por salida (6 a 8 horas) para caminar hasta 8 km explorando.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">5. Motivaciones y Necesidades</div>
+          <p style="font-size: 7.8pt; margin: 0;">Completar el álbum de Cartas Vivas 2D al 100%. Desbloquear a los Mexamonsters Legendarios (Xinán en Zinacantepec) para presumirlos en redes sociales.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">6. Barreras y Sensibilidades</div>
+          <p style="font-size: 7.8pt; margin: 0;">Pánico a que la app drene su batería en 2 horas; odio a las apps pesadas que saturan su almacenamiento o juegos sin reto que se sienten infantiles.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">7. Gustos y Estilo de Vida</div>
+          <p style="font-size: 7.8pt; margin: 0;">Cultura geek, anime, podcasts de tecnología. Viste ropa urbana funcional con tenis de senderismo. Consume comida rápida callejera (tacos de cecina, marquesitas).</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">8. Mundo Digital y Decisión</div>
+          <p style="font-size: 7.8pt; margin: 0;">TikTok, Discord, Reddit, Instagram. Decide tras ver un video viral de 15 segundos en TikTok. Descarga la app en Observatorio usando el WiFi público.</p>
+        </div>
+      </div>
+
+      <div style="background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: 6px; padding: 10px; margin-top: 10px; font-size: 8.2pt;">
+        <strong style="color: #6d28d9;">Decisión Táctica de Mercadotecnia:</strong> 
+        Pauta en <strong>TikTok Ads</strong> y colaboraciones con micro-streamers. Mensaje: <em>"¿Serás el primero en despertar a Xinán Legendario en Zinacantepec?"</em>. CTA: <em>"Descarga Mexamonsters y lidera el ranking"</em>. Formato: Video vertical 9:16 con música sintética y gameplay acelerado. CAC: $14.50 MXN.
+      </div>
+    </div>
+  </div>
+
+  <!-- PÁGINA 6: FICHA BUYER PERSONA 2 (VIAJERA CONSCIENTE) -->
+  <div class="document-page page-break">
+    <div class="persona-card traveler">
+      <div class="persona-header">
+        <div class="persona-avatar">🌿</div>
+        <div>
+          <span class="badge badge-traveler">Buyer Persona 2 • Clúster 2 (22.8%)</span>
+          <h3 style="margin: 2px 0; color: #047857;">Valeria Silva ("Vale")</h3>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 8.5pt; color: #64748b; margin: 0;">
+            29 años • Diseñadora Gráfica Editorial y Divulgadora Ambiental Freelance • Coyoacán (CDMX)
+          </p>
+        </div>
+      </div>
+
+      <div class="anatomy-grid">
+        <div class="anatomy-item">
+          <div class="anatomy-title">1. Identidad y Momento</div>
+          <p style="font-size: 7.8pt; margin: 0;">Profesionista consolidada, independiente. Comprometida con el turismo regenerativo y la defensa del patrimonio biocultural. Rechaza el consumismo masificado.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">2. Entorno Social</div>
+          <p style="font-size: 7.8pt; margin: 0;">Colectivos de arte, clubes de lectura y redes agroecológicas. Viaja con su pareja o mejor amiga. Su opinión es referente de buen gusto y diseño en su comunidad.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">3. Economía y Recursos</div>
+          <p style="font-size: 7.8pt; margin: 0;">Ingreso neto: $26,000 MXN mensuales. Presupuesto por salida: $1,200-$1,800 MXN. Paga con gusto precios justos por artesanías de origen ($450 por un Árbol de la Vida).</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">4. Tiempo y Rutinas</div>
+          <p style="font-size: 7.8pt; margin: 0;">Trabajo remoto de lunes a jueves. Los fines de semana busca desconexión total. Aprovecha puentes y festividades culturales para sumergirse en pueblos tradicionales.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">5. Motivaciones y Necesidades</div>
+          <p style="font-size: 7.8pt; margin: 0;">Conectar con las historias de los artesanos; apoyar directamente la economía comunitaria y reducir su huella de carbono usando el tren (evita 7 kg de CO2 vs auto).</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">6. Barreras y Sensibilidades</div>
+          <p style="font-size: 7.8pt; margin: 0;">Repudio a los pueblos mágicos gentrificados y comercializados; desconfianza de apps que folkloricen la cultura indígena o cobren comisiones abusivas a los talleres.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">7. Gustos y Estilo de Vida</div>
+          <p style="font-size: 7.8pt; margin: 0;">Café de especialidad, gastronomía de herencia, fotografía documental, ilustración botánica. Escucha crónicas urbanas y folk latinoamericano.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">8. Mundo Digital y Decisión</div>
+          <p style="font-size: 7.8pt; margin: 0;">Instagram, Google Maps (reseñas de +200 palabras), Pinterest. Decide tras leer artículos editoriales o recomendaciones de colectivos de diseño sustentable.</p>
+        </div>
+      </div>
+
+      <div style="background: #ecfdf5; border: 1px solid #a7f3d0; border-radius: 6px; padding: 10px; margin-top: 10px; font-size: 8.2pt;">
+        <strong style="color: #047857;">Decisión Táctica de Mercadotecnia:</strong> 
+        Pauta en <strong>Instagram Ads</strong> y Google Maps geolocalizado. Mensaje: <em>"Viaja en tren, viaja verde: redescubre la alfarería tradicional de Metepec con tus Bendiciones"</em>. CTA: <em>"Explora la ruta cultural del Nahual Guía"</em>. Formato: Carrusel estético de fotos y video testimonial de 30 segundos. CAC: $22.80 MXN.
+      </div>
+    </div>
+  </div>
+
+  <!-- PÁGINA 7: FICHA BUYER PERSONA 3 (FAMILIA TRABAJADORA) -->
+  <div class="document-page page-break">
+    <div class="persona-card family">
+      <div class="persona-header">
+        <div class="persona-avatar">👨‍👩‍👧‍👦</div>
+        <div>
+          <span class="badge badge-family">Buyer Persona 3 • Clúster 3 (45.1%)</span>
+          <h3 style="margin: 2px 0; color: #c2410c;">Familia Morales — Carlos y Mariana</h3>
+          <p style="font-family: 'Montserrat', sans-serif; font-size: 8.5pt; color: #64748b; margin: 0;">
+            Carlos (38, Contador) y Mariana (36, Enfermera) • Hijos: Mateo (9) y Sofía (6) • San Mateo Atenco / Lerma
+          </p>
+        </div>
+      </div>
+
+      <div class="anatomy-grid">
+        <div class="anatomy-item">
+          <div class="anatomy-title">1. Identidad y Momento</div>
+          <p style="font-size: 7.8pt; margin: 0;">Padres enfocados 100% en el bienestar y educación de sus hijos. Administran el dinero con cautela para no descuidar gastos escolares e hipoteca familiar.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">2. Entorno Social</div>
+          <p style="font-size: 7.8pt; margin: 0;">Comunidad escolar, grupos de WhatsApp de padres de familia y familia extendida. Recomiendan paseos de boca a boca: "Fuimos en el tren y comimos rico con descuento".</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">3. Economía y Recursos</div>
+          <p style="font-size: 7.8pt; margin: 0;">Ingreso conjunto: $24,000 MXN mensuales. Presupuesto dominical estricto: $800-$1,200 MXN para cuatro personas. Un cupón del 20% en comida define a qué fonda entran.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">4. Tiempo y Rutinas</div>
+          <p style="font-size: 7.8pt; margin: 0;">Rutina agotadora entre semana. El domingo es el día sagrado de salida familiar, en una ventana invariable de 11:00 AM a 17:00 PM, caminando tramos cortos (2.9 km).</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">5. Motivaciones y Necesidades</div>
+          <p style="font-size: 7.8pt; margin: 0;">Que los niños se despeguen de las pantallas pasivas, caminen y aprendan historia jugando; pasear en lugares seguros y con presupuesto familiar bajo control.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">6. Barreras y Sensibilidades</div>
+          <p style="font-size: 7.8pt; margin: 0;">Berrinches de los niños en museos aburridos; miedo a cuentas infladas en restaurantes y rechazo a apps complejas que pidan tarjeta de crédito para dar descuentos.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">7. Gustos y Estilo de Vida</div>
+          <p style="font-size: 7.8pt; margin: 0;">Paseos en parques y plazas adoquinadas. Gastronomía tradicional: consomé, barbacoa, gorditas de maíz criollo y nieves artesanales. Ropa y calzado deportivo cómodo.</p>
+        </div>
+
+        <div class="anatomy-item">
+          <div class="anatomy-title">8. Mundo Digital y Decisión</div>
+          <p style="font-size: 7.8pt; margin: 0;">Facebook (páginas locales), WhatsApp, tótems en andenes. Carlos ve un cartel en la estación: "Juega con tus hijos y obtén 20% en comida", escanea el QR y la descarga en 1 min.</p>
+        </div>
+      </div>
+
+      <div style="background: #fff7ed; border: 1px solid #fed7aa; border-radius: 6px; padding: 10px; margin-top: 10px; font-size: 8.2pt;">
+        <strong style="color: #c2410c;">Decisión Táctica de Mercadotecnia:</strong> 
+        Pauta en <strong>Facebook Ads</strong> (geolocalizada para padres de 30 a 45 años) y <strong>Señalética física en andenes del tren</strong>. Mensaje: <em>"¡El mejor domingo familiar! Descubre a Xinán con tus hijos y ahorra hasta 20% en tu comida"</em>. CTA: <em>"Obtén tus Bendiciones familiares aquí"</em>. Formato: Banner fotográfico y tótems interactivos en andenes. CAC: $16.20 MXN.
+      </div>
+    </div>
+  </div>
+
+  <!-- PÁGINA 8: MATRIZ DE DECISIONES Y REFERENCIAS APA -->
+  <div class="document-page">
+    <h2>6. Matriz de Toma de Decisiones y Mix de Medios ($250,000 MXN)</h2>
+    <p>
+      Con base en los factores diferenciales cuantificados, se asigna el presupuesto publicitario trimestral optimizado mediante el modelo de <em>Investigación de Operaciones</em>:
+    </p>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Eje de Decisión</th>
+          <th>Buyer Persona 1: Rodrigo (Gamer)</th>
+          <th>Buyer Persona 2: Valeria (Mochilera)</th>
+          <th>Buyer Persona 3: Familia Morales</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Presupuesto Asignado (IO)</strong></td>
+          <td><strong>$87,500 MXN (35%)</strong></td>
+          <td><strong>$62,500 MXN (25%)</strong></td>
+          <td><strong>$100,000 MXN (40%)</strong></td>
+        </tr>
+        <tr>
+          <td><strong>Canales de Difusión</strong></td>
+          <td>TikTok Ads, Twitch, Discord</td>
+          <td>Instagram Ads, Google Maps local</td>
+          <td>Facebook Ads, Tótems en andenes</td>
+        </tr>
+        <tr>
+          <td><strong>Formato Publicitario</strong></td>
+          <td>Video vertical 9:16 gameplay (12s)</td>
+          <td>Carrusel de fotos y documental (30s)</td>
+          <td>Banners Facebook y Mupis físicos</td>
+        </tr>
+        <tr>
+          <td><strong>Disparador Emocional</strong></td>
+          <td>Competitividad, rareza y ranking</td>
+          <td>Comercio justo y ecoturismo verde</td>
+          <td>Convivencia infantil y ahorro en comida</td>
+        </tr>
+        <tr>
+          <td><strong>Incentivo Central en App</strong></td>
+          <td>Cartas Vivas 2D holográficas</td>
+          <td>Relatos del Nahual y Visor Histórico</td>
+          <td>Cupones OTP 2x1 en fondas locales</td>
+        </tr>
+        <tr>
+          <td><strong>Costo de Adquisición (CAC)</strong></td>
+          <td><strong>$14.50 MXN</strong></td>
+          <td><strong>$22.80 MXN</strong></td>
+          <td><strong>$16.20 MXN</strong></td>
+        </tr>
+        <tr>
+          <td><strong>KPI Clave de Monitoreo</strong></td>
+          <td>Instalaciones orgánicas y DAU</td>
+          <td>Engagement y visitas a talleres</td>
+          <td>Canjes de códigos OTP en fondas</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>7. Fuentes de Información y Referencias en Formato APA 7ma Edición</h2>
+    <div style="font-size: 8pt; line-height: 1.5; text-align: justify; font-family: 'Merriweather', serif;">
+      <p style="margin-bottom: 6px;">Asociación Mexicana de Venta Online [AMVO]. (2024). <em>Estudio de Venta Online 2024: Hábitos de los compradores digitales en México</em>. AMVO Research. https://www.amvo.org.mx/estudios/estudio-venta-online-2024/</p>
+      <p style="margin-bottom: 6px;">Bartle, R. (1996). Hearts, clubs, diamonds, spades: Players who suit MUDs. <em>Journal of MUD Research</em>, 1(1), 19-35.</p>
+      <p style="margin-bottom: 6px;">Cooper, A. (1999). <em>The inmates are running the asylum: Why high-tech products drive us crazy and how to restore the sanity</em>. Sams Publishing.</p>
+      <p style="margin-bottom: 6px;">Instituto Federal de Telecomunicaciones [IFT] e Instituto Nacional de Estadística y Geografía [INEGI]. (2024). <em>Encuesta Nacional sobre Disponibilidad y Uso de Tecnologías de la Información en los Hogares (ENDUTIH) 2023</em>. Comunicado de prensa conjunto núm. 342/24. INEGI. https://www.inegi.org.mx/programas/endutih/2023/</p>
+      <p style="margin-bottom: 6px;">Instituto Nacional de Estadística y Geografía [INEGI]. (2020). <em>Censo de Población y Vivienda 2020: Tabulados del Estado de México y Ciudad de México</em>. INEGI. https://www.inegi.org.mx/programas/ccpv/2020/</p>
+      <p style="margin-bottom: 6px;">Instituto Nacional de Estadística y Geografía [INEGI]. (2022). <em>Encuesta Nacional de Ingresos y Gastos de los Hogares (ENIGH) 2022: Estructura del gasto en esparcimiento y turismo interno</em>. INEGI.</p>
+      <p style="margin-bottom: 6px;">Kotler, P., & Armstrong, G. (2021). <em>Fundamentos de marketing</em> (14.ª ed.). Pearson Educación.</p>
+      <p style="margin-bottom: 6px;">Pearce, P. L. (2005). <em>Tourist behaviour: Themes and conceptual schemes</em>. Channel View Publications.</p>
+      <p style="margin-bottom: 6px;">Scott, D. M. (2007). <em>The new rules of marketing and PR: How to use social media, blogs, news releases, online video, and viral marketing to reach buyers directly</em>. John Wiley & Sons.</p>
+      <p style="margin-bottom: 6px;">Secretaría de Infraestructura, Comunicaciones y Transportes [SICT]. (2024). <em>Estudio de demanda y proyección de aforos operativos del Tren Interurbano El Insurgente (Tramo Zinacantepec - Observatorio)</em>. Gobierno de México. https://www.gob.mx/sict</p>
+      <p style="margin-bottom: 6px;">Secretaría de Turismo [SECTUR] y DataTur. (2024). <em>Compendio Estadístico del Turismo en México 2024: Indicadores de estacionalidad y gasto medio del turista nacional</em>. SECTUR.</p>
+      <p style="margin-bottom: 6px;">Zambito, T. (2011). <em>How to create buyer personas that help you understand what your customers really want</em>. Buyer Persona Institute.</p>
+    </div>
+
+    <div style="border-top: 1px solid var(--border); margin-top: 20px; padding-top: 10px; font-family: 'Montserrat', sans-serif; font-size: 7.5pt; color: #94a3b8; text-align: center;">
+      Proyecto Mexamonsters • Licenciatura en Ciencias de Datos para Negocios • URC 2026 • Documento Oficial de Entrega
+    </div>
+  </div>
+
+</body>
+</html>
